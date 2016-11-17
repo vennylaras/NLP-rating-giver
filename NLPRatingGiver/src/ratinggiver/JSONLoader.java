@@ -7,6 +7,7 @@ package ratinggiver;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -20,8 +21,9 @@ import org.json.simple.parser.ParseException;
  * @author jessica
  */
 public class JSONLoader {
-    JSONParser parser;
-    JSONArray array;
+    private JSONParser parser;
+    private JSONArray array;
+    private ArrayList<Review> review;  
     
     public JSONLoader(){
         parser = new JSONParser();
@@ -37,19 +39,24 @@ public class JSONLoader {
     }
     
     public void getReview(){
+        review = new ArrayList<>(); 
+        
         for (Object obj : array){
-            JSONObject review = (JSONObject) obj;
+            JSONObject json = (JSONObject) obj;
+            String content = "";
             
-            long rating = (long) review.get("rating");
+            long rating = (long) json.get("rating");
             System.out.println (rating);
             
-            JSONArray text = (JSONArray) review.get("text");
+            JSONArray text = (JSONArray) json.get("text");
             Iterator<String> iterator = text.iterator();
             while (iterator.hasNext()) {
-                System.out.println(iterator.next());
+                content += iterator.next();
+                //System.out.println("s: " + iterator.next());
             }
             
-            
+            review.add(new Review(rating, content));
+            System.out.println("content: "+ review.get(review.size()-1).getContent());
         }
     }
     
