@@ -43,17 +43,11 @@ public class JSONLoader {
         
         for (Object obj : array){
             JSONObject json = (JSONObject) obj;
-            String content = "";
             
             long rating = (long) json.get("rating");
             System.out.println (rating);
             
-            JSONArray text = (JSONArray) json.get("text");
-            Iterator<String> iterator = text.iterator();
-            while (iterator.hasNext()) {
-                content += iterator.next();
-                //System.out.println("s: " + iterator.next());
-            }
+            String content = (String) json.get("text");
             
             review.add(new Review(rating, content));
             System.out.println("content: "+ review.get(review.size()-1).getContent());
@@ -62,7 +56,7 @@ public class JSONLoader {
     
     public static void main(String[] args) {
         try {
-            JSONLoader loader = new JSONLoader("test.json");
+            JSONLoader loader = new JSONLoader("harry_potter_1.json");
             loader.getReview();
         } catch (IOException ex) {
             Logger.getLogger(JSONLoader.class.getName()).log(Level.SEVERE, null, ex);
