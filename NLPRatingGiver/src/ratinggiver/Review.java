@@ -5,9 +5,15 @@
  */
 package ratinggiver;
 
+import IndonesianNLP.IndonesianSentenceDetector;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.text.BreakIterator;
 import java.util.ArrayList;
 import java.util.Locale;
+
 
 /**
  *
@@ -29,6 +35,14 @@ public class Review {
         this.content = content;
         sentences = new ArrayList<>();
     
+        
+        IndonesianSentenceDetector detector = new IndonesianSentenceDetector();
+        sentences = detector.splitSentence(content);
+        for (String s: sentences){
+            System.out.println("s: " + s);
+        }
+        
+        /*
         BreakIterator iterator = BreakIterator.getSentenceInstance(Locale.US);
         iterator.setText(content);
         int start = iterator.first();
@@ -38,6 +52,8 @@ public class Review {
                 System.out.println(content.substring(start,end));
                 sentences.add(content.substring(start,end));
         }
+        */
+        
     }
 
     /**
@@ -81,6 +97,5 @@ public class Review {
     public void setSentences(ArrayList<String> sentences) {
         this.sentences = sentences;
     }
-    
     
 }

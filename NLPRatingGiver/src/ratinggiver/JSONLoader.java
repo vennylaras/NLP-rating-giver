@@ -5,7 +5,10 @@
  */
 package ratinggiver;
 
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -56,12 +59,42 @@ public class JSONLoader {
     
     public static void main(String[] args) {
         try {
-            JSONLoader loader = new JSONLoader("harry_potter_1.json");
+            JSONLoader loader = new JSONLoader("dataset/harry_potter_1.json");
             loader.getReview();
+            loader.arffGenerator("harry.potter.1.arff", loader.review);
         } catch (IOException ex) {
             Logger.getLogger(JSONLoader.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ParseException ex) {
             Logger.getLogger(JSONLoader.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    
+    public void arffGenerator(String arffFile, ArrayList<Review> review){
+        try {
+            File file = new File(arffFile);
+            if (!file.exists()) {
+                    file.createNewFile();
+            }
+
+            FileWriter fw = new FileWriter(file.getAbsoluteFile());
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write("@relation review\n\n");
+            
+            bw.write("@attribute sentence string\n");
+            bw.write("@attribute aspect {character, plot, neither}\n\n");
+            bw.write("@data\n");
+            
+            for (Review r: review){
+                ArrayList<String> sentences = r.getSentences();
+                for (String s: sentences){
+                    bw.write(s + ",\n");
+                }
+            }
+            
+            
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
 }

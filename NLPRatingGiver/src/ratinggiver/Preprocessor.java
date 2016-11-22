@@ -5,6 +5,11 @@
  */
 package ratinggiver;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 
 
 /**
@@ -12,5 +17,6 @@ package ratinggiver;
  * @author jessica
  */
 public class Preprocessor {
+    
     
 }
