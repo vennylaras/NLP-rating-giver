@@ -9,6 +9,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import static ratinggiver.Preprocessor.posTagger;
 import weka.classifiers.trees.SimpleCart;
 import weka.core.Attribute;
 import weka.core.Instances;
@@ -48,5 +49,19 @@ public class RatingGiver {
         
         
         
+    }
+    
+    public double calculateSentiment(String text) {
+        double score = 0;
+        
+        // POST Tag
+        ArrayList<String> tag = posTagger(text);
+        for (String t: tag) {
+            System.out.print(t+ " ");
+        }
+        
+        
+        
+        return score;
     }
 }
