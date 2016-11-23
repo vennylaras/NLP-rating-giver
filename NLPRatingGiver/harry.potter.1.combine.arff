@@ -1,7 +1,7 @@
 @relation review
 
 @attribute sentence string
-@attribute aspectbased {character, plot, neither, both}
+@attribute aspect {character, plot, neither}
 
 @data
 "Im going to keep this brief since there isnt much to say that hasnt already been said ",neither
@@ -12,7 +12,7 @@
 "clears throat I think the reason I waited so long to read this series is because I just couldnt imagine myself enjoying reading about an eleven year old boy and his adventures at a school of wizardry ",plot
 "I thought it would be too juvenile for my taste ",plot
 "I was wrong of course I can honestly say that I loved every minute of this ",plot
-"Its a spectacular little romp with funny courageous and endearing characters that you cant help but love It has talking chess pieces singing hats a giant three headed dog named Fluffy a hilarious giant with a dragon fetish a master wizard thats just a little bit crazy mail carrier owls goblins running a bank unicorns centaurs trolls ",both
+"Its a spectacular little romp with funny courageous and endearing characters that you cant help but love It has talking chess pieces singing hats a giant three headed dog named Fluffy a hilarious giant with a dragon fetish a master wizard thats just a little bit crazy mail carrier owls goblins running a bank unicorns centaurs trolls ",character
 "and probably much more that Im forgetting ",neither
 "And then theres the lead characters Hermione the young scholar who starts out prim and uptight but soon becomes a true friend Ron the boy who has little money but who has an abundance of family and loyalty to his friends to make up for it and then theres Harry the boy who starts out sleeping in a closet and ends up being a hero ",character
 "Harry is kind to those that deserve it fearless when it counts the most and wonderfully intelligent ",character
@@ -121,7 +121,7 @@
 "Maybe those would be too long or maybe they read this when they were not in Goodreads yet ",neither
 "But I am in Goodreads already so I can make this review longThese are what some of them say it was a great book i enjoyed reading it For an eloquent reviewer she must have been too happy to express herself ",neither
 "Such a great story and creative way of writing ",plot
-"I love Harry Potter ",both
+"I love Harry Potter ",plot
 "Yes I agree about the story being great and J K Rowling being creative ",plot
 "I was secretly wishing I was studying in Hogwarts too",neither
 "It was silly but I was simply enraptured by Harry Potter ",plot
@@ -227,7 +227,7 @@
 "A huge record for preorders online reach to one million copies by Amazon and total sales of millions copies in UK and US in the first day onlyThe book sold at the same day almost in every countryeven in Israel which made a big religious fuss about the book stores being open in their holy Saturday But its Harry Potter after all the worlds most unusual unexpected phenomenon and sales records breakerAnd thats not bad it was the Miracle of bringing back readers to book stores thousands of topics went online asking what to read nextIndeed although theres the ebooks ereaders etc still theres thousands of new books and novels published and sold every year in every where in the worldThe gaming devices is increasing yes not as expected though by the s and early s remember Nokia NGage but so do the reading devices which first come out by Sony in make big step by Amazons Kindle in the ebook applications on every deviceNew books and series come after that and still on making super sales attracting more readers ",neither
 "more writers come with more books and novels some are just a rip off others and some are really original and brilliant ",neither
 "in UK US Egypt ever where all over the globe No matter a Playstation is out or new xbox the books still therewith its most beloved magic The magic of books is back and I believe to stay",neither
-"Dont you see with me that the magic of Harry Potter is one of the main factors of this magic",plot
+"Dont you see with me that the magic of Harry Potter is one of the main factors of this magic",story
 "This boy will be famous ",character
 "There wont be a child in our world who doesnt know his name",character
 "Thats what Rowling wrote at the very early pages of her first book The one that rejected by Publishing Houses in Well what about now God Talked too much in the Brief introduction didnt I Well thats it for this review ",neither
@@ -238,7 +238,7 @@
 "One of the main reasons Harry Potter is so wonderful is because Rowling shows you a boring world it is the world of reality dry boring and ordinary ",plot
 "Then under it she reveals fantasy she reveals everything a reader longs for she reveals pure escapism ",plot
 "I still want to go to Hogwarts ",neither
-"I always will ",neither
+"I always will ",either
 "Were all a bit like Harry Okay so not many of us are orphans and not many of us are practically abused in their own homes  but a lot of us feel isolated in the world a lot of us wish for a fantastic group of friends as a child ",neither
 "I know I did and this again leads back to my first point ",neither
 "Not everyone finds a Ron and Hermione ",neither
@@ -375,7 +375,7 @@
 "He didnt show much care about Harry and his past and would try to get in a fight with Harry while Harry tried fixing the problem ",character
 "He payed no attention and took it too far with Harry ",character
 "He was a newbie as well so I dont see what the point was ",character
-"But the other point is that I dont have expectations for Draco but I hope I dont end up hating him in all books and hope there is some change at least slightly good The friendship between Harry Ron and Hermione was probably one of my favorites ",both
+"But the other point is that I dont have expectations for Draco but I hope I dont end up hating him in all books and hope there is some change at least slightly good The friendship between Harry Ron and Hermione was probably one of my favorites ",plot
 "I know it didnt work out at first and they honestly hated her but I was so happy it literally had to work toward the middle ",plot
 "Thanks to the troll she became their friend and actually was able to cooperate with them ",neither
 "She didnt yell at them for fighting the troll but instead told them to be careful and send word if anything goes wrong when Harry went for the mirror again ",neither
@@ -468,7 +468,8 @@
 "FYIAnd as the recent popularity of coloring books for adults has proven people of all ages like pretty things and that is why this new illustrated version is spectacularSO ",neither
 "We have an engaging premise a child mysteriously defeats the most powerful dark wizard in memory becoming instantly famous in one world a world full of wonder and magic is raised ignorant of his past by negligent relatives only to be reintroduced to the magical world when he comes of age to attend the equivalent of middle schoolWe have the earlier referenced fantastical worldbuilding ",plot
 "We have welldeveloped often hilarious or reprehensible characters depending on whether theyre meant to be Good or Bad ",character
-"And we have addictive individual story plots that build into the best Good vs Evil story arc since LOTR ",neither
+"And we have addictive individual story plots that build into the best Good vs ",
+"Evil story arc since LOTR ",neither
 "And children LOVE it ",neither
 "So will you ",neither
 "More than highly recommended ",neither
@@ -513,7 +514,7 @@
 "Im years old and Ive finally started the Harry Potter series ",neither
 "I know what youre thinking it took me long enough",neither
 "I say better late than never",neither
-"I remember when the first movie was released in ",neither
+"I remember when the first movie was released in ",neihter
 "My sister was reading the books and so was my best friend ",neither
 "In I was in high school and though I loved the movie I was reading Sylvia Plath and Wally Lamb and had no interest in the young adult genre ",neither
 "Now totally different story",neither
@@ -552,7 +553,7 @@
 "Maybe you have read A Monster Calls and already know him ",neither
 "If not you should definitley reconsider your life choicesI am certainly going to buy an edition of this its so pretty I could die ",neither
 "Looking forward to the illustrated sequels stars ",plot
-"Harry Potter and the Sorcerers Stone is one of the most celebrated books of all time for one simple reasonbecause it deserves to beIll write a full review when I have time but for now heres myBook you have the right to a speedy trial review THE DEFENSE Rowlings prose is absolutely magical Story is not only exciting but often sweet as well Lead characters are all captivating Comic relief mostly from Ron is blended perfectly with the more dramatic events Never a dull moHarry Potter and the Sorcerers Stone is one of the most celebrated books of all time for one simple reasonbecause it deserves to beIll write a full review when I have time but for now heres myBook you have the right to a speedy trial review THE DEFENSE Rowlings prose is absolutely magical Story is not only exciting but often sweet as well Lead characters are all captivating Comic relief mostly from Ron is blended perfectly with the more dramatic events Never a dull moment THE PROSECUTION Rowling is occasionally too overthetop for her own good especially during Harrys time with the Dursleys After reading this anything else you do may seem like a waste of time that you could have used to read Harry Potter again",both
+"Harry Potter and the Sorcerers Stone is one of the most celebrated books of all time for one simple reasonbecause it deserves to be Ill write a full review when I have time but for now heres myBook you have the right to a speedy trial review THE DEFENSE Rowlings prose is absolutely magical Story is not only exciting but often sweet as well Lead characters are all captivating Comic relief mostly from Ron is blended perfectly with the more dramatic events Never a dull moHarry Potter and the Sorcerers Stone is one of the most celebrated books of all time for one simple reasonbecause it deserves to beIll write a full review when I have time but for now heres myBook you have the right to a speedy trial review THE DEFENSE Rowlings prose is absolutely magical Story is not only exciting but often sweet as well Lead characters are all captivating Comic relief mostly from Ron is blended perfectly with the more dramatic events Never a dull moment THE PROSECUTION Rowling is occasionally too overthetop for her own good especially during Harrys time with the Dursleys After reading this anything else you do may seem like a waste of time that you could have used to read Harry Potter again",plot
 "THE VERDICTSome books are worth reading once this one is worthy reading many times",neither
 "A brilliant adventure that anyone can enjoy",plot
 "In the Harry Potter series JK Rowling perfects the most important rule of story telling be interesting ",plot
@@ -564,13 +565,13 @@
 "But damn can she tell an interesting story build a fun world and put great characters in itFrom the first sentence she lets you know what fun youre in for ",plot
 "Theres just that magical touch to it only she seems to have ",neither
 "And she keeps it going through the whole book and the six others in the series without missing a beatThe Sorcerers Stone is packed with mystery ",plot
-"It starts early and picks up speed burning through pages right to the reveal which is quite the surpriseno ScoobyDoo ending hereBut the thing that really makes this book stand out is the characters ",both
+"It starts early and picks up speed burning through pages right to the reveal which is quite the surpriseno ScoobyDoo ending here But the thing that really makes this book stand out is the characters ",plot
 "Harry Potter ended up getting on my last nerve in the series but in this book hes crazy likable ",character
 "The minor characters are what really make the series though ",character
 "They have more personality than the protagonist of most booksThis series might not be the best but theres nothing like it ",character
 "Its just magical ",neither
 "Plain and simple ",neither
-"EDIT NOTE in Since this apparently isnt obvious I wrote the review years ago ",neither
+"EDIT NOTE in Since this apparently isnt obvious I wrote the review years ago ",either
 "I do not necessarily have those opinions now ",neither
 "I wouldnt know I havent read Harry Potter since ",neither
 "With a degree and five more birthdays behind me I do not necessarily agree with everything I said when I was seventeen years old ",neither
@@ -603,6 +604,6 @@
 "I actually had to study Harry Potter for my English LitLang A Level for those unfamiliar with our system A Levels are exams you take when youre about eighteen which among other things determine whether you can go to university ",neither
 "One of the questions we had to figure out how to answer was whether we thought Harry Potter was good literature whether we thought it would stand the test of time and how it was suited to the time its currently inIt was then that I figured out that yeah there are things wrong with Harry Potter beyond just the hype that was irritating me so much and the feeling that Rowling in no way matched up to the giants of fantasy and scifi like Tolkien ",plot
 "I studied it alongside Tom Browns Schooldays by Thomas Hughes ",neither
-"Do note that I didnt like that book either ",neither
+"Do note that I didnt like that book either ",neihter
 "But its a well written well shaped well considered book and it doesnt use the same cheap tricks as Harry Potter does ",plot
 "Im not going to say much about that since its not a book I liked if Im going to comparecontrast Ill compare with my favourite book that is also supposed to be for younger readers Susan Coopers The Dark Is RisingTheres nothing wrong with Harry Potter and the Philosophers Stone being an amateur first novel ",plot
