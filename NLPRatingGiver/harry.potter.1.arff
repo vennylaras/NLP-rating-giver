@@ -1,7 +1,7 @@
 @relation review
 
 @attribute sentence string
-@attribute aspect {character, plot, neither}
+@attribute aspect {character, plot, neither, both}
 
 @data
 Im going to keep this brief since there isnt much to say that hasnt already been said ,
