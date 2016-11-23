@@ -20,7 +20,6 @@ public class Preprocessor {
                 "models/english-left3words-distsim.tagger");
         
         String tagged = tagger.tagString(text);
-        System.out.println(tagged);
         
         // Tagger simplified into: "V" (verb), "N" (noun), "R"(adverb), "A"(adjective), "-"(none)
         // Biar sesuai sama POS di SentiWordNet

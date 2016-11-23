@@ -40,28 +40,33 @@ public class RatingGiver {
             System.out.println(trainset.attribute(i));
         }
         
-        //cocokin arff test set sama attr
+        // Cocokin arff test set sama attr
         
         SimpleCart tree = new SimpleCart();
         
-        //JSONLoader loader = new JSONLoader("dataset/harry_potter_1.json");
-        //loader.getReview();
+        // JSONLoader loader = new JSONLoader("dataset/harry_potter_1.json");
+        // loader.getReview();
         
-        
-        
+        // ### CONTOH CARA PAKE calculateSentiment ###
+        // String text = "I want to see Harry become a better person and be able to prove Draco and his stupid friends wrong about what they think";
+        // double score = calculateSentiment(text);
+        // System.out.println("score = "+score);
     }
     
-    public double calculateSentiment(String text) {
-        double score = 0;
+    public static double calculateSentiment(String text) throws IOException {
+        double sentimentScore = 0;
         
         // POST Tag
         ArrayList<String> tag = posTagger(text);
-        for (String t: tag) {
-            System.out.print(t+ " ");
+        
+        // calculate Score based on SentiWordNet
+        SentiWordNet sentiWordNet = new SentiWordNet();
+        String[] words = text.split(" ");
+        for (int i = 0; i < words.length; i++) {
+            double s = sentiWordNet.getScore(words[i], tag.get(i));
+            System.out.println(s);
+            sentimentScore += s;
         }
-        
-        
-        
-        return score;
+        return sentimentScore;
     }
 }
