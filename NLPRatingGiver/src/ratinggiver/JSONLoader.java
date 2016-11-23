@@ -61,7 +61,9 @@ public class JSONLoader {
         try {
             JSONLoader loader = new JSONLoader("dataset/harry_potter_1.json");
             loader.getReview();
-            //loader.arffGenerator("harry.potter.1.arff", loader.review);
+            
+            
+            loader.arffGenerator("harry.potter.test.arff", loader.review);
         } catch (IOException ex) {
             Logger.getLogger(JSONLoader.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ParseException ex) {
@@ -81,15 +83,16 @@ public class JSONLoader {
             bw.write("@relation review\n\n");
             
             bw.write("@attribute sentence string\n");
-            bw.write("@attribute aspect {character, plot, neither, both}\n\n");
+            bw.write("@attribute aspectbased {character, plot, neither, both}\n\n");
             bw.write("@data\n");
             
             for (Review r: review){
                 ArrayList<String> sentences = r.getSentences();
                 for (String s: sentences){
+                    //s = s.replaceAll("\"", "");
                     s = s.replaceAll("[^a-zA-Z\\s]", "").replaceAll("\\s+", " ");
                     if (s.matches(".*\\w.*")){
-                        bw.write(s + ",\n");
+                        bw.write("\""+ s + "\",?\n");
                     }
                 }
             }

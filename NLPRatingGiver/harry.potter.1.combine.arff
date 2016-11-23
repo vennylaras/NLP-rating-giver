@@ -1,7 +1,7 @@
 @relation review
 
 @attribute sentence string
-@attribute aspect {character, plot, neither, both}
+@attribute aspectbased {character, plot, neither, both}
 
 @data
 "Im going to keep this brief since there isnt much to say that hasnt already been said ",neither
@@ -227,7 +227,7 @@
 "A huge record for preorders online reach to one million copies by Amazon and total sales of millions copies in UK and US in the first day onlyThe book sold at the same day almost in every countryeven in Israel which made a big religious fuss about the book stores being open in their holy Saturday But its Harry Potter after all the worlds most unusual unexpected phenomenon and sales records breakerAnd thats not bad it was the Miracle of bringing back readers to book stores thousands of topics went online asking what to read nextIndeed although theres the ebooks ereaders etc still theres thousands of new books and novels published and sold every year in every where in the worldThe gaming devices is increasing yes not as expected though by the s and early s remember Nokia NGage but so do the reading devices which first come out by Sony in make big step by Amazons Kindle in the ebook applications on every deviceNew books and series come after that and still on making super sales attracting more readers ",neither
 "more writers come with more books and novels some are just a rip off others and some are really original and brilliant ",neither
 "in UK US Egypt ever where all over the globe No matter a Playstation is out or new xbox the books still therewith its most beloved magic The magic of books is back and I believe to stay",neither
-"Dont you see with me that the magic of Harry Potter is one of the main factors of this magic",story
+"Dont you see with me that the magic of Harry Potter is one of the main factors of this magic",plot
 "This boy will be famous ",character
 "There wont be a child in our world who doesnt know his name",character
 "Thats what Rowling wrote at the very early pages of her first book The one that rejected by Publishing Houses in Well what about now God Talked too much in the Brief introduction didnt I Well thats it for this review ",neither
@@ -238,7 +238,7 @@
 "One of the main reasons Harry Potter is so wonderful is because Rowling shows you a boring world it is the world of reality dry boring and ordinary ",plot
 "Then under it she reveals fantasy she reveals everything a reader longs for she reveals pure escapism ",plot
 "I still want to go to Hogwarts ",neither
-"I always will ",either
+"I always will ",neither
 "Were all a bit like Harry Okay so not many of us are orphans and not many of us are practically abused in their own homes  but a lot of us feel isolated in the world a lot of us wish for a fantastic group of friends as a child ",neither
 "I know I did and this again leads back to my first point ",neither
 "Not everyone finds a Ron and Hermione ",neither
@@ -468,8 +468,7 @@
 "FYIAnd as the recent popularity of coloring books for adults has proven people of all ages like pretty things and that is why this new illustrated version is spectacularSO ",neither
 "We have an engaging premise a child mysteriously defeats the most powerful dark wizard in memory becoming instantly famous in one world a world full of wonder and magic is raised ignorant of his past by negligent relatives only to be reintroduced to the magical world when he comes of age to attend the equivalent of middle schoolWe have the earlier referenced fantastical worldbuilding ",plot
 "We have welldeveloped often hilarious or reprehensible characters depending on whether theyre meant to be Good or Bad ",character
-"And we have addictive individual story plots that build into the best Good vs ",
-"Evil story arc since LOTR ",neither
+"And we have addictive individual story plots that build into the best Good vs Evil story arc since LOTR ",neither
 "And children LOVE it ",neither
 "So will you ",neither
 "More than highly recommended ",neither
@@ -514,7 +513,7 @@
 "Im years old and Ive finally started the Harry Potter series ",neither
 "I know what youre thinking it took me long enough",neither
 "I say better late than never",neither
-"I remember when the first movie was released in ",neihter
+"I remember when the first movie was released in ",neither
 "My sister was reading the books and so was my best friend ",neither
 "In I was in high school and though I loved the movie I was reading Sylvia Plath and Wally Lamb and had no interest in the young adult genre ",neither
 "Now totally different story",neither
@@ -571,7 +570,7 @@
 "They have more personality than the protagonist of most booksThis series might not be the best but theres nothing like it ",character
 "Its just magical ",neither
 "Plain and simple ",neither
-"EDIT NOTE in Since this apparently isnt obvious I wrote the review years ago ",either
+"EDIT NOTE in Since this apparently isnt obvious I wrote the review years ago ",neither
 "I do not necessarily have those opinions now ",neither
 "I wouldnt know I havent read Harry Potter since ",neither
 "With a degree and five more birthdays behind me I do not necessarily agree with everything I said when I was seventeen years old ",neither
@@ -604,6 +603,6 @@
 "I actually had to study Harry Potter for my English LitLang A Level for those unfamiliar with our system A Levels are exams you take when youre about eighteen which among other things determine whether you can go to university ",neither
 "One of the questions we had to figure out how to answer was whether we thought Harry Potter was good literature whether we thought it would stand the test of time and how it was suited to the time its currently inIt was then that I figured out that yeah there are things wrong with Harry Potter beyond just the hype that was irritating me so much and the feeling that Rowling in no way matched up to the giants of fantasy and scifi like Tolkien ",plot
 "I studied it alongside Tom Browns Schooldays by Thomas Hughes ",neither
-"Do note that I didnt like that book either ",neihter
+"Do note that I didnt like that book either ",neither
 "But its a well written well shaped well considered book and it doesnt use the same cheap tricks as Harry Potter does ",plot
 "Im not going to say much about that since its not a book I liked if Im going to comparecontrast Ill compare with my favourite book that is also supposed to be for younger readers Susan Coopers The Dark Is RisingTheres nothing wrong with Harry Potter and the Philosophers Stone being an amateur first novel ",plot
