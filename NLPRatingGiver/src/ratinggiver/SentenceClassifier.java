@@ -76,6 +76,11 @@ public class SentenceClassifier {
         System.out.println("Building classifier success.");
     }
     
+    public void loadModel(String fileName) throws Exception {
+        fClassifier = (FilteredClassifier) weka.core.SerializationHelper.read(fileName);
+        System.out.println("Loading model "+fileName+" success.");
+    }
+    
     public Instances classify(String fileName) throws Exception {
         ConverterUtils.DataSource source = new ConverterUtils.DataSource(fileName);
         result = source.getDataSet();
@@ -145,7 +150,7 @@ public class SentenceClassifier {
         SentenceClassifier sc = new SentenceClassifier();
         sc.setTrainData("E:\\NLP-rating-giver\\NLPRatingGiver\\harry.potter.1.combine.arff");
         sc.filterData();
-        sc.buildClassifier();
+        sc.loadModel("E:\\NLP-rating-giver\\NLPRatingGiver\\AspectClassifier.model");
         sc.classify("E:\\NLP-rating-giver\\NLPRatingGiver\\harry.potter.test.arff","E:\\NLP-rating-giver\\NLPRatingGiver\\harry.potter.test.classified.arff");
     }
 }
