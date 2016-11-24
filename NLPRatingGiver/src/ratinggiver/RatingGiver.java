@@ -12,12 +12,9 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import java.util.Random;
-
 import static ratinggiver.Preprocessor.posTagger;
 import weka.classifiers.Evaluation;
 import weka.classifiers.trees.SimpleCart;
@@ -33,68 +30,44 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
  */
 public class RatingGiver {
     public static void main(String[] args) throws IOException, Exception{
-
-//        BufferedReader br = new BufferedReader(
-//                         new FileReader("harry.potter.test.arff"));
-//
-//        ArffLoader.ArffReader arff = new ArffLoader.ArffReader(br);
-//        Instances testset = arff.getData();
-//        testset.setClassIndex(testset.numAttributes() - 1);
-//        
-//        br = new BufferedReader(
-//                         new FileReader("harry.potter.1.combine.filtered.arff"));
-//        arff = new ArffLoader.ArffReader(br);
-//        Instances trainset = arff.getData();
-//        trainset.setClassIndex(0);
-//        ArrayList<Attribute> attr = new ArrayList<>();
-//        for (int i = 1; i < trainset.numAttributes(); i++){
-//            attr.add(trainset.attribute(i));
-//            System.out.println(trainset.attribute(i));
-//        }
-        
-        // Cocokin arff test set sama attr
-        
-        //SimpleCart tree = new SimpleCart();
-
         // JSONLoader loader = new JSONLoader("dataset/harry_potter_1.json");
         // loader.getReview();
         
-        BufferedReader br = new BufferedReader(
-                         new FileReader("harry.potter.test.filtered.arff"));
-
-        ArffLoader.ArffReader arff = new ArffLoader.ArffReader(br);
-        Instances testset = arff.getData();
-        testset.setClassIndex(testset.numAttributes() - 1);
+        filterData("harry.potter.1.combine.arff","harry.potter.test.arff");
         
-        br = new BufferedReader(
+        BufferedReader br = new BufferedReader(
                          new FileReader("harry.potter.1.combine.filtered.arff"));
-        arff = new ArffLoader.ArffReader(br);
+        ArffLoader.ArffReader arff = new ArffLoader.ArffReader(br);
         Instances trainset = arff.getData();
         trainset.setClassIndex(0);
+        
+        br = new BufferedReader(
+                         new FileReader("harry.potter.test.filtered.arff"));
+        arff = new ArffLoader.ArffReader(br);
+        Instances testset = arff.getData();
+        testset.setClassIndex(0);
+        
         ArrayList<Attribute> attr = new ArrayList<>();
         for (int i = 1; i < trainset.numAttributes(); i++){
             attr.add(trainset.attribute(i));
             // System.out.println(trainset.attribute(i));
         }
         
-        // Cocokin arff test set sama attr
-        
         SimpleCart tree = new SimpleCart();
         tree.buildClassifier(trainset);
         // System.out.println(tree.toString());
-
         
-        //Evaluation eval = new Evaluation(testset);
-       // eval.evaluateModel(tree, testset);
-//        System.out.println(eval.toSummaryString("\n\n\n\nFull Training\n============\n", false));
-//        eval.crossValidateModel(tree, testset, 10, new Random());
-//        System.out.println(eval.toSummaryString("\n\n\n\n10-Fold Cross Validation\n============\n", false));
+        // EVALUATE USING TRAINING SET
+        Evaluation eval = new Evaluation(trainset);
+        eval.evaluateModel(tree, trainset);
+        System.out.println(eval.toSummaryString("\n\nFull Training\n============\n", false));
+        eval.crossValidateModel(tree, trainset, 10, new Random());
+        System.out.println(eval.toSummaryString("\n\n10-Fold Cross Validation\n============\n", false));
         
         // ### CONTOH CARA PAKE calculateSentiment ###
         // String text = "I want to see Harry become a better person and be able to prove Draco and his stupid friends wrong about what they think";
         // double score = calculateSentiment(text);
         // System.out.println("score = "+score);
-        filterData("harry.potter.1.combine.arff","harry.potter.test.arff");
     }
     
     public static double calculateSentiment(String text) throws IOException {
@@ -131,13 +104,13 @@ public class RatingGiver {
             filteredTraining.setClassIndex(trainingData.numAttributes() - 1);
             filteredTest.setClassIndex(testData.numAttributes() - 1);
             
-            BufferedWriter wr = new BufferedWriter(new FileWriter ("filteredTraining.arff"));
+            BufferedWriter wr = new BufferedWriter(new FileWriter ("harry.potter.1.combine.filtered.arff"));
             wr.write(filteredTraining.toString());
             wr.newLine();
             wr.flush();
             wr.close();
             
-            BufferedWriter wr1 = new BufferedWriter(new FileWriter ("filteredTest.arff"));
+            BufferedWriter wr1 = new BufferedWriter(new FileWriter ("harry.potter.test.filtered.arff"));
             wr1.write(filteredTest.toString());
             wr1.newLine();
             wr1.flush();
