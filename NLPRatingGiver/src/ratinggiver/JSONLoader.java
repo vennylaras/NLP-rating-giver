@@ -57,50 +57,36 @@ public class JSONLoader {
         }
     }
     
-    public static void main(String[] args) {
-        try {
-            JSONLoader loader = new JSONLoader("dataset/harry_potter_1.json");
-            loader.getReview();
-            
-            
-            loader.arffGenerator("harry.potter.test.arff", loader.review);
-        } catch (IOException ex) {
-            Logger.getLogger(JSONLoader.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (ParseException ex) {
-            Logger.getLogger(JSONLoader.class.getName()).log(Level.SEVERE, null, ex);
-        }
+    public void convertJson(String filename, String outfile) throws IOException, ParseException {
+        JSONLoader loader = new JSONLoader(filename);
+        loader.getReview();
+        
+        loader.arffGenerator(outfile, loader.review);      
     }
     
-    public void arffGenerator(String arffFile, ArrayList<Review> review){
-        try {
-            File file = new File(arffFile);
-            if (!file.exists()) {
-                    file.createNewFile();
-            }
+    public void arffGenerator(String arffFile, ArrayList<Review> review) throws IOException{
+        File file = new File(arffFile);
+        if (!file.exists()) {
+            file.createNewFile();
+        }
 
-            FileWriter fw = new FileWriter(file.getAbsoluteFile());
-            BufferedWriter bw = new BufferedWriter(fw);
-            bw.write("@relation review\n\n");
+        FileWriter fw = new FileWriter(file.getAbsoluteFile());
+        BufferedWriter bw = new BufferedWriter(fw);
+        bw.write("@relation review\n\n");
             
-            bw.write("@attribute sentence string\n");
-            bw.write("@attribute aspectbased {character, plot, neither, both}\n\n");
-            bw.write("@data\n");
+        bw.write("@attribute sentence string\n");
+        bw.write("@attribute aspect {character, plot, neither}\n\n");
+        bw.write("@data\n");
             
-            for (Review r: review){
-                ArrayList<String> sentences = r.getSentences();
-                for (String s: sentences){
-                    //s = s.replaceAll("\"", "");
-                    s = s.replaceAll("[^a-zA-Z\\s]", "").replaceAll("\\s+", " ");
-                    if (s.matches(".*\\w.*")){
-                        bw.write("\""+ s + "\",?\n");
-                    }
+        for (Review r: review){
+            ArrayList<String> sentences = r.getSentences();
+            for (String s: sentences){
+                s = s.replaceAll("[^a-zA-Z\\s]", "").replaceAll("\\s+", " ");
+                if (s.matches(".*\\w.*")){
+                    bw.write("\""+ s + "\",?\n");
                 }
             }
-            
-            
-        } catch (IOException e) {
-            e.printStackTrace();
         }
-    }
-    
+
+    }    
 }
