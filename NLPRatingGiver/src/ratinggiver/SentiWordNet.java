@@ -25,6 +25,7 @@ public class SentiWordNet {
     private HashMap<String, Double> dictionary_r = new HashMap<>();
     private static Preprocessor preprocessor = new Preprocessor();
     
+    // MAIN FOR TESTING
     public static void main (String args[]) throws IOException {
         BufferedReader br = new BufferedReader(
                          new FileReader("harry.potter.1.combine.arff"));
@@ -35,6 +36,15 @@ public class SentiWordNet {
         double[] score = overallSentiment(data);
         System.out.println("character score = " + score[0]);
         System.out.println("plot score = " + score[1]);
+        System.out.println();
+        
+        double[] rating = overallRating(score);
+        System.out.print("character rating = ");
+        System.out.printf("%.1f", rating[0]);
+        System.out.println();
+        System.out.print("plot rating = ");
+        System.out.printf("%.1f", rating[1]);
+        System.out.println();
     }
     
     public SentiWordNet() throws FileNotFoundException, IOException {
@@ -80,7 +90,7 @@ public class SentiWordNet {
     
     public static double calculateSentiment(String text) throws IOException {
         double sentimentScore = 0.0;
-        
+        int sentiWordCount = 0;
         // POST Tag
         ArrayList<String> tag = preprocessor.posTagger(text);
         
@@ -88,12 +98,12 @@ public class SentiWordNet {
         SentiWordNet sentiWordNet = new SentiWordNet();
         String[] words = text.trim().split(" ");
         for (int i = 0; i < words.length; i++) {
-            // System.out.println(words[i]);
             double s = sentiWordNet.getScore(words[i], tag.get(i));
-            // System.out.println(s);
             sentimentScore += s;
+            if (s != 0) sentiWordCount++;
         }
-        return sentimentScore;
+        if (sentiWordCount == 0) return 0.0;
+        return sentimentScore/sentiWordCount;
     }
     
     public static double[] overallSentiment(Instances data) throws IOException {
@@ -117,5 +127,13 @@ public class SentiWordNet {
         score[1] = plotSum/plotCount;
         
         return score;
+    }
+    
+    public static double[] overallRating(double[] score) {
+        double[] rating = new double[score.length];
+        for (int i = 0; i < score.length; i++) {
+            rating[i] = (score[i]+1)*5/2;
+        }
+        return rating;
     }
 }
