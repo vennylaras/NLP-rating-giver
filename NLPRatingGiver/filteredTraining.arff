@@ -1,0 +1,2011 @@
+@relation 'review-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute aspect {character,plot,neither}
+@attribute A numeric
+@attribute ADD numeric
+@attribute ALSO numeric
+@attribute AND numeric
+@attribute After numeric
+@attribute Albus numeric
+@attribute All numeric
+@attribute Also numeric
+@attribute Although numeric
+@attribute American numeric
+@attribute And numeric
+@attribute Arabic numeric
+@attribute As numeric
+@attribute At numeric
+@attribute BEAUTIFUL numeric
+@attribute BIG numeric
+@attribute BOOK numeric
+@attribute Black numeric
+@attribute Book numeric
+@attribute Books numeric
+@attribute Browns numeric
+@attribute But numeric
+@attribute By numeric
+@attribute Chamber numeric
+@attribute Chocolate numeric
+@attribute Christmas numeric
+@attribute Cooper numeric
+@attribute Dale numeric
+@attribute Dark numeric
+@attribute Days numeric
+@attribute Do numeric
+@attribute Dont numeric
+@attribute Draco numeric
+@attribute Dudley numeric
+@attribute Dumbledore numeric
+@attribute Dursley numeric
+@attribute Dursleys numeric
+@attribute Egypt numeric
+@attribute Eh numeric
+@attribute English numeric
+@attribute Even numeric
+@attribute Every numeric
+@attribute Everyone numeric
+@attribute Except numeric
+@attribute Fire numeric
+@attribute First numeric
+@attribute For numeric
+@attribute GOING numeric
+@attribute GRYFFINDOR numeric
+@attribute Games numeric
+@attribute Goblet numeric
+@attribute Goodreads numeric
+@attribute Gryffindor numeric
+@attribute HARRY numeric
+@attribute HAVENT numeric
+@attribute HP numeric
+@attribute Hagrid numeric
+@attribute Harry numeric
+@attribute Harrys numeric
+@attribute Hat numeric
+@attribute He numeric
+@attribute Her numeric
+@attribute Here numeric
+@attribute Hermione numeric
+@attribute Hes numeric
+@attribute Hogwarts numeric
+@attribute Honestly numeric
+@attribute How numeric
+@attribute However numeric
+@attribute Hughes numeric
+@attribute I numeric
+@attribute IM numeric
+@attribute IN numeric
+@attribute IS numeric
+@attribute IT numeric
+@attribute Id numeric
+@attribute If numeric
+@attribute Ill numeric
+@attribute Im numeric
+@attribute In numeric
+@attribute It numeric
+@attribute Its numeric
+@attribute Ive numeric
+@attribute J numeric
+@attribute JK numeric
+@attribute Jackson numeric
+@attribute Jim numeric
+@attribute July numeric
+@attribute June numeric
+@attribute Just numeric
+@attribute K numeric
+@attribute Kay numeric
+@attribute Khanh numeric
+@attribute Kids numeric
+@attribute King numeric
+@attribute Like numeric
+@attribute MY numeric
+@attribute Malfoy numeric
+@attribute Maybe numeric
+@attribute Me numeric
+@attribute Mrs numeric
+@attribute Muggle numeric
+@attribute My numeric
+@attribute NOTE numeric
+@attribute Neville numeric
+@attribute New numeric
+@attribute No numeric
+@attribute Not numeric
+@attribute Nothing numeric
+@attribute Now numeric
+@attribute OH numeric
+@attribute Oh numeric
+@attribute Okay numeric
+@attribute On numeric
+@attribute One numeric
+@attribute Only numeric
+@attribute Or numeric
+@attribute Order numeric
+@attribute Over numeric
+@attribute POKE numeric
+@attribute POTTER numeric
+@attribute Petunia numeric
+@attribute Philosophers numeric
+@attribute Phoenix numeric
+@attribute Playstation numeric
+@attribute Potter numeric
+@attribute Privet numeric
+@attribute Professor numeric
+@attribute Quidditch numeric
+@attribute R numeric
+@attribute READ numeric
+@attribute Rabid numeric
+@attribute ReRead numeric
+@attribute Reading numeric
+@attribute Reads numeric
+@attribute Really numeric
+@attribute Rereading numeric
+@attribute Review numeric
+@attribute Ron numeric
+@attribute Rowling numeric
+@attribute Rowlings numeric
+@attribute SO numeric
+@attribute STONE numeric
+@attribute School numeric
+@attribute Secrets numeric
+@attribute Self numeric
+@attribute She numeric
+@attribute Since numeric
+@attribute Sirius numeric
+@attribute Slytherin numeric
+@attribute Snape numeric
+@attribute So numeric
+@attribute Sorcerers numeric
+@attribute Stephen numeric
+@attribute Stone numeric
+@attribute Susan numeric
+@attribute THAT numeric
+@attribute THE numeric
+@attribute THING numeric
+@attribute TO numeric
+@attribute Thanks numeric
+@attribute That numeric
+@attribute Thats numeric
+@attribute The numeric
+@attribute There numeric
+@attribute Therefore numeric
+@attribute Theres numeric
+@attribute They numeric
+@attribute Theyre numeric
+@attribute This numeric
+@attribute Thomas numeric
+@attribute To numeric
+@attribute Tolkien numeric
+@attribute Tom numeric
+@attribute Twilight numeric
+@attribute U numeric
+@attribute UK numeric
+@attribute US numeric
+@attribute Uncle numeric
+@attribute Vernon numeric
+@attribute Video numeric
+@attribute Voldemort numeric
+@attribute WOW numeric
+@attribute We numeric
+@attribute Well numeric
+@attribute What numeric
+@attribute When numeric
+@attribute Who numeric
+@attribute Why numeric
+@attribute With numeric
+@attribute Wizarding numeric
+@attribute World numeric
+@attribute YOU numeric
+@attribute Yeah numeric
+@attribute Yes numeric
+@attribute You numeric
+@attribute a numeric
+@attribute able numeric
+@attribute about numeric
+@attribute absolutely numeric
+@attribute accepted numeric
+@attribute across numeric
+@attribute actually numeric
+@attribute adorable numeric
+@attribute adult numeric
+@attribute adults numeric
+@attribute adventure numeric
+@attribute adventures numeric
+@attribute after numeric
+@attribute again numeric
+@attribute against numeric
+@attribute age numeric
+@attribute agents numeric
+@attribute ages numeric
+@attribute ago numeric
+@attribute agree numeric
+@attribute aint numeric
+@attribute all numeric
+@attribute almost numeric
+@attribute along numeric
+@attribute already numeric
+@attribute also numeric
+@attribute although numeric
+@attribute always numeric
+@attribute am numeric
+@attribute amazing numeric
+@attribute an numeric
+@attribute and numeric
+@attribute annoying numeric
+@attribute another numeric
+@attribute answer numeric
+@attribute any numeric
+@attribute anymore numeric
+@attribute anyone numeric
+@attribute anything numeric
+@attribute apparently numeric
+@attribute are numeric
+@attribute arent numeric
+@attribute arms numeric
+@attribute around numeric
+@attribute as numeric
+@attribute aside numeric
+@attribute ask numeric
+@attribute at numeric
+@attribute attract numeric
+@attribute aunt numeric
+@attribute authors numeric
+@attribute away numeric
+@attribute awesome numeric
+@attribute baby numeric
+@attribute back numeric
+@attribute bad numeric
+@attribute based numeric
+@attribute basic numeric
+@attribute basically numeric
+@attribute be numeric
+@attribute became numeric
+@attribute because numeric
+@attribute become numeric
+@attribute becomes numeric
+@attribute becoming numeric
+@attribute been numeric
+@attribute before numeric
+@attribute beginning numeric
+@attribute begins numeric
+@attribute behind numeric
+@attribute being numeric
+@attribute believe numeric
+@attribute best numeric
+@attribute better numeric
+@attribute between numeric
+@attribute big numeric
+@attribute bit numeric
+@attribute book numeric
+@attribute books numeric
+@attribute bookworm numeric
+@attribute boring numeric
+@attribute bossy numeric
+@attribute both numeric
+@attribute bother numeric
+@attribute bought numeric
+@attribute boy numeric
+@attribute boys numeric
+@attribute brat numeric
+@attribute breathtaking numeric
+@attribute brief numeric
+@attribute brilliant numeric
+@attribute bring numeric
+@attribute brings numeric
+@attribute broomstick numeric
+@attribute brother numeric
+@attribute brought numeric
+@attribute build numeric
+@attribute bullying numeric
+@attribute busy numeric
+@attribute but numeric
+@attribute buy numeric
+@attribute by numeric
+@attribute came numeric
+@attribute can numeric
+@attribute cant numeric
+@attribute care numeric
+@attribute cared numeric
+@attribute careful numeric
+@attribute case numeric
+@attribute cat numeric
+@attribute cause numeric
+@attribute certainly numeric
+@attribute change numeric
+@attribute changed numeric
+@attribute channels numeric
+@attribute chapter numeric
+@attribute character numeric
+@attribute characters numeric
+@attribute cheap numeric
+@attribute check numeric
+@attribute chess numeric
+@attribute child numeric
+@attribute children numeric
+@attribute childrens numeric
+@attribute chose numeric
+@attribute close numeric
+@attribute clothes numeric
+@attribute collecting numeric
+@attribute come numeric
+@attribute comes numeric
+@attribute comics numeric
+@attribute comment numeric
+@attribute comparison numeric
+@attribute completely numeric
+@attribute considered numeric
+@attribute constantly numeric
+@attribute cool numeric
+@attribute copies numeric
+@attribute copy numeric
+@attribute correct numeric
+@attribute could numeric
+@attribute couldnUt numeric
+@attribute couldnt numeric
+@attribute countries numeric
+@attribute course numeric
+@attribute cousin numeric
+@attribute cover numeric
+@attribute craze numeric
+@attribute crazy numeric
+@attribute creative numeric
+@attribute cried numeric
+@attribute cupboard numeric
+@attribute curse numeric
+@attribute cut numeric
+@attribute cute numeric
+@attribute dad numeric
+@attribute damn numeric
+@attribute date numeric
+@attribute daughter numeric
+@attribute daughters numeric
+@attribute day numeric
+@attribute days numeric
+@attribute dead numeric
+@attribute deal numeric
+@attribute decided numeric
+@attribute degree numeric
+@attribute deserves numeric
+@attribute dialogue numeric
+@attribute did numeric
+@attribute didnt numeric
+@attribute die numeric
+@attribute different numeric
+@attribute discussing numeric
+@attribute do numeric
+@attribute does numeric
+@attribute doesnt numeric
+@attribute doing numeric
+@attribute done numeric
+@attribute dont numeric
+@attribute double numeric
+@attribute down numeric
+@attribute dressed numeric
+@attribute during numeric
+@attribute each numeric
+@attribute earlier numeric
+@attribute early numeric
+@attribute easy numeric
+@attribute edition numeric
+@attribute editions numeric
+@attribute eleven numeric
+@attribute else numeric
+@attribute end numeric
+@attribute ended numeric
+@attribute ending numeric
+@attribute enemies numeric
+@attribute enjoy numeric
+@attribute enjoyable numeric
+@attribute enjoyed numeric
+@attribute enjoying numeric
+@attribute enough numeric
+@attribute entire numeric
+@attribute especially numeric
+@attribute etc numeric
+@attribute even numeric
+@attribute ever numeric
+@attribute every numeric
+@attribute everyone numeric
+@attribute everyones numeric
+@attribute everything numeric
+@attribute everywhere numeric
+@attribute evil numeric
+@attribute exactly numeric
+@attribute example numeric
+@attribute except numeric
+@attribute excited numeric
+@attribute exciting numeric
+@attribute excuse numeric
+@attribute expect numeric
+@attribute experience numeric
+@attribute eyes numeric
+@attribute fact numeric
+@attribute family numeric
+@attribute famous numeric
+@attribute fan numeric
+@attribute fandom numeric
+@attribute fans numeric
+@attribute fantastic numeric
+@attribute fantasy numeric
+@attribute far numeric
+@attribute fast numeric
+@attribute favorite numeric
+@attribute feel numeric
+@attribute feeling numeric
+@attribute feelings numeric
+@attribute feels numeric
+@attribute felt numeric
+@attribute few numeric
+@attribute figure numeric
+@attribute films numeric
+@attribute finally numeric
+@attribute find numeric
+@attribute finds numeric
+@attribute finish numeric
+@attribute finishing numeric
+@attribute first numeric
+@attribute five numeric
+@attribute fly numeric
+@attribute for numeric
+@attribute forever numeric
+@attribute form numeric
+@attribute forward numeric
+@attribute found numeric
+@attribute four numeric
+@attribute friend numeric
+@attribute friends numeric
+@attribute friendship numeric
+@attribute from numeric
+@attribute front numeric
+@attribute fuckin numeric
+@attribute full numeric
+@attribute fun numeric
+@attribute funny numeric
+@attribute future numeric
+@attribute game numeric
+@attribute gaming numeric
+@attribute gang numeric
+@attribute gave numeric
+@attribute generation numeric
+@attribute genre numeric
+@attribute get numeric
+@attribute gets numeric
+@attribute getting numeric
+@attribute ghost numeric
+@attribute giant numeric
+@attribute give numeric
+@attribute given numeric
+@attribute giving numeric
+@attribute glad numeric
+@attribute go numeric
+@attribute goes numeric
+@attribute going numeric
+@attribute good numeric
+@attribute goodbye numeric
+@attribute got numeric
+@attribute grabbed numeric
+@attribute grade numeric
+@attribute great numeric
+@attribute greatest numeric
+@attribute grew numeric
+@attribute group numeric
+@attribute grow numeric
+@attribute growing numeric
+@attribute grows numeric
+@attribute guess numeric
+@attribute guys numeric
+@attribute had numeric
+@attribute half numeric
+@attribute hand numeric
+@attribute happen numeric
+@attribute happened numeric
+@attribute happens numeric
+@attribute happy numeric
+@attribute hard numeric
+@attribute has numeric
+@attribute hasnt numeric
+@attribute hate numeric
+@attribute hated numeric
+@attribute have numeric
+@attribute havent numeric
+@attribute having numeric
+@attribute he numeric
+@attribute head numeric
+@attribute heads numeric
+@attribute heard numeric
+@attribute heart numeric
+@attribute hell numeric
+@attribute help numeric
+@attribute her numeric
+@attribute here numeric
+@attribute herself numeric
+@attribute hes numeric
+@attribute high numeric
+@attribute higher numeric
+@attribute highly numeric
+@attribute hilarious numeric
+@attribute him numeric
+@attribute himself numeric
+@attribute his numeric
+@attribute history numeric
+@attribute hold numeric
+@attribute home numeric
+@attribute honest numeric
+@attribute honestly numeric
+@attribute hope numeric
+@attribute house numeric
+@attribute how numeric
+@attribute huge numeric
+@attribute hype numeric
+@attribute idea numeric
+@attribute if numeric
+@attribute ignored numeric
+@attribute illustrated numeric
+@attribute immediately numeric
+@attribute important numeric
+@attribute improves numeric
+@attribute in numeric
+@attribute including numeric
+@attribute increasing numeric
+@attribute incredibly numeric
+@attribute installment numeric
+@attribute instantly numeric
+@attribute interest numeric
+@attribute interested numeric
+@attribute interesting numeric
+@attribute into numeric
+@attribute introduce numeric
+@attribute is numeric
+@attribute isnt numeric
+@attribute it numeric
+@attribute itUs numeric
+@attribute itd numeric
+@attribute its numeric
+@attribute job numeric
+@attribute joining numeric
+@attribute journey numeric
+@attribute just numeric
+@attribute keep numeric
+@attribute kid numeric
+@attribute kids numeric
+@attribute killed numeric
+@attribute killing numeric
+@attribute kind numeric
+@attribute knew numeric
+@attribute knocking numeric
+@attribute know numeric
+@attribute knowing numeric
+@attribute known numeric
+@attribute knows numeric
+@attribute last numeric
+@attribute late numeric
+@attribute later numeric
+@attribute laugh numeric
+@attribute laughing numeric
+@attribute lead numeric
+@attribute leap numeric
+@attribute learn numeric
+@attribute learns numeric
+@attribute least numeric
+@attribute leave numeric
+@attribute left numeric
+@attribute let numeric
+@attribute lets numeric
+@attribute letter numeric
+@attribute letters numeric
+@attribute library numeric
+@attribute life numeric
+@attribute likable numeric
+@attribute like numeric
+@attribute liked numeric
+@attribute liking numeric
+@attribute list numeric
+@attribute listened numeric
+@attribute literally numeric
+@attribute literary numeric
+@attribute literate numeric
+@attribute literature numeric
+@attribute little numeric
+@attribute live numeric
+@attribute lived numeric
+@attribute living numeric
+@attribute long numeric
+@attribute look numeric
+@attribute looked numeric
+@attribute looking numeric
+@attribute lost numeric
+@attribute lot numeric
+@attribute lots numeric
+@attribute love numeric
+@attribute loved numeric
+@attribute lovely numeric
+@attribute loving numeric
+@attribute made numeric
+@attribute magic numeric
+@attribute magical numeric
+@attribute main numeric
+@attribute major numeric
+@attribute make numeric
+@attribute makes numeric
+@attribute making numeric
+@attribute man numeric
+@attribute manuscript numeric
+@attribute many numeric
+@attribute matter numeric
+@attribute mature numeric
+@attribute may numeric
+@attribute maybe numeric
+@attribute me numeric
+@attribute mean numeric
+@attribute meant numeric
+@attribute mention numeric
+@attribute mentioned numeric
+@attribute middle numeric
+@attribute midnight numeric
+@attribute might numeric
+@attribute million numeric
+@attribute millions numeric
+@attribute mind numeric
+@attribute minds numeric
+@attribute mirror numeric
+@attribute misdirection numeric
+@attribute missed numeric
+@attribute missing numeric
+@attribute mom numeric
+@attribute moment numeric
+@attribute moments numeric
+@attribute money numeric
+@attribute months numeric
+@attribute more numeric
+@attribute most numeric
+@attribute mostly numeric
+@attribute mothers numeric
+@attribute mountain numeric
+@attribute movie numeric
+@attribute movies numeric
+@attribute much numeric
+@attribute muggle numeric
+@attribute must numeric
+@attribute my numeric
+@attribute myself numeric
+@attribute name numeric
+@attribute named numeric
+@attribute names numeric
+@attribute necessarily numeric
+@attribute need numeric
+@attribute needed numeric
+@attribute needs numeric
+@attribute never numeric
+@attribute new numeric
+@attribute next numeric
+@attribute no numeric
+@attribute nonconformist numeric
+@attribute normal numeric
+@attribute nostalgic numeric
+@attribute not numeric
+@attribute nothing numeric
+@attribute novel numeric
+@attribute novels numeric
+@attribute now numeric
+@attribute number numeric
+@attribute numbers numeric
+@attribute obvious numeric
+@attribute obviously numeric
+@attribute of numeric
+@attribute off numeric
+@attribute often numeric
+@attribute okay numeric
+@attribute old numeric
+@attribute on numeric
+@attribute once numeric
+@attribute one numeric
+@attribute ones numeric
+@attribute only numeric
+@attribute open numeric
+@attribute opened numeric
+@attribute opinion numeric
+@attribute opinions numeric
+@attribute or numeric
+@attribute original numeric
+@attribute other numeric
+@attribute others numeric
+@attribute our numeric
+@attribute out numeric
+@attribute outside numeric
+@attribute over numeric
+@attribute own numeric
+@attribute page numeric
+@attribute pages numeric
+@attribute paperback numeric
+@attribute parents numeric
+@attribute part numeric
+@attribute parts numeric
+@attribute past numeric
+@attribute pay numeric
+@attribute people numeric
+@attribute perfect numeric
+@attribute perfectly numeric
+@attribute person numeric
+@attribute phenomenon numeric
+@attribute pick numeric
+@attribute picked numeric
+@attribute pictures numeric
+@attribute place numeric
+@attribute play numeric
+@attribute plot numeric
+@attribute plots numeric
+@attribute point numeric
+@attribute points numeric
+@attribute policy numeric
+@attribute popular numeric
+@attribute popularity numeric
+@attribute possible numeric
+@attribute power numeric
+@attribute presents numeric
+@attribute pretty numeric
+@attribute price numeric
+@attribute probably numeric
+@attribute problem numeric
+@attribute project numeric
+@attribute prose numeric
+@attribute proud numeric
+@attribute publish numeric
+@attribute published numeric
+@attribute publisher numeric
+@attribute publishers numeric
+@attribute publishing numeric
+@attribute put numeric
+@attribute question numeric
+@attribute quidditch numeric
+@attribute quite numeric
+@attribute rated numeric
+@attribute rather numeric
+@attribute rating numeric
+@attribute rd numeric
+@attribute reach numeric
+@attribute read numeric
+@attribute reader numeric
+@attribute readers numeric
+@attribute reading numeric
+@attribute real numeric
+@attribute realized numeric
+@attribute really numeric
+@attribute reason numeric
+@attribute reasons numeric
+@attribute recently numeric
+@attribute records numeric
+@attribute rejected numeric
+@attribute relationship numeric
+@attribute released numeric
+@attribute remember numeric
+@attribute reread numeric
+@attribute rereading numeric
+@attribute rest numeric
+@attribute reveals numeric
+@attribute review numeric
+@attribute reviews numeric
+@attribute right numeric
+@attribute rock numeric
+@attribute room numeric
+@attribute s numeric
+@attribute sad numeric
+@attribute said numeric
+@attribute sales numeric
+@attribute same numeric
+@attribute saw numeric
+@attribute say numeric
+@attribute saying numeric
+@attribute says numeric
+@attribute scene numeric
+@attribute school numeric
+@attribute sea numeric
+@attribute second numeric
+@attribute secret numeric
+@attribute see numeric
+@attribute seeing numeric
+@attribute seem numeric
+@attribute seemed numeric
+@attribute seems numeric
+@attribute seen numeric
+@attribute selling numeric
+@attribute sense numeric
+@attribute sequels numeric
+@attribute series numeric
+@attribute serious numeric
+@attribute share numeric
+@attribute she numeric
+@attribute shelf numeric
+@attribute short numeric
+@attribute should numeric
+@attribute show numeric
+@attribute shows numeric
+@attribute shrugs numeric
+@attribute silly numeric
+@attribute similar numeric
+@attribute simple numeric
+@attribute simply numeric
+@attribute since numeric
+@attribute single numeric
+@attribute sister numeric
+@attribute sisters numeric
+@attribute sitting numeric
+@attribute six numeric
+@attribute small numeric
+@attribute so numeric
+@attribute sold numeric
+@attribute some numeric
+@attribute someone numeric
+@attribute something numeric
+@attribute son numeric
+@attribute soon numeric
+@attribute sorcery numeric
+@attribute sort numeric
+@attribute sorts numeric
+@attribute special numeric
+@attribute spoiler numeric
+@attribute sport numeric
+@attribute stand numeric
+@attribute star numeric
+@attribute stars numeric
+@attribute start numeric
+@attribute started numeric
+@attribute starting numeric
+@attribute starts numeric
+@attribute still numeric
+@attribute stood numeric
+@attribute stop numeric
+@attribute stores numeric
+@attribute stories numeric
+@attribute story numeric
+@attribute strange numeric
+@attribute strong numeric
+@attribute stupid numeric
+@attribute style numeric
+@attribute success numeric
+@attribute successful numeric
+@attribute such numeric
+@attribute super numeric
+@attribute supplies numeric
+@attribute supposed numeric
+@attribute sure numeric
+@attribute surprise numeric
+@attribute suspect numeric
+@attribute sweet numeric
+@attribute take numeric
+@attribute takes numeric
+@attribute taking numeric
+@attribute talent numeric
+@attribute talk numeric
+@attribute talking numeric
+@attribute tell numeric
+@attribute telling numeric
+@attribute tells numeric
+@attribute ten numeric
+@attribute test numeric
+@attribute th numeric
+@attribute than numeric
+@attribute thank numeric
+@attribute that numeric
+@attribute thats numeric
+@attribute the numeric
+@attribute their numeric
+@attribute them numeric
+@attribute then numeric
+@attribute there numeric
+@attribute theres numeric
+@attribute these numeric
+@attribute they numeric
+@attribute theyre numeric
+@attribute thick numeric
+@attribute thing numeric
+@attribute things numeric
+@attribute think numeric
+@attribute thinking numeric
+@attribute third numeric
+@attribute this numeric
+@attribute those numeric
+@attribute though numeric
+@attribute thought numeric
+@attribute thoughts numeric
+@attribute thousands numeric
+@attribute three numeric
+@attribute through numeric
+@attribute throughout numeric
+@attribute time numeric
+@attribute times numeric
+@attribute to numeric
+@attribute told numeric
+@attribute too numeric
+@attribute took numeric
+@attribute top numeric
+@attribute totally numeric
+@attribute translated numeric
+@attribute treat numeric
+@attribute tricks numeric
+@attribute tried numeric
+@attribute troll numeric
+@attribute trouble numeric
+@attribute true numeric
+@attribute truth numeric
+@attribute try numeric
+@attribute trying numeric
+@attribute turn numeric
+@attribute twelvefoot numeric
+@attribute two numeric
+@attribute uncle numeric
+@attribute under numeric
+@attribute understand numeric
+@attribute unexpected numeric
+@attribute universe numeric
+@attribute until numeric
+@attribute up numeric
+@attribute upcoming numeric
+@attribute upon numeric
+@attribute us numeric
+@attribute use numeric
+@attribute used numeric
+@attribute version numeric
+@attribute very numeric
+@attribute villain numeric
+@attribute volume numeric
+@attribute volumes numeric
+@attribute wait numeric
+@attribute waited numeric
+@attribute waiting numeric
+@attribute wand numeric
+@attribute want numeric
+@attribute wanted numeric
+@attribute wanting numeric
+@attribute was numeric
+@attribute wasnt numeric
+@attribute watch numeric
+@attribute watched numeric
+@attribute way numeric
+@attribute we numeric
+@attribute week numeric
+@attribute well numeric
+@attribute went numeric
+@attribute were numeric
+@attribute what numeric
+@attribute whats numeric
+@attribute when numeric
+@attribute where numeric
+@attribute wherever numeric
+@attribute whether numeric
+@attribute which numeric
+@attribute while numeric
+@attribute who numeric
+@attribute whole numeric
+@attribute why numeric
+@attribute will numeric
+@attribute wish numeric
+@attribute witches numeric
+@attribute with numeric
+@attribute without numeric
+@attribute wizard numeric
+@attribute wizardry numeric
+@attribute wizards numeric
+@attribute wonder numeric
+@attribute wonderful numeric
+@attribute wont numeric
+@attribute word numeric
+@attribute words numeric
+@attribute work numeric
+@attribute works numeric
+@attribute world numeric
+@attribute worldbuilding numeric
+@attribute worth numeric
+@attribute would numeric
+@attribute wouldnt numeric
+@attribute write numeric
+@attribute writing numeric
+@attribute written numeric
+@attribute wrong numeric
+@attribute wrote numeric
+@attribute yeah numeric
+@attribute year numeric
+@attribute years numeric
+@attribute yes numeric
+@attribute yesterday numeric
+@attribute yet numeric
+@attribute you numeric
+@attribute young numeric
+@attribute younger numeric
+@attribute your numeric
+@attribute youre numeric
+@attribute youth numeric
+@attribute youve numeric
+
+@data
+{0 neither,79 1,221 1,262 1,286 1,477 1,501 1,554 1,563 1,661 1,787 1,791 1,822 1,883 1,889 1,900 1,911 1}
+{0 plot,71 1,197 1,199 1,208 1,227 1,228 1,244 1,258 1,282 1,339 1,386 1,395 1,524 1,553 1,562 1,607 1,665 1,689 1,693 1,761 1,764 1,768 1,795 1,808 1,829 1,885 1,897 1,900 1,911 1,948 1,981 1,1001 1}
+{0 plot,71 1,256 1,444 1,555 1,664 1,903 1,913 1,993 1}
+{0 plot,71 1,300 1,341 1,402 1,529 1,615 1,689 1,791 1,883 1,900 1,954 1,998 1}
+{0 plot,82 1,197 1,221 1,228 1,262 1,286 1,314 1,458 1,477 1,501 1,554 1,563 1,603 1,661 1,787 1,791 1,822 1,883 1,889 1,900 1,911 1,978 1}
+{0 plot,71 1,197 1,199 1,208 1,227 1,228 1,244 1,258 1,282 1,339 1,386 1,395 1,524 1,553 1,562 1,607 1,665 1,689 1,693 1,761 1,764 1,768 1,795 1,808 1,829 1,885 1,897 1,900 1,911 1,948 1,981 1,1001 1}
+{0 plot,71 1,256 1,444 1,555 1,664 1,903 1,913 1,993 1}
+{0 plot,71 1,300 1,341 1,402 1,529 1,615 1,689 1,791 1,883 1,900 1,954 1,998 1}
+{81 1,82 1,197 1,228 1,273 1,296 1,301 1,314 1,317 1,345 1,458 1,470 1,500 1,513 1,521 1,562 1,603 1,614 1,667 1,874 1,883 1,884 1,906 1,978 1,980 1,1006 1}
+{0 neither,79 1,228 1,654 1,661 1,742 1,883 1}
+{11 1,58 1,64 1,139 1,197 1,227 1,228 1,260 1,267 1,282 1,296 1,314 1,418 1,444 1,450 1,451 1,500 1,524 1,542 1,555 1,580 1,603 1,623 1,652 1,689 1,708 1,835 1,848 1,885 1,888 1,890 1,911 1,923 1,936 1,972 1,1007 1}
+{58 1,228 1,553 1,555 1,568 1,655 1,883 1,885 1,901 1,911 1,966 1}
+{0 plot,614 1,680 1,911 1}
+{0 plot,71 1,80 1,197 1,199 1,273 1,296 1,366 1,390 1,428 1,482 1,638 1,682 1,792 1,818 1,840 1,867 1,885 1,900 1,911 1}
+{0 plot,71 1,77 1,151 1,228 1,507 1,647 1,680 1,688 1,883 1,885 1,887 1,889 1,923 1,954 1,963 1}
+{0 neither,22 1,64 1,257 1,450 1,453 1,650 1,694 1,883 1,886 1}
+{0 neither,24 1,58 1,71 1,79 1,103 1,110 1,126 1,145 1,165 1,197 1,199 1,228 1,237 1,273 1,296 1,301 1,366 1,380 1,390 1,413 1,428 1,482 1,536 1,542 1,553 1,570 1,596 1,633 1,638 1,658 1,682 1,689 1,690 1,696 1,705 1,708 1,781 1,792 1,808 1,810 1,818 1,831 1,845 1,867 1,885 1,887 1,896 1,900 1,911 1,921 1,936 1,979 1,1006 1}
+{0 neither,71 1,77 1,151 1,228 1,507 1,647 1,680 1,688 1,883 1,885 1,887 1,889 1,923 1,954 1,963 1}
+{0 neither,170 1,197 1,218 1,553 1,911 1}
+{103 1,508 1,609 1,694 1,755 1,855 1,883 1}
+{0 plot,71 1,77 1,337 1,504 1,664 1,698 1}
+{0 neither,58 1,126 1}
+{0 neither,170 1,553 1,680 1,710 1,1005 1}
+{0 neither,58 1,71 1,126 1,189 1,263 1,365 1,558 1,599 1,620 1,680 1,684 1,761 1,885 1}
+{0 neither,93 1,137 1,197 1,220 1,366 1,444 1,466 1,486 1,667 1,720 1,759 1,880 1,885 1,889 1,909 1,938 1,943 1,954 1,961 1,972 1,978 1}
+{93 1,108 1,137 1,147 1,197 1,218 1,220 1,224 1,227 1,228 1,262 1,275 1,276 1,294 1,296 1,366 1,444 1,466 1,480 1,486 1,492 1,500 1,514 1,518 1,542 1,591 1,667 1,680 1,689 1,711 1,720 1,759 1,761 1,795 1,811 1,826 1,880 1,885 1,889 1,904 1,907 1,909 1,911 1,938 1,943 1,954 1,955 1,961 1,972 1,978 1}
+{94 1,108 1,147 1,197 1,218 1,224 1,227 1,228 1,262 1,275 1,276 1,294 1,296 1,446 1,470 1,480 1,492 1,500 1,514 1,518 1,542 1,591 1,680 1,689 1,711 1,795 1,811 1,826 1,880 1,885 1,904 1,907 1,911 1,955 1,978 1}
+{0 neither,106 1,115 1,275 1,357 1,514 1,674 1,689 1,694 1,795 1,812 1,885 1,889 1,963 1,1011 1}
+{0 neither,58 1,126 1,275 1,907 1}
+{14 1,147 1,197 1,212 1,224 1,241 1,263 1,275 1,296 1,320 1,341 1,424 1,444 1,492 1,510 1,565 1,597 1,603 1,682 1,683 1,689 1,693 1,694 1,811 1,822 1,885 1,887 1,892 1,898 1,913 1,954 1,963 1}
+{147 1,209 1,218 1,381 1,492 1,761 1,808 1,883 1,885 1,1001 1}
+{0 neither,11 1,492 1,542 1,555 1}
+{0 neither}
+{147 1,274 1,296 1,366 1,405 1,492 1,542 1,553 1,732 1,755 1,761 1,767 1,811 1,885 1,887 1,932 1}
+{0 neither,11 1,58 1,93 1,126 1,244 1,365 1,444 1,630 1,654 1,680 1,683 1,883 1,954 1}
+{0 neither,58 1,126 1,553 1}
+{0 neither,93 1,553 1}
+{0 neither,165 1,197 1,214 1,542 1,553 1,886 1}
+{0 neither,22 1,58 1,93 1,126 1,197 1,275 1,674 1,885 1,954 1,963 1}
+{0 neither,674 1}
+{0 neither,168 1,230 1,262 1,298 1,492 1,673 1,762 1,892 1,963 1}
+{0 neither,11 1,58 1,93 1,117 1,126 1,147 1,153 1,155 1,164 1,228 1,264 1,274 1,388 1,441 1,542 1,726 1,757 1,808 1,885 1,936 1,954 1}
+{0 neither,58 1,103 1,126 1,175 1,197 1,228 1,271 1,329 1,689 1,704 1,780 1,838 1,954 1}
+{0 neither,69 1,237 1,241 1,553 1,857 1,885 1,900 1,929 1}
+{0 neither,67 1,369 1,400 1,558 1,680 1,992 1}
+{0 plot,58 1,82 1,126 1,175 1,322 1,325 1,372 1,417 1,553 1,555 1,562 1,680 1,705 1,819 1,883 1,885 1,989 1}
+{0 neither,82 1}
+{0 neither,58 1,71 1,81 1,86 1,103 1,126 1,165 1,172 1,175 1,197 1,217 1,228 1,271 1,329 1,357 1,400 1,455 1,542 1,555 1,671 1,689 1,704 1,780 1,789 1,838 1,841 1,885 1,903 1,911 1,954 1,966 1}
+{0 neither,69 1,237 1,241 1,553 1,857 1,885 1,900 1,929 1}
+{0 neither,67 1,369 1,400 1,558 1,680 1,992 1}
+{0 plot,58 1,82 1,126 1,175 1,322 1,325 1,372 1,417 1,553 1,555 1,562 1,680 1,705 1,819 1,883 1,885 1,989 1}
+{0 neither,82 1}
+{0 neither,58 1,71 1,81 1,86 1,126 1,165 1,172 1,175 1,197 1,217 1,228 1,300 1,344 1,357 1,359 1,400 1,455 1,542 1,555 1,664 1,671 1,684 1,689 1,704 1,780 1,789 1,799 1,841 1,883 1,885 1,903 1,911 1,954 1,964 1,966 1,1006 1}
+{0 plot,50 1,58 1,81 1,126 1,175 1,197 1,209 1,228 1,504 1,551 1,553 1,689 1,705 1,736 1,738 1,808 1,856 1,883 1,885 1,888 1,900 1,911 1,971 1,1002 1}
+{0 plot,81 1,224 1,241 1,275 1,444 1,504 1,526 1,553 1,562 1,661 1,763 1,891 1,892 1}
+{0 plot,71 1,199 1,227 1,275 1,357 1,500 1,633 1,634 1,680 1,696 1,883 1,891 1,911 1,964 1,975 1,995 1}
+{0 neither,218 1,553 1,555 1,696 1,846 1,883 1,885 1,900 1}
+{0 neither,1 1,126 1,175 1,270 1,542 1,553 1,633 1,780 1,875 1,885 1,911 1}
+{58 1,64 1,162 1,182 1,197 1,228 1,237 1,270 1,418 1,553 1,633 1,881 1,883 1,885 1}
+{0 neither,85 1,140 1,553 1,633 1,654 1,881 1,883 1}
+{0 neither,71 1,1006 1}
+{0 neither,58 1,126 1,175 1,228 1,237 1,553 1,689 1,703 1,710 1,857 1,885 1,897 1,972 1,992 1}
+{0 neither,226 1,274 1,553 1,900 1}
+{0 neither,210 1,777 1,808 1,900 1}
+{0 neither,71 1,401 1,664 1,670 1,673 1,708 1,837 1,844 1,881 1,900 1,911 1,975 1}
+{0 neither,15 1}
+{0 neither,165 1,237 1,274 1,370 1,676 1,900 1,911 1,987 1}
+{0 neither,138 1,444 1}
+{0 neither}
+{0 neither,26 1,58 1,111 1,133 1,172 1,196 1,444 1,542 1}
+{0 plot,42 1,71 1,210 1,222 1,228 1,241 1,251 1,258 1,274 1,289 1,411 1,467 1,553 1,555 1,628 1,633 1,661 1,689 1,761 1,778 1,808 1,829 1,885 1,889 1,900 1,909 1,911 1,961 1}
+{0 neither,18 1,47 1,101 1,149 1,312 1,409 1,441 1,542 1,553 1,637 1,885 1}
+{0 plot,57 1,58 1,138 1,197 1,199 1,209 1,218 1,224 1,241 1,273 1,444 1,453 1,504 1,553 1,555 1,633 1,703 1,793 1,811 1,885 1,909 1,911 1,936 1,966 1}
+{0 neither}
+{0 neither,26 1,58 1,111 1,133 1,172 1,196 1,444 1,542 1}
+{0 plot,42 1,71 1,210 1,222 1,228 1,241 1,251 1,258 1,274 1,289 1,411 1,467 1,553 1,555 1,628 1,633 1,661 1,689 1,761 1,778 1,808 1,829 1,885 1,889 1,900 1,909 1,911 1,961 1}
+{0 neither,18 1,47 1,101 1,149 1,312 1,409 1,441 1,542 1,553 1,637 1,885 1}
+{0 neither,57 1,58 1,197 1,199 1,209 1,218 1,224 1,228 1,241 1,256 1,273 1,453 1,504 1,553 1,633 1,703 1,793 1,811 1,885 1,909 1,911 1,925 1,936 1,966 1}
+{0 neither,4 1,8 1,35 1,71 1,128 1,197 1,228 1,345 1,515 1,542 1,565 1,787 1,883 1,954 1}
+{0 plot,8 1,17 1,37 1,58 1,72 1,73 1,74 1,88 1,133 1,160 1,209 1,218 1,224 1,228 1,237 1,238 1,241 1,244 1,252 1,258 1,388 1,445 1,522 1,542 1,553 1,562 1,689 1,720 1,725 1,757 1,881 1,885 1,892 1,897 1,936 1,1001 1}
+{0 plot,152 1,274 1,478 1,829 1,900 1,992 1}
+{0 neither,82 1,251 1,256 1,478 1,911 1}
+{0 neither,52 1,68 1,71 1,256 1,300 1,451 1,466 1,493 1,504 1,654 1,664 1,689 1,782 1,881 1,900 1,911 1,978 1,998 1}
+{0 neither,13 1,52 1,71 1,451 1,504 1,689 1,900 1,996 1}
+{0 neither,58 1,84 1,91 1,126 1,141 1,153 1,155 1,228 1,504 1,689 1,761 1,885 1,887 1}
+{0 neither,689 1,756 1,761 1,844 1,900 1,901 1,972 1,978 1}
+{0 neither,689 1,844 1,887 1,978 1}
+{0 neither,7 1,463 1,703 1,706 1,885 1}
+{0 neither,116 1,756 1,843 1,900 1,978 1}
+{0 neither,115 1,198 1,267 1,439 1,555 1,680 1,689 1,887 1,911 1}
+{0 neither,147 1,365 1,504 1,555 1,558 1,680 1,756 1,761 1,767 1,811 1,814 1,822 1}
+{0 neither,22 1,52 1,68 1,71 1,256 1,300 1,451 1,466 1,493 1,504 1,654 1,664 1,689 1,782 1,811 1,881 1,900 1,911 1,978 1,998 1}
+{0 neither,13 1,52 1,71 1,451 1,504 1,689 1,900 1,996 1}
+{0 neither,58 1,84 1,91 1,126 1,141 1,153 1,155 1,228 1,504 1,689 1,761 1,885 1,887 1}
+{0 neither,689 1,756 1,761 1,844 1,900 1,901 1,972 1,978 1}
+{0 neither,689 1,844 1,887 1,978 1}
+{0 neither,7 1,463 1,703 1,706 1,885 1}
+{0 neither,116 1,756 1,843 1,900 1,978 1}
+{0 neither,115 1,198 1,267 1,439 1,555 1,680 1,689 1,887 1,911 1}
+{0 neither,147 1,365 1,504 1,555 1,558 1,680 1,756 1,761 1,767 1,811 1,814 1,822 1}
+{0 neither,22 1,71 1,197 1,228 1,242 1,274 1,276 1,299 1,450 1,514 1,542 1,553 1,555 1,664 1,680 1,708 1,782 1,811 1,829 1,885 1,900 1,954 1,974 1,1005 1}
+{0 neither,71 1,275 1,291 1,633 1,664 1,698 1,761 1,883 1,901 1,911 1,912 1}
+{0 neither,61 1,232 1,256 1,267 1,274 1,276 1,296 1,298 1,507 1,534 1,680 1,764 1,885 1,954 1,993 1}
+{0 neither,69 1,966 1}
+{0 neither,71 1,197 1,228 1,256 1,354 1,355 1,401 1,441 1,478 1,504 1,534 1,542 1,659 1,661 1,663 1,664 1,693 1,707 1,774 1,822 1,883 1,885 1,889 1,903 1,909 1,913 1,954 1,959 1,978 1,993 1,1002 1}
+{0 neither,71 1,954 1,998 1}
+{0 neither,139 1,147 1,258 1,296 1,317 1,379 1,460 1,480 1,531 1,542 1,659 1,680 1,689 1,698 1,794 1,811 1,883 1,885 1,954 1,966 1,978 1}
+{0 neither,58 1,71 1,103 1,126 1,184 1,228 1,355 1,477 1,542 1,553 1,555 1,586 1,633 1,659 1,664 1,673 1,684 1,761 1,794 1,883 1,885 1,975 1,978 1}
+{0 neither,58 1,126 1,147 1,228 1,371 1,548 1,553 1,660 1,680 1,689 1,694 1,764 1,811 1,815 1,849 1}
+{0 neither,52 1,58 1,69 1,71 1,126 1,197 1,199 1,210 1,225 1,228 1,275 1,276 1,451 1,664 1,684 1,689 1,705 1,885 1,887 1,929 1,954 1,960 1,978 1}
+{0 neither,19 1,20 1,112 1,197 1,199 1,228 1,256 1,274 1,300 1,354 1,356 1,441 1,542 1,553 1,623 1,659 1,663 1,761 1,885 1,886 1,961 1,978 1}
+{0 neither,5 1,71 1,152 1,197 1,228 1,275 1,281 1,335 1,357 1,365 1,436 1,478 1,555 1,623 1,633 1,664 1,689 1,764 1,885 1,1002 1}
+{0 neither,52 1,218 1,451 1,473 1,542 1,689 1,844 1,900 1,901 1,998 1}
+{0 neither,197 1,280 1,365 1,680 1,689 1,780 1,887 1,996 1}
+{0 neither,52 1,99 1,256 1,542 1,607 1,632 1,680 1,703 1,761 1,892 1,900 1,901 1,913 1,963 1,966 1,993 1,1005 1}
+{0 neither,22 1,47 1,52 1,71 1,197 1,221 1,225 1,227 1,237 1,262 1,274 1,300 1,394 1,483 1,498 1,504 1,516 1,542 1,555 1,623 1,663 1,689 1,764 1,780 1,791 1,811 1,829 1,831 1,887 1,900 1,911 1,913 1,954 1,964 1}
+{0 plot,197 1,228 1,346 1,483 1,689 1,854 1,958 1,996 1}
+{0 plot,58 1,71 1,126 1,614 1}
+{0 plot,71 1,84 1,91 1,140 1,195 1,199 1,216 1,228 1,267 1,346 1,483 1,854 1,885 1}
+{0 neither,66 1,71 1,542 1,913 1,954 1}
+{0 plot,58 1,71 1,81 1,126 1,296 1,298 1,818 1,821 1,954 1}
+{0 plot,67 1,71 1,81 1,197 1,225 1,274 1,483 1,849 1,954 1}
+{0 neither,52 1,71 1,394 1,427 1,453 1,542 1,555 1,664 1,689 1,696 1,764 1}
+{0 neither,71 1,197 1,256 1,370 1,514 1,680 1,810 1,902 1,911 1,953 1}
+{0 neither,67 1,71 1,197 1,375 1,400 1,444 1,571 1,689 1,795 1,885 1,903 1,911 1,982 1}
+{0 neither,427 1,664 1,689 1,696 1}
+{0 neither,162 1,504 1,803 1,900 1,911 1}
+{0 neither,66 1,228 1,256 1,542 1,720 1,836 1,911 1,953 1}
+{0 neither,162 1,256 1,555 1,814 1}
+{0 plot,112 1,164 1,197 1,218 1,228 1,256 1,290 1,391 1,418 1,444 1,466 1,504 1,551 1,553 1,594 1,652 1,694 1,707 1,728 1,733 1,793 1,803 1,836 1,883 1,885 1,911 1,927 1,959 1,961 1,988 1,990 1,993 1}
+{0 neither,164 1,197 1,241 1,274 1,400 1,542 1,795 1,836 1,885 1,941 1,986 1}
+{0 neither,90 1}
+{0 plot,71 1,170 1,197 1,225 1,228 1,553 1,555 1,680 1,689 1,693 1,911 1,913 1,988 1}
+{0 neither,71 1,562 1,954 1}
+{0 neither,71 1,172 1,256 1,499 1,594 1,680 1,900 1,911 1,920 1}
+{0 neither,71 1,197 1,228 1,237 1,274 1,451 1,453 1,466 1,473 1,664 1,684 1,703 1,708 1,883 1,900 1,901 1,903 1,911 1,936 1,972 1,975 1}
+{0 neither,71 1,829 1,912 1,1006 1}
+{0 neither,189 1,909 1,1009 1}
+{0 neither,69 1,197 1,199 1,237 1,274 1,553 1,594 1,680 1,681 1,693 1,889 1,900 1,911 1,1006 1}
+{0 neither,71 1,84 1,91 1,103 1,140 1,228 1,237 1,296 1,444 1,451 1,500 1,553 1,555 1,632 1,693 1,782 1,872 1,913 1}
+{0 neither,58 1,114 1,126 1,237 1,244 1,356 1,401 1,413 1,463 1,495 1,553 1,597 1,633 1,664 1,689 1,693 1,721 1,769 1,808 1,883 1,885 1,892 1,895 1,911 1,974 1,1002 1}
+{0 neither,58 1,71 1,126 1,187 1,262 1,275 1,339 1,504 1,633 1,664 1,764 1,811 1,845 1,885 1,911 1,912 1,952 1}
+{0 neither,13 1,58 1,66 1,71 1,76 1,114 1,126 1,197 1,218 1,228 1,237 1,244 1,288 1,324 1,356 1,374 1,401 1,413 1,429 1,444 1,462 1,463 1,495 1,514 1,553 1,597 1,633 1,654 1,664 1,673 1,679 1,689 1,690 1,693 1,721 1,766 1,769 1,784 1,808 1,812 1,846 1,881 1,883 1,885 1,892 1,895 1,911 1,936 1,946 1,954 1,973 1,974 1,1002 1}
+{0 neither,58 1,71 1,126 1,187 1,262 1,275 1,338 1,504 1,633 1,664 1,764 1,811 1,845 1,885 1,911 1,912 1,952 1}
+{0 neither,13 1,66 1,71 1,76 1,197 1,218 1,228 1,288 1,324 1,374 1,429 1,441 1,444 1,462 1,514 1,654 1,673 1,679 1,689 1,690 1,766 1,780 1,784 1,812 1,846 1,881 1,883 1,885 1,900 1,911 1,936 1,945 1,946 1,954 1,973 1}
+{58 1,71 1,363 1,518 1,555 1,883 1,909 1,911 1,954 1}
+{0 plot,69 1,71 1,83 1,197 1,219 1,228 1,232 1,262 1,300 1,313 1,357 1,402 1,444 1,641 1,703 1,710 1,730 1,781 1,897 1,929 1,978 1}
+{0 neither,81 1,218 1,262 1,263 1,500 1,787 1}
+{0 plot,71 1,166 1,228 1,241 1,244 1,500 1,511 1,555 1,562 1,619 1,628 1,689 1,720 1,799 1,808 1,829 1,885 1,897 1,911 1,951 1,964 1,974 1,978 1}
+{0 plot,63 1,116 1,197 1,220 1,228 1,300 1,325 1,330 1,371 1,430 1,476 1,478 1,542 1,689 1,829 1,854 1,883 1,936 1,1006 1}
+{0 neither,115 1,244 1,300 1,400 1,444 1,526 1,536 1,592 1,651 1,689 1,691 1,698 1,883 1,885 1,964 1}
+{0 neither,370 1,853 1,883 1}
+{0 neither,82 1,197 1,224 1,227 1,228 1,235 1,530 1,551 1,553 1,608 1,689 1,737 1,896 1,967 1,990 1}
+{0 neither,129 1,188 1,197 1,228 1,240 1,398 1,400 1,424 1,453 1,465 1,542 1,553 1,555 1,594 1,619 1,674 1,676 1,689 1,703 1,728 1,854 1,883 1,885 1,911 1,951 1,966 1,978 1,994 1}
+{0 neither,81 1,197 1,199 1,228 1,400 1,483 1,554 1,555 1,558 1,602 1,624 1,681 1,689 1,859 1}
+{0 neither}
+{0 neither,11 1}
+{0 neither,152 1,164 1,430 1,542 1,553 1,555 1,558 1,689 1,763 1,854 1,885 1,900 1,964 1}
+{0 plot,59 1,228 1,452 1,553 1,833 1,854 1,883 1}
+{0 neither,81 1,197 1,689 1,806 1}
+{0 neither,13 1,58 1,68 1,197 1,199 1,228 1,240 1,270 1,300 1,428 1,437 1,444 1,478 1,517 1,523 1,553 1,562 1,564 1,603 1,680 1,689 1,713 1,799 1,883 1,885 1,891 1,911 1,990 1,1006 1}
+{0 neither,164 1,478 1,624 1,972 1}
+{1 1,197 1,228 1,240 1,282 1,444 1,508 1,511 1,522 1,524 1,617 1,694 1,883 1,885 1,978 1,990 1}
+{65 1,296 1,301 1,513 1,594 1,832 1,1006 1}
+{65 1,680 1,721 1}
+{61 1,71 1,197 1,228 1,444 1,507 1,517 1,523 1,571 1,603 1,624 1,628 1,654 1,689 1,813 1,936 1,939 1,976 1,993 1}
+{0 neither,34 1,99 1,197 1,211 1,227 1,228 1,246 1,471 1,524 1,689 1,694 1,703 1,885 1,911 1,930 1,935 1}
+{0 neither,22 1,58 1,680 1,884 1}
+{0 neither,65 1,197 1,270 1,723 1,881 1,883 1}
+{163 1,522 1,614 1,959 1,974 1}
+{0 neither,99 1,197 1,218 1,273 1,553 1,661 1,689 1,885 1}
+{0 neither,71 1,96 1,197 1,228 1,248 1,429 1,453 1,480 1,632 1,633 1,679 1,787 1,885 1,954 1}
+{0 plot,228 1,237 1,498 1,562 1,623 1,721 1,764 1,791 1,853 1,883 1,887 1,891 1,975 1,1006 1}
+{0 neither,78 1,308 1,444 1,883 1}
+{0 neither,13 1,71 1,79 1,228 1,309 1,441 1,444 1,463 1,477 1,680 1,684 1,698 1,758 1,844 1,883 1,885 1,900 1,911 1,945 1}
+{0 plot,13 1,45 1,51 1,58 1,71 1,126 1,197 1,228 1,241 1,375 1,555 1,614 1,661 1,689 1,808 1,885 1,897 1,935 1,973 1}
+{0 neither,218 1,553 1,555 1,900 1,967 1}
+{0 neither,13 1,228 1,256 1,270 1,467 1,555 1,572 1,698 1,761 1,814 1,844 1,861 1,883 1}
+{0 neither}
+{0 neither,83 1,195 1,197 1,262 1,606 1,783 1,931 1}
+{0 neither,82 1,251 1}
+{0 neither,167 1,197 1,214 1,368 1,428 1,453 1,629 1,676 1,768 1,883 1,885 1,939 1,959 1,963 1,967 1}
+{0 neither,66 1,218 1,384 1,400 1,453 1,542 1,594 1,629 1,676 1,761 1,789 1,885 1,889 1,959 1,963 1,970 1}
+{0 plot,19 1,58 1,126 1,164 1,188 1,197 1,553 1,558 1,562 1,680 1,854 1,885 1}
+{0 neither,82 1,115 1,525 1,540 1,542 1,655 1,683 1,689 1,767 1,885 1}
+{0 neither,164 1,558 1}
+{0 neither,138 1,170 1,222 1,444 1,502 1,808 1,885 1,901 1,972 1}
+{0 neither,633 1,978 1}
+{0 neither,19 1,181 1,218 1,228 1,267 1,298 1,377 1,445 1,504 1,542 1,555 1,631 1,655 1,689 1,735 1,750 1,785 1,789 1,852 1,862 1,885 1,970 1}
+{0 neither,195 1,228 1,275 1,309 1,399 1,542 1,555 1,625 1,631 1,674 1,682 1,689 1,751 1,764 1,885 1,900 1,978 1,979 1}
+{0 neither,228 1,256 1,275 1,400 1,444 1,476 1,562 1,683 1,689 1,703 1,828 1,831 1,891 1}
+{0 neither,181 1,227 1,228 1,256 1,275 1,562 1,594 1,693 1,782 1,885 1}
+{0 neither,12 1,20 1,38 1,50 1,95 1,125 1,154 1,164 1,173 1,174 1,177 1,178 1,181 1,197 1,199 1,218 1,221 1,222 1,228 1,232 1,237 1,241 1,245 1,247 1,251 1,253 1,256 1,257 1,258 1,269 1,272 1,273 1,274 1,275 1,282 1,287 1,298 1,299 1,300 1,311 1,315 1,319 1,327 1,340 1,341 1,343 1,366 1,370 1,382 1,400 1,402 1,406 1,415 1,426 1,433 1,441 1,444 1,453 1,461 1,464 1,466 1,468 1,470 1,478 1,480 1,483 1,488 1,492 1,499 1,504 1,513 1,514 1,531 1,532 1,533 1,536 1,540 1,541 1,542 1,543 1,551 1,553 1,554 1,555 1,556 1,562 1,565 1,571 1,581 1,588 1,592 1,594 1,604 1,618 1,623 1,625 1,626 1,627 1,628 1,631 1,636 1,654 1,655 1,656 1,660 1,661 1,674 1,676 1,678 1,680 1,682 1,683 1,686 1,689 1,693 1,697 1,703 1,708 1,710 1,713 1,724 1,729 1,744 1,747 1,750 1,751 1,761 1,763 1,764 1,765 1,772 1,778 1,784 1,785 1,805 1,811 1,829 1,831 1,849 1,852 1,855 1,859 1,860 1,883 1,885 1,886 1,887 1,889 1,891 1,892 1,896 1,897 1,900 1,901 1,910 1,911 1,913 1,917 1,936 1,943 1,954 1,966 1,967 1,970 1,971 1,972 1,974 1,975 1,978 1,990 1,996 1,1001 1,1002 1,1006 1,1011 1}
+{0 neither,125 1,181 1,197 1,228 1,275 1,320 1,357 1,441 1,444 1,466 1,514 1,542 1,555 1,556 1,559 1,603 1,625 1,652 1,689 1,747 1,822 1,883 1,885 1,888 1,911 1,978 1}
+{0 neither,197 1,228 1,274 1,283 1,298 1,307 1,309 1,325 1,453 1,513 1,514 1,577 1,640 1,666 1,680 1,689 1,761 1,811 1,885 1,911 1,951 1,954 1,978 1,997 1,1007 1}
+{0 neither,11 1,58 1,89 1,123 1,126 1,140 1,155 1,164 1,177 1,228 1,334 1,405 1,426 1,496 1,542 1,689 1,707 1,708 1,829 1,880 1,885 1,911 1,963 1,970 1,978 1,990 1}
+{0 neither,10 1,140 1,177 1,178 1,197 1,227 1,316 1,388 1,533 1,540 1,542 1,628 1,673 1,682 1,689 1,747 1,749 1,885 1,900 1,911 1,978 1,993 1,1001 1}
+{0 neither,10 1,90 1,123 1,153 1,155 1,164 1,241 1,256 1,309 1,453 1,631 1,680 1,749 1,763 1,790 1,828 1,883 1,885 1,911 1,978 1,1007 1}
+{0 neither,11 1,19 1,42 1,58 1,80 1,123 1,126 1,155 1,161 1,177 1,178 1,199 1,453 1,542 1,571 1,600 1,654 1,661 1,684 1,705 1,763 1,774 1,886 1,911 1,1007 1}
+{0 neither,177 1,178 1,197 1,228 1,274 1,275 1,340 1,441 1,444 1,542 1,628 1,705 1,747 1,845 1,885 1,911 1,970 1}
+{0 neither,11 1,19 1,46 1,58 1,88 1,126 1,164 1,177 1,178 1,190 1,209 1,228 1,262 1,279 1,334 1,358 1,426 1,488 1,492 1,542 1,555 1,558 1,562 1,576 1,618 1,654 1,689 1,694 1,736 1,763 1,771 1,774 1,830 1,885 1,906 1,966 1}
+{0 neither,20 1,58 1,126 1,164 1,170 1,205 1,228 1,269 1,275 1,319 1,385 1,444 1,453 1,472 1,519 1,542 1,551 1,555 1,558 1,600 1,618 1,653 1,689 1,705 1,750 1,771 1,778 1,799 1,805 1,831 1,849 1,885 1,886 1,911 1,915 1,931 1,954 1,963 1,972 1}
+{0 neither,11 1,199 1,309 1,405 1,553 1,555 1,888 1,911 1,954 1,967 1,1001 1}
+{0 neither,19 1,22 1,50 1,88 1,125 1,177 1,178 1,197 1,228 1,241 1,244 1,256 1,297 1,319 1,335 1,357 1,358 1,400 1,441 1,444 1,454 1,519 1,542 1,553 1,555 1,581 1,631 1,639 1,661 1,680 1,689 1,703 1,708 1,715 1,789 1,852 1,885 1,889 1,900 1,905 1,909 1,911 1,954 1,978 1}
+{0 plot,11 1,45 1,51 1,58 1,119 1,126 1,168 1,178 1,197 1,228 1,232 1,244 1,274 1,334 1,357 1,366 1,376 1,400 1,437 1,441 1,444 1,457 1,533 1,542 1,553 1,555 1,641 1,643 1,654 1,674 1,683 1,689 1,696 1,698 1,708 1,710 1,712 1,730 1,830 1,854 1,881 1,883 1,885 1,886 1,911 1,916 1,933 1,943 1,954 1,961 1,990 1,997 1}
+{0 neither,140 1,444 1,601 1,654 1}
+{0 neither,385 1,654 1,881 1,911 1,917 1}
+{0 neither,11 1,222 1,228 1,296 1,298 1,441 1,444 1,533 1,555 1,618 1,619 1,659 1,680 1,682 1,684 1,689 1,707 1,771 1,808 1,831 1,884 1,885 1,937 1,970 1}
+{0 neither,23 1,58 1,126 1,228 1,274 1,298 1,354 1,400 1,425 1,444 1,660 1,689 1,694 1,708 1,751 1,764 1,829 1,885 1,911 1}
+{0 neither,8 1,19 1,58 1,126 1,197 1,228 1,237 1,241 1,274 1,275 1,298 1,340 1,424 1,436 1,444 1,464 1,466 1,468 1,551 1,594 1,628 1,654 1,659 1,683 1,689 1,705 1,724 1,763 1,829 1,845 1,852 1,860 1,862 1,885 1,888 1,900 1,901 1,911 1,913 1,954 1,970 1,972 1}
+{0 neither,4 1,40 1,164 1,262 1,279 1,384 1,406 1,697 1,830 1,885 1,917 1}
+{0 neither,12 1,38 1,40 1,41 1,164 1,197 1,223 1,228 1,240 1,244 1,245 1,274 1,275 1,296 1,298 1,325 1,350 1,366 1,384 1,436 1,444 1,453 1,478 1,480 1,526 1,533 1,542 1,544 1,555 1,600 1,618 1,619 1,623 1,625 1,626 1,628 1,631 1,654 1,674 1,682 1,683 1,686 1,689 1,699 1,708 1,748 1,751 1,763 1,771 1,774 1,788 1,830 1,831 1,845 1,849 1,851 1,852 1,883 1,885 1,889 1,911 1,943 1,985 1}
+{0 neither,58 1,126 1,164 1,197 1,209 1,256 1,274 1,458 1,497 1,525 1,542 1,553 1,655 1,682 1,797 1,805 1,881 1,883 1,885 1,890 1,895 1,900 1,911 1,923 1,1002 1}
+{0 neither,1 1,58 1,126 1,216 1,263 1,370 1,441 1,524 1,536 1,676 1,682 1,750 1,774 1,890 1,897 1,993 1,1006 1}
+{0 neither,58 1,89 1,118 1,124 1,126 1,164 1,177 1,178 1,197 1,214 1,218 1,222 1,228 1,244 1,256 1,262 1,274 1,298 1,326 1,340 1,366 1,444 1,466 1,478 1,542 1,571 1,584 1,594 1,618 1,621 1,631 1,674 1,689 1,696 1,705 1,708 1,750 1,768 1,771 1,772 1,852 1,878 1,883 1,884 1,885 1,892 1,900 1,905 1,911 1,913 1,943 1,949 1,970 1,972 1,1002 1,1006 1}
+{0 neither,12 1,38 1,58 1,106 1,126 1,144 1,197 1,213 1,223 1,228 1,241 1,244 1,264 1,274 1,298 1,326 1,335 1,340 1,357 1,384 1,425 1,441 1,442 1,466 1,480 1,542 1,558 1,565 1,594 1,618 1,628 1,642 1,659 1,676 1,689 1,698 1,708 1,713 1,759 1,761 1,771 1,788 1,789 1,829 1,849 1,852 1,885 1,892 1,900 1,906 1,909 1,911 1,933 1,960 1,973 1,978 1,979 1,990 1,1001 1}
+{0 neither,11 1,12 1,38 1,40 1,220 1,228 1,274 1,275 1,358 1,419 1,441 1,444 1,466 1,478 1,519 1,542 1,544 1,624 1,654 1,674 1,682 1,683 1,686 1,689 1,697 1,741 1,751 1,805 1,830 1,849 1,885 1,913 1,943 1,978 1}
+{0 neither,1 1,11 1,12 1,19 1,38 1,40 1,88 1,178 1,197 1,218 1,221 1,227 1,228 1,263 1,271 1,274 1,298 1,335 1,357 1,384 1,441 1,519 1,542 1,558 1,623 1,624 1,628 1,641 1,689 1,694 1,696 1,697 1,741 1,749 1,761 1,763 1,789 1,829 1,830 1,852 1,883 1,885 1,917 1,1002 1}
+{0 neither,1 1,86 1,95 1,126 1,128 1,154 1,164 1,175 1,177 1,178 1,197 1,199 1,228 1,247 1,267 1,272 1,274 1,275 1,296 1,298 1,314 1,366 1,400 1,422 1,444 1,456 1,466 1,533 1,542 1,550 1,553 1,555 1,594 1,618 1,628 1,631 1,644 1,653 1,654 1,655 1,674 1,680 1,683 1,689 1,696 1,698 1,788 1,808 1,849 1,873 1,883 1,885 1}
+{0 neither,14 1,89 1,232 1,240 1,263 1,274 1,406 1,454 1,542 1,639 1,689 1,720 1,794 1,852 1,881 1,885 1,905 1,909 1,954 1}
+{0 neither,1 1,22 1,58 1,126 1,177 1,178 1,197 1,199 1,209 1,218 1,219 1,223 1,228 1,241 1,244 1,251 1,252 1,267 1,272 1,274 1,275 1,296 1,298 1,325 1,334 1,357 1,370 1,382 1,399 1,402 1,441 1,444 1,461 1,533 1,542 1,544 1,553 1,555 1,558 1,618 1,623 1,625 1,641 1,642 1,654 1,655 1,674 1,680 1,683 1,689 1,694 1,696 1,699 1,708 1,724 1,748 1,760 1,761 1,763 1,764 1,771 1,775 1,785 1,788 1,789 1,808 1,829 1,830 1,849 1,852 1,862 1,883 1,884 1,885 1,886 1,890 1,902 1,905 1,911 1,933 1,954 1,962 1,964 1,967 1,970 1,1001 1,1003 1}
+{0 neither,197 1,228 1,237 1,275 1,287 1,325 1,562 1,654 1,683 1,690 1,704 1,706 1,767 1,831 1,978 1}
+{0 neither,38 1,71 1,107 1,125 1,164 1,177 1,178 1,197 1,218 1,228 1,251 1,268 1,275 1,401 1,542 1,553 1,558 1,619 1,629 1,655 1,674 1,689 1,703 1,708 1,710 1,849 1,885 1,911 1,967 1}
+{0 plot,32 1,58 1,126 1,553 1,619 1,621 1,633 1,689 1,696 1,799 1,883 1,885 1,900 1,978 1,1006 1}
+{170 1,256 1,282 1,419 1,975 1}
+{165 1,197 1,256 1,318 1,372 1,524 1,542 1,571 1,666 1,707 1,972 1,985 1,990 1}
+{0 neither,71 1,140 1,163 1,164 1,185 1,199 1,244 1,274 1,298 1,366 1,382 1,441 1,444 1,514 1,542 1,555 1,661 1,684 1,689 1,696 1,713 1,772 1,780 1,883 1,884 1,885 1,900 1,913 1,943 1,964 1,999 1}
+{0 neither,20 1,71 1,78 1,185 1,218 1,241 1,244 1,256 1,298 1,374 1,490 1,515 1,557 1,558 1,562 1,618 1,675 1,689 1,705 1,781 1,808 1,831 1,835 1,849 1,883 1,885 1,887 1,897 1,911 1,925 1,937 1,975 1}
+{0 neither,47 1,66 1,71 1,78 1,110 1,240 1,251 1,256 1,475 1,490 1,885 1,909 1,911 1}
+{0 neither,66 1,228 1,325 1,441 1,694 1,799 1,889 1,911 1,913 1,925 1,1001 1,1006 1}
+{0 neither,1 1,58 1,63 1,126 1,192 1,237 1,664 1,769 1,906 1,974 1}
+{0 plot,58 1,115 1,126 1,140 1,197 1,228 1,258 1,277 1,553 1,555 1,621 1,689 1,769 1,816 1,829 1,885 1,984 1,990 1,1006 1}
+{0 plot,197 1,405 1,424 1,444 1,555 1,762 1,779 1,811 1,931 1}
+{0 neither,66 1,71 1,475 1,849 1,911 1,951 1}
+{0 neither,71 1,224 1,975 1}
+{0 neither,58 1,113 1,197 1,218 1,228 1,237 1,241 1,273 1,296 1,318 1,423 1,428 1,444 1,451 1,486 1,542 1,594 1,612 1,628 1,680 1,689 1,711 1,829 1,885 1,886 1,939 1,976 1,990 1}
+{0 neither,71 1,210 1,228 1,251 1,365 1,441 1,571 1,664 1,732 1,900 1,911 1}
+{0 neither,64 1,108 1,139 1,197 1,228 1,403 1,438 1}
+{0 plot,164 1,197 1,227 1,273 1,372 1,555 1,619 1,687 1,689 1,732 1}
+{0 plot,22 1,197 1,275 1,504 1,628 1,680 1,861 1,961 1}
+{0 neither,184 1,228 1,275 1,368 1,504 1,613 1,619 1,668 1,689 1,694 1}
+{0 plot,11 1,275 1,372 1,594 1,619 1,694 1,972 1}
+{170 1,256 1,282 1,419 1,975 1}
+{165 1,197 1,256 1,318 1,372 1,524 1,542 1,571 1,666 1,707 1,972 1,985 1,990 1}
+{0 neither,43 1,58 1,126 1,485 1,936 1,978 1}
+{0 neither,168 1,218 1,228 1,275 1,435 1,761 1,885 1,892 1,957 1,963 1,966 1,1007 1}
+{0 neither,168 1,228 1,776 1,887 1,993 1}
+{58 1,64 1,139 1,168 1,191 1,192 1,228 1,330 1,542 1,614 1,885 1,978 1,993 1}
+{56 1,66 1,168 1,199 1,228 1,237 1,259 1,313 1,402 1,421 1,547 1,558 1,560 1,617 1,648 1,851 1,873 1,885 1,887 1,889 1,892 1,911 1,953 1,990 1,993 1}
+{43 1,44 1,58 1,126 1,199 1,228 1,555 1,569 1,633 1,697 1,822 1,892 1,963 1,993 1,1007 1}
+{0 neither,58 1,71 1,126 1,366 1,487 1,936 1,978 1}
+{0 neither,71 1,108 1,258 1,296 1,321 1,366 1,466 1,680 1,911 1}
+{0 neither,71 1,197 1,262 1,405 1,500 1,558 1,571 1,592 1,594 1,606 1,967 1}
+{0 neither,400 1}
+{0 neither,82 1,562 1,660 1,664 1,694 1,885 1,993 1}
+{0 neither,71 1,228 1,256 1,299 1,402 1,441 1,444 1,549 1,555 1,675 1,696 1,790 1,885 1,909 1,911 1,937 1,966 1,993 1,994 1}
+{0 neither,71 1,197 1,228 1,272 1,280 1,302 1,542 1,592 1,618 1,664 1,684 1,743 1,883 1,994 1}
+{0 neither,63 1,71 1,225 1,228 1,258 1,267 1,586 1,618 1,684 1,689 1,708 1,861 1,935 1,954 1,966 1}
+{0 neither,22 1,58 1,71 1,126 1,198 1,225 1,228 1,237 1,241 1,274 1,435 1,436 1,441 1,451 1,504 1,506 1,682 1,684 1,710 1,748 1,761 1,770 1,808 1,883 1,885 1,911 1,936 1,956 1}
+{0 neither,71 1,110 1,203 1,225 1,228 1,251 1,258 1,262 1,275 1,309 1,435 1,475 1,504 1,515 1,599 1,647 1,648 1,661 1,664 1,694 1,703 1,718 1,761 1,829 1,885 1,900 1,911 1,913 1,956 1}
+{0 neither,71 1,221 1,228 1,259 1,262 1,478 1,500 1,504 1,532 1,553 1,555 1,673 1,689 1,708 1,766 1,839 1,900 1,990 1}
+{0 neither,58 1,71 1,126 1,165 1,197 1,228 1,267 1,398 1,407 1,437 1,441 1,444 1,478 1,553 1,555 1,633 1,676 1,689 1,696 1,698 1,738 1,780 1,857 1,885 1,889 1,901 1,911 1,913 1,995 1}
+{0 neither,71 1,222 1,228 1,316 1,361 1,436 1,437 1,532 1,555 1,562 1,633 1,689 1,708 1,761 1,770 1,857 1,900 1,911 1}
+{0 neither,22 1,71 1,197 1,300 1,490 1,780 1,849 1,995 1}
+{0 neither,256 1,341 1,387 1,403 1,664 1,755 1,819 1,904 1,911 1,993 1}
+{0 neither,228 1,632 1,680 1,681 1,702 1}
+{0 plot,22 1,58 1,126 1,228 1,419 1,476 1,515 1,553 1,615 1,655 1,681 1,689 1,696 1,708 1,808 1,885 1,889 1,915 1}
+{0 plot,56 1,81 1,226 1,228 1,402 1,422 1,444 1,553 1,555 1,615 1,761 1,892 1,909 1}
+{0 plot,107 1,228 1,237 1,241 1,251 1,477 1,511 1,532 1,553 1,555 1,628 1,629 1,761 1,885 1,892 1,910 1,911 1,978 1,990 1}
+{0 neither,13 1,58 1,71 1,126 1,197 1,205 1,218 1,225 1,228 1,256 1,258 1,271 1,274 1,296 1,300 1,331 1,382 1,428 1,436 1,444 1,482 1,499 1,504 1,542 1,553 1,555 1,558 1,633 1,638 1,664 1,674 1,701 1,761 1,831 1,881 1,883 1,900 1,911 1,1007 1}
+{0 neither,9 1,71 1,197 1,218 1,228 1,263 1,383 1,444 1,506 1,555 1,612 1,633 1,665 1,668 1,689 1,761 1,764 1,799 1,831 1,891 1,900 1,911 1,922 1,932 1,943 1,954 1,1002 1}
+{0 neither,58 1,126 1,197 1,199 1,366 1,400 1,507 1,571 1,854 1,883 1,954 1,980 1,1007 1}
+{0 neither,37 1,58 1,126 1,164 1,197 1,228 1,282 1,418 1,524 1,553 1,606 1,972 1,978 1}
+{0 neither,36 1,58 1,101 1,241 1,553 1,573 1,657 1,824 1}
+{0 neither,164 1,366 1,380 1,542 1,553 1,594 1,705 1,743 1,892 1,978 1}
+{0 neither,168 1,368 1,963 1}
+{0 neither,62 1,102 1,197 1,198 1,228 1,235 1,238 1,258 1,370 1,437 1,443 1,551 1,555 1,562 1,619 1,676 1,681 1,694 1,696 1,705 1,723 1,767 1,811 1,824 1,839 1,885 1,892 1,896 1,911 1,921 1,927 1,944 1,954 1,971 1,972 1}
+{0 neither,58 1,185 1,197 1,228 1,258 1,284 1,466 1,507 1,514 1,522 1,603 1,811 1,834 1,861 1,883 1,918 1,954 1,955 1,964 1,978 1,993 1}
+{0 neither,136 1,902 1}
+{0 neither,26 1,165 1,197 1,228 1,241 1,256 1,258 1,263 1,492 1,507 1,553 1,558 1,739 1,881 1,885 1,887 1,931 1,964 1,993 1,1001 1}
+{0 neither,1 1,4 1,6 1,35 1,58 1,66 1,71 1,128 1,144 1,164 1,203 1,218 1,228 1,241 1,258 1,298 1,418 1,444 1,472 1,475 1,484 1,506 1,507 1,553 1,573 1,606 1,689 1,696 1,768 1,885 1,887 1,900 1,911 1,922 1,954 1,978 1,982 1}
+{0 neither,58 1,187 1,197 1,198 1,241 1,250 1,296 1,298 1,507 1,524 1,566 1,567 1,715 1,767 1,911 1,920 1,954 1,955 1,963 1}
+{0 neither,58 1,197 1,228 1,241 1,258 1,296 1,339 1,370 1,407 1,444 1,500 1,507 1,522 1,555 1,566 1,567 1,573 1,586 1,618 1,723 1,735 1,811 1,851 1,883 1,885 1,900 1,911 1,920 1,926 1,954 1}
+{0 neither,37 1,58 1,164 1,197 1,218 1,228 1,237 1,241 1,300 1,405 1,414 1,489 1,507 1,522 1,553 1,694 1,698 1,720 1,875 1,885 1,887 1,892 1,911 1,980 1}
+{0 neither,13 1,44 1,58 1,262 1,358 1,372 1,375 1,453 1,468 1,500 1,507 1,571 1,590 1,832 1,892 1}
+{0 neither,61 1,228 1,267 1,296 1,372 1,477 1,507 1,553 1,555 1,571 1,574 1,590 1,689 1,694 1,833 1,885 1,889 1,892 1,911 1,951 1,964 1,972 1}
+{0 neither,5 1,179 1,180 1,228 1,248 1,441 1,453 1,468 1,522 1,524 1,555 1,696 1,699 1,761 1,885 1,911 1}
+{0 neither,58 1,61 1,228 1,296 1,372 1,507 1,553 1,555 1,571 1,574 1,892 1,911 1,951 1,964 1,972 1}
+{0 neither,22 1,37 1,57 1,58 1,65 1,164 1,197 1,218 1,228 1,241 1,298 1,324 1,400 1,436 1,522 1,524 1,533 1,563 1,573 1,589 1,590 1,694 1,723 1,816 1,880 1,885 1,887 1,935 1,936 1,978 1}
+{0 neither,57 1,58 1,197 1,228 1,241 1,507 1,522 1,553 1,696 1,876 1,877 1,885 1,924 1,961 1,972 1,980 1}
+{0 neither,65 1,228 1,241 1,480 1,500 1,524 1,689 1,715 1,789 1,831 1,872 1,885 1}
+{0 neither,58 1,115 1,197 1,228 1,241 1,267 1,553 1,573 1,705 1,885 1,961 1,980 1}
+{0 neither,11 1,57 1,58 1,241 1,371 1,522 1,877 1,885 1,913 1,924 1}
+{0 neither,61 1,199 1,228 1,372 1,477 1,507 1,553 1,571 1,694 1,874 1,964 1}
+{0 neither,61 1,197 1,228 1,268 1,372 1,444 1,507 1,524 1,553 1,715 1,768 1,885 1,980 1}
+{0 neither,22 1,57 1,197 1,198 1,228 1,246 1,267 1,296 1,298 1,341 1,365 1,367 1,405 1,436 1,444 1,480 1,514 1,516 1,522 1,524 1,551 1,553 1,566 1,572 1,680 1,689 1,694 1,708 1,715 1,768 1,802 1,875 1,883 1,885 1,892 1,911 1,924 1,954 1,963 1}
+{0 neither,147 1,258 1,400 1,504 1,514 1,636 1,680 1,696 1,811 1,824 1,911 1,994 1}
+{0 neither,147 1,228 1,331 1,681 1,721 1,811 1,954 1,971 1}
+{0 neither,58 1,109 1,241 1,280 1,296 1,302 1,310 1,359 1,366 1,400 1,453 1,500 1,514 1,553 1,689 1,811 1,824 1,911 1,926 1,968 1}
+{0 neither,11 1,36 1,57 1,58 1,61 1,66 1,102 1,144 1,197 1,201 1,203 1,221 1,228 1,235 1,241 1,262 1,300 1,301 1,309 1,370 1,400 1,500 1,507 1,522 1,553 1,681 1,778 1,822 1,870 1,877 1,885 1,911 1,966 1,978 1}
+{0 neither,57 1,58 1,187 1,228 1,297 1,323 1,444 1,475 1,507 1,522 1,543 1,672 1,795 1,863 1,885 1,892 1,964 1,978 1}
+{0 neither,13 1,58 1,241 1,296 1,298 1,387 1,403 1,475 1,507 1,523 1,547 1,553 1,573 1,885 1,892 1,911 1}
+{0 neither,43 1,228 1,258 1,428 1,494 1,504 1,522 1,524 1,553 1,746 1,892 1,911 1}
+{0 neither,65 1,197 1,228 1,256 1,300 1,331 1,406 1,419 1,444 1,496 1,507 1,524 1,553 1,666 1,964 1}
+{22 1,58 1,197 1,218 1,228 1,400 1,477 1,553 1,603 1,694 1,708 1,849 1,896 1,900 1,978 1}
+{0 neither,13 1,57 1,58 1,71 1,139 1,228 1,241 1,269 1,444 1,451 1,466 1,475 1,507 1,524 1,558 1,571 1,670 1,689 1,696 1,795 1,892 1,909 1,911 1,964 1,967 1}
+{0 neither,66 1,139 1,228 1,477 1,500 1,522 1,553 1,828 1,911 1,929 1,978 1}
+{0 neither,58 1,65 1,201 1,228 1,260 1,450 1,507 1,524 1,542 1,551 1,553 1,680 1,705 1,883 1,885 1,974 1,978 1}
+{58 1,64 1,197 1,222 1,228 1,229 1,241 1,256 1,258 1,278 1,279 1,300 1,532 1,573 1,689 1,811 1,832 1,887 1,911 1}
+{30 1,58 1,64 1,71 1,197 1,218 1,228 1,237 1,244 1,267 1,341 1,402 1,466 1,553 1,555 1,562 1,594 1,603 1,795 1,828 1,829 1,883 1,892 1,900 1,954 1,959 1}
+{65 1,66 1,129 1,197 1,198 1,228 1,290 1,298 1,341 1,403 1,460 1,472 1,542 1,553 1,573 1,655 1,689 1,729 1,735 1,839 1,863 1,885 1,911 1}
+{0 neither,58 1,197 1,228 1,296 1,370 1,434 1,437 1,507 1,524 1,542 1,663 1,708 1,711 1,881 1,883 1,887 1,911 1,958 1}
+{0 neither,190 1,197 1,198 1,199 1,228 1,256 1,266 1,267 1,310 1,434 1,445 1,451 1,507 1,513 1,522 1,523 1,524 1,525 1,532 1,553 1,562 1,592 1,640 1,654 1,689 1,708 1,715 1,718 1,723 1,765 1,767 1,768 1,775 1,799 1,885 1,900 1,911 1,929 1,972 1,975 1,980 1}
+{58 1,126 1,197 1,228 1,237 1,299 1,370 1,383 1,444 1,504 1,555 1,676 1,689 1,758 1,761 1,844 1,883 1,887 1,889 1,896 1,901 1,911 1,932 1,954 1,966 1}
+{0 neither,71 1,110 1,164 1,189 1,197 1,210 1,221 1,228 1,231 1,243 1,258 1,365 1,381 1,420 1,502 1,553 1,555 1,558 1,571 1,665 1,673 1,680 1,687 1,689 1,695 1,761 1,885 1,900 1,954 1}
+{0 neither,71 1,199 1,228 1,296 1,502 1,553 1,555 1,664 1,696 1,718 1,900 1}
+{0 neither,71 1,228 1,444 1,502 1,555 1,618 1,665 1,885 1}
+{0 neither,22 1,71 1,78 1,197 1,198 1,228 1,241 1,256 1,267 1,379 1,466 1,555 1,575 1,628 1,664 1,689 1,710 1,776 1,835 1,900 1,910 1,911 1,975 1,1002 1}
+{0 neither,58 1,126 1,195 1,197 1,198 1,228 1,258 1,321 1,500 1,680 1,693 1,761 1,811 1,821 1,883 1,911 1,954 1,966 1,1001 1,1007 1}
+{0 plot,71 1,164 1,351 1,424 1,553 1,791 1,975 1}
+{0 plot,82 1,228 1,274 1,383 1,443 1,553 1,885 1,907 1,911 1,932 1}
+{0 plot,82 1,228 1,277 1,499 1,558 1,607 1,680 1}
+{0 plot,82 1,228 1,298 1,405 1,457 1,500 1,553 1,568 1,620 1,633 1,689 1,712 1,831 1,883 1,978 1}
+{0 neither,56 1,71 1,197 1,198 1,199 1,218 1,225 1,228 1,256 1,258 1,259 1,290 1,331 1,392 1,436 1,443 1,451 1,504 1,532 1,542 1,551 1,555 1,562 1,582 1,619 1,623 1,644 1,676 1,689 1,705 1,729 1,761 1,873 1,885 1,896 1,911 1,950 1,967 1,978 1,982 1,990 1}
+{0 plot,71 1,185 1,457 1,490 1,542 1,655 1,761 1,911 1,954 1}
+{0 plot,58 1,71 1,228 1,241 1,244 1,256 1,310 1,448 1,524 1,592 1,633 1,654 1,674 1,708 1,717 1,831 1,854 1,885 1,911 1,954 1}
+{0 neither,61 1,197 1,296 1,448 1,507 1,612 1,654 1,708 1,954 1}
+{71 1,167 1,198 1,220 1,228 1,241 1,256 1,296 1,489 1,507 1,532 1,561 1,571 1,576 1,654 1,799 1,849 1,883 1,885 1,911 1,967 1,975 1}
+{78 1,228 1,437 1,467 1,507 1,532 1,708 1,799 1,831 1,856 1}
+{0 plot,71 1,78 1,198 1,227 1,228 1,256 1,258 1,405 1,443 1,476 1,497 1,532 1,562 1,571 1,619 1,675 1,808 1,885 1,907 1,911 1,951 1,964 1}
+{33 1,58 1,71 1,197 1,198 1,199 1,228 1,256 1,259 1,270 1,451 1,524 1,723 1,799 1,857 1,892 1,897 1,911 1,951 1,964 1,998 1}
+{71 1,139 1,228 1,259 1,452 1,487 1,524 1,911 1,951 1,978 1}
+{64 1,71 1,197 1,228 1,267 1,278 1,603 1,689 1,829 1,851 1,869 1,911 1,951 1}
+{0 plot,22 1,71 1,79 1,197 1,207 1,227 1,228 1,429 1,457 1,504 1,561 1,594 1,654 1,694 1,764 1,900 1,911 1,951 1}
+{0 neither,134 1,431 1,441 1,444 1,555 1,594 1,696 1,885 1,909 1}
+{0 neither,83 1,435 1,673 1,885 1,957 1}
+{0 neither,83 1,296 1,717 1,887 1,957 1}
+{0 plot,71 1,110 1,235 1,985 1}
+{0 plot,58 1,71 1,79 1,82 1,126 1,199 1,207 1,227 1,228 1,258 1,300 1,301 1,504 1,542 1,585 1,594 1,680 1,706 1,787 1,791 1,801 1,829 1,883 1,911 1,967 1}
+{0 neither,109 1}
+{0 neither,224 1,228 1,237 1,256 1,640 1,696 1,819 1,900 1,913 1}
+{0 plot,43 1,71 1,152 1,228 1,365 1,555 1,791 1,814 1,829 1,975 1}
+{0 neither,71 1,195 1,209 1,244 1,296 1,441 1,480 1,492 1,555 1,668 1,831 1,911 1,922 1,941 1}
+{0 plot,71 1,195 1,244 1,258 1,416 1,651 1,664 1,889 1,910 1,954 1,963 1,967 1}
+{0 plot,22 1,71 1,197 1,228 1,277 1,400 1,416 1,444 1,664 1,681 1,768 1,794 1,883 1,889 1,954 1,966 1}
+{33 1,64 1,99 1,197 1,204 1,227 1,229 1,267 1,282 1,555 1,703 1,954 1}
+{0 neither,117 1,279 1}
+{0 plot,22 1,71 1,222 1,579 1,954 1}
+{57 1,71 1,224 1,299 1,555 1,578 1,911 1,966 1,993 1}
+{71 1,148 1,228 1,264 1,331 1,521 1,522 1,547 1,615 1,885 1}
+{71 1,197 1,221 1,258 1,296 1,507 1,532 1,551 1,614 1,661 1,689 1,913 1,954 1}
+{0 plot,71 1,197 1,228 1,244 1,258 1,296 1,389 1,498 1,579 1,609 1,633 1,664 1,671 1,682 1,692 1,715 1,775 1,884 1,910 1,936 1,954 1,967 1}
+{57 1,71 1,112 1,204 1,222 1,228 1,491 1,522 1,529 1,553 1,614 1,829 1}
+{58 1,65 1,197 1,228 1,450 1,458 1,478 1,553 1,829 1,861 1,911 1}
+{58 1,71 1,228 1,365 1,405 1,441 1,444 1,474 1,507 1,522 1,523 1,552 1,615 1,696 1,885 1,911 1,954 1}
+{61 1,197 1,228 1,230 1,241 1,244 1,250 1,288 1,303 1,388 1,444 1,473 1,507 1,522 1,696 1,790 1,822 1,885 1,954 1}
+{139 1,529 1,553 1,885 1}
+{0 neither,71 1,234 1,256 1,337 1,375 1,522 1,532 1,634 1,911 1,932 1}
+{61 1,256 1,296 1,500 1,507 1,524 1,631 1,711 1}
+{33 1,65 1,71 1,204 1,228 1,503 1,522 1,532 1,828 1,829 1}
+{33 1,71 1,78 1,165 1,228 1,256 1,258 1,296 1,388 1,444 1,503 1,517 1,555 1,571 1,617 1,634 1,742 1,767 1,808 1,831 1,849 1,885 1,908 1,909 1,910 1,936 1,963 1}
+{0 neither,79 1,865 1}
+{0 neither,71 1,234 1,296 1,370 1,476 1,504 1,505 1,507 1,524 1,532 1,535 1,542 1,571 1,592 1,665 1,676 1,703 1,829 1,831 1,883 1,958 1}
+{64 1,71 1,197 1,228 1,241 1,278 1,296 1,351 1,503 1,532 1,553 1,811 1,828 1,954 1,961 1}
+{53 1,58 1,139 1,147 1,197 1,228 1,258 1,259 1,437 1,444 1,451 1,492 1,503 1,514 1,531 1,542 1,705 1,708 1,733 1,789 1,811 1,885 1,892 1,911 1,958 1,963 1,988 1}
+{33 1,58 1,71 1,139 1,147 1,198 1,218 1,228 1,244 1,258 1,296 1,365 1,405 1,474 1,514 1,594 1,680 1,689 1,690 1,721 1,752 1,809 1,811 1,832 1,879 1,892 1,910 1,911 1,914 1,936 1,943 1,954 1,971 1,978 1}
+{71 1,96 1,139 1,228 1,444 1,457 1,503 1,507 1,522 1,555 1,618 1,689 1,787 1}
+{61 1,150 1,228 1,241 1,252 1,258 1,296 1,333 1,507 1,517 1,532 1,542 1,553 1,562 1,690 1,767 1,885 1,898 1,911 1,941 1,954 1,958 1,961 1,990 1}
+{58 1,61 1,197 1,199 1,228 1,302 1,366 1,466 1,524 1,542 1,661 1,718 1,743 1,815 1,885 1,911 1,920 1,925 1,971 1,978 1,993 1}
+{58 1,61 1,228 1,425 1,555 1,676 1,913 1,914 1,978 1}
+{61 1,71 1,197 1,241 1,375 1,732 1,799 1,829 1,885 1,954 1,961 1,964 1}
+{0 plot,22 1,33 1,58 1,64 1,71 1,139 1,164 1,218 1,228 1,244 1,271 1,275 1,296 1,309 1,375 1,388 1,444 1,452 1,478 1,504 1,522 1,530 1,542 1,553 1,584 1,664 1,689 1,696 1,705 1,732 1,742 1,831 1,883 1,885 1,889 1,936 1,954 1}
+{0 plot,71 1,228 1,244 1,296 1,366 1,441 1,492 1,498 1,503 1,514 1,529 1,555 1,571 1,599 1,638 1,708 1,829 1,885 1,892 1,911 1,954 1,988 1}
+{0 neither,161 1,198 1,203 1,228 1,257 1,450 1,811 1,885 1,886 1,887 1,911 1,921 1,954 1,978 1}
+{0 neither,58 1,147 1,210 1,228 1,235 1,244 1,256 1,296 1,304 1,366 1,444 1,476 1,536 1,645 1,885 1,887 1,911 1,912 1,921 1,962 1,966 1,986 1,998 1}
+{0 neither,13 1,58 1,139 1,228 1,258 1,339 1,390 1,400 1,434 1,479 1,555 1,708 1,767 1,791 1,792 1,811 1,911 1,954 1,964 1}
+{0 plot,22 1,58 1,71 1,222 1,228 1,258 1,262 1,264 1,432 1,492 1,498 1,511 1,555 1,594 1,664 1,765 1,767 1,811 1,822 1,833 1,885 1,949 1,954 1,966 1}
+{0 plot,81 1,218 1,228 1,241 1,261 1,451 1,452 1,498 1,531 1,555 1,562 1,618 1,633 1,789 1,800 1,887 1,892 1,954 1,963 1}
+{0 plot,71 1,164 1,341 1,383 1,553 1,594 1,689 1,787 1,911 1,932 1,996 1}
+{0 plot,165 1,228 1,232 1,258 1,480 1,532 1,542 1,633 1,676 1,689 1,703 1,819 1,883 1,889 1,892 1,936 1,958 1,963 1,987 1}
+{0 neither,71 1,209 1,224 1,228 1,237 1,270 1,274 1,275 1,296 1,366 1,435 1,440 1,495 1,562 1,571 1,660 1,675 1,696 1,703 1,799 1,881 1,885 1,911 1,954 1,956 1,964 1,975 1}
+{0 neither,71 1,228 1,237 1,274 1,562 1,568 1,654 1,689 1,789 1,831 1,883 1,885 1,892 1}
+{0 neither,96 1,224 1,558 1,676 1,866 1}
+{0 neither,71 1,165 1,197 1,225 1,228 1,237 1,274 1,301 1,380 1,390 1,441 1,444 1,468 1,553 1,570 1,596 1,658 1,665 1,684 1,689 1,696 1,705 1,708 1,710 1,746 1,759 1,778 1,810 1,829 1,831 1,885 1,896 1,921 1,928 1,936 1,953 1,978 1,979 1,1006 1}
+{0 plot,58 1,136 1,197 1,218 1,228 1,260 1,270 1,411 1,476 1,532 1,799 1,900 1,911 1,967 1,980 1}
+{0 plot,13 1,228 1,241 1,620 1,984 1}
+{0 plot,13 1,71 1,76 1,197 1,228 1,241 1,249 1,256 1,258 1,262 1,263 1,274 1,337 1,366 1,368 1,440 1,444 1,466 1,492 1,504 1,514 1,522 1,535 1,542 1,555 1,564 1,572 1,618 1,620 1,633 1,659 1,689 1,694 1,767 1,775 1,789 1,797 1,832 1,839 1,845 1,866 1,883 1,885 1,888 1,896 1,899 1,900 1,911 1,913 1,947 1,954 1,963 1,966 1,967 1,976 1,979 1,984 1,990 1,993 1}
+{0 plot,71 1,76 1,197 1,228 1,249 1,256 1,258 1,262 1,263 1,274 1,337 1,366 1,368 1,440 1,444 1,466 1,492 1,504 1,514 1,522 1,535 1,542 1,555 1,564 1,572 1,618 1,633 1,659 1,689 1,694 1,767 1,775 1,789 1,797 1,832 1,839 1,845 1,866 1,883 1,885 1,888 1,896 1,899 1,900 1,911 1,913 1,947 1,954 1,963 1,966 1,967 1,976 1,979 1,990 1,993 1}
+{0 neither}
+{0 neither,56 1,744 1,777 1}
+{0 plot,71 1,103 1,197 1,205 1,228 1,274 1,299 1,441 1,463 1,481 1,525 1,555 1,633 1,673 1,708 1,767 1,885 1,900 1,925 1,954 1,966 1,1007 1}
+{0 neither,10 1,28 1,71 1,87 1,275 1,394 1,433 1,441 1,448 1,661 1,761 1,829 1,883 1,885 1,900 1,943 1,958 1,978 1}
+{0 neither,22 1,71 1,197 1,227 1,228 1,274 1,299 1,365 1,388 1,460 1,463 1,492 1,607 1,673 1,676 1,689 1,754 1,760 1,829 1,883 1,885 1,900 1,911 1,936 1,966 1}
+{0 neither,22 1,56 1,79 1,228 1,515 1,553 1,555 1,744 1,777 1,926 1}
+{0 plot,71 1,103 1,197 1,205 1,228 1,274 1,299 1,441 1,463 1,481 1,525 1,555 1,633 1,673 1,708 1,767 1,885 1,900 1,925 1,954 1,966 1,1007 1}
+{0 neither,10 1,28 1,71 1,87 1,275 1,394 1,433 1,441 1,448 1,661 1,761 1,829 1,883 1,885 1,900 1,943 1,958 1,978 1}
+{0 neither,22 1,71 1,197 1,227 1,228 1,274 1,299 1,365 1,388 1,460 1,463 1,492 1,607 1,673 1,676 1,689 1,754 1,760 1,829 1,883 1,885 1,900 1,911 1,936 1,966 1}
+{0 neither,22 1,79 1,210 1,228 1,515 1,553 1,555 1,926 1}
+{0 neither,79 1,154 1,170 1,373 1,694 1,885 1,909 1,984 1}
+{0 plot,82 1,209 1,218 1,228 1,241 1,258 1,270 1,275 1,279 1,310 1,320 1,325 1,444 1,500 1,525 1,532 1,542 1,550 1,551 1,661 1,689 1,806 1,853 1,885 1,887 1,891 1,900 1,911 1,961 1}
+{0 neither,71 1,190 1,228 1,263 1,274 1,365 1,428 1,433 1,441 1,675 1,844 1,849 1,867 1,885 1,900 1,958 1,978 1}
+{0 plot,71 1,76 1,241 1,296 1,313 1,545 1,554 1,562 1,594 1,661 1,703 1,755 1,829 1,885 1,996 1,1005 1}
+{0 plot,82 1,197 1,423 1,696 1,740 1,854 1,978 1}
+{22 1,71 1,83 1,224 1,228 1,237 1,275 1,504 1,510 1,577 1,661 1,885 1}
+{0 plot,11 1,197 1,275 1,415 1,504 1,558 1,594 1,616 1,633 1,761 1,849 1,854 1,885 1,911 1}
+{0 plot,71 1,103 1,164 1,227 1,228 1,274 1,427 1,504 1,631 1,645 1,689 1,717 1,885 1,895 1,900 1,931 1}
+{11 1,81 1,105 1,185 1,197 1,241 1,296 1,360 1,374 1,391 1,451 1,483 1,562 1,661 1,689 1,707 1,842 1,870 1,911 1,936 1}
+{0 neither,196 1,241 1,274 1,319 1,531 1,542 1,664 1,685 1,689 1,705 1,733 1,789 1,885 1}
+{0 plot,170 1,197 1,228 1,287 1,371 1,372 1,445 1,542 1,553 1,555 1,604 1,644 1,670 1,694 1,707 1,767 1,780 1,808 1,975 1}
+{0 neither,19 1}
+{0 neither,58 1,126 1,195 1,197 1,211 1,239 1,244 1,553 1,650 1,689 1,796 1,871 1,900 1,911 1}
+{0 neither,23 1,388 1,555 1,796 1,885 1,985 1,1006 1}
+{0 neither,58 1,84 1,106 1,126 1,130 1,164 1,173 1,197 1,228 1,241 1,262 1,274 1,275 1,298 1,365 1,444 1,475 1,500 1,551 1,558 1,601 1,674 1,680 1,689 1,694 1,707 1,734 1,780 1,831 1,885 1,888 1,909 1,943 1,975 1}
+{0 neither,19 1,881 1}
+{0 neither,58 1,126 1,195 1,197 1,211 1,239 1,244 1,553 1,650 1,689 1,796 1,871 1,900 1,911 1}
+{0 neither,23 1,388 1,555 1,796 1,885 1,985 1,1006 1}
+{0 neither,58 1,84 1,106 1,126 1,130 1,164 1,173 1,197 1,228 1,241 1,262 1,274 1,275 1,298 1,365 1,444 1,475 1,500 1,551 1,558 1,601 1,674 1,680 1,689 1,694 1,707 1,734 1,780 1,831 1,885 1,888 1,909 1,943 1,975 1}
+{0 neither,126 1,197 1,228 1,320 1,558 1,580 1,597 1,684 1,694 1,705 1,708 1,735 1,745 1,881 1,885 1,946 1,975 1}
+{0 neither,58 1,71 1,84 1,91 1,126 1,140 1,147 1,227 1,232 1,296 1,300 1,310 1,320 1,437 1,492 1,500 1,602 1,674 1,680 1,684 1,689 1,734 1,761 1,831 1,885 1,920 1,935 1,966 1}
+{0 neither,58 1,71 1,126 1,153 1,155 1,228 1,269 1,274 1,441 1,504 1,542 1,562 1,612 1,689 1,713 1,808 1,885 1}
+{0 plot,197 1,274 1,542 1,553 1,680 1,883 1,885 1,961 1,997 1}
+{0 neither,81 1,164 1,227 1,253 1,270 1,274 1,296 1,400 1,553 1,555 1,659 1,661 1,689 1,761 1,799 1,881 1,885 1,911 1,938 1,954 1,970 1}
+{0 plot,58 1,126 1,153 1,155 1,228 1,275 1,371 1,444 1,558 1,608 1,672 1,680 1,696 1,807 1,829 1,859 1,883 1,885 1,911 1}
+{0 neither,21 1,30 1,58 1,70 1,126 1,144 1,164 1,171 1,174 1,227 1,228 1,256 1,298 1,444 1,532 1,542 1,553 1,689 1,748 1,761 1,814 1,911 1,974 1}
+{0 neither,144 1,164 1,171 1,241 1,274 1,298 1,684 1,689 1,710 1,885 1}
+{0 neither,22 1,70 1,274 1,424 1,680 1,755 1,849 1,954 1}
+{0 neither,21 1,30 1,140 1,144 1,174 1,228 1,500 1,542 1,555 1,620 1,645 1,689 1,885 1}
+{0 neither,22 1,58 1,71 1,126 1,164 1,197 1,228 1,237 1,241 1,244 1,275 1,296 1,319 1,408 1,453 1,542 1,553 1,555 1,563 1,631 1,633 1,642 1,643 1,680 1,689 1,703 1,715 1,761 1,764 1,821 1,831 1,861 1,883 1,885 1,886 1,900 1,910 1,911 1,964 1,972 1,975 1,978 1}
+{0 neither,140 1,218 1,244 1,270 1,555 1,680 1,761 1,881 1,883 1,892 1}
+{0 neither,140 1,228 1,271 1,296 1,298 1,453 1,620 1,634 1,654 1,678 1,680 1,689 1,722 1,739 1,836 1,885 1,892 1,911 1,929 1}
+{0 neither,66 1,164 1,197 1,228 1,237 1,241 1,356 1,471 1,619 1,666 1,690 1,698 1,795 1,801 1,822 1,837 1,885 1,886 1,901 1,911 1,967 1,977 1,981 1,982 1}
+{0 neither,6 1,66 1,141 1,241 1,267 1,298 1,507 1,553 1,689 1,710 1,942 1}
+{0 neither,164 1,228 1,232 1,237 1,267 1,459 1,562 1,594 1,654 1,698 1,705 1,829 1,1007 1}
+{0 neither,71 1,88 1,141 1,164 1,197 1,244 1,441 1,453 1,493 1,542 1,551 1,584 1,603 1,689 1,885 1,945 1,999 1}
+{0 neither,244 1,553 1}
+{0 neither,54 1,71 1,121 1,132 1,135 1,296 1,298 1,444 1,477 1,505 1,689 1,761 1,780 1,885 1,888 1,900 1,911 1,954 1,955 1,972 1,1005 1}
+{0 plot,54 1,68 1,71 1,100 1,121 1,146 1,164 1,214 1,218 1,243 1,256 1,275 1,300 1,551 1,592 1,665 1,674 1,689 1,763 1,817 1,900 1}
+{0 plot,4 1,54 1,71 1,121 1,132 1,135 1,143 1,146 1,152 1,158 1,169 1,226 1,254 1,296 1,298 1,360 1,377 1,423 1,444 1,477 1,505 1,553 1,558 1,655 1,689 1,720 1,761 1,780 1,785 1,885 1,888 1,900 1,911 1,954 1,955 1,965 1,972 1,984 1,1005 1}
+{0 plot,54 1,68 1,71 1,100 1,121 1,146 1,164 1,214 1,218 1,243 1,256 1,275 1,300 1,551 1,592 1,665 1,674 1,689 1,763 1,817 1,900 1}
+{0 plot,4 1,54 1,121 1,143 1,146 1,158 1,169 1,226 1,254 1,360 1,377 1,423 1,424 1,553 1,558 1,655 1,785 1,885 1,911 1,965 1,984 1}
+{0 neither,47 1,565 1}
+{0 neither,47 1,206 1}
+{0 plot,3 1,140 1,197 1,199 1,200 1,228 1,237 1,279 1,317 1,542 1,619 1,662 1,678 1,689 1,727 1,883 1,885 1,900 1,990 1,1009 1}
+{0 neither,256 1,325 1,457 1,458 1,477 1,542 1,553 1,572 1,673 1,689 1,696 1,716 1,829 1,885 1,911 1,969 1}
+{0 neither,703 1}
+{0 neither,592 1,689 1,716 1}
+{0 neither,22 1,58 1,77 1,197 1,218 1,523 1,553 1,689 1,885 1,911 1,980 1,991 1,1010 1}
+{0 neither,58 1,164 1,197 1,282 1,472 1,507 1,524 1,605 1,606 1,693 1,698 1,710 1,911 1,954 1,966 1,972 1,1001 1}
+{0 neither,37 1,164 1,237 1,498 1,542 1,689 1,886 1}
+{0 neither,58 1,168 1,197 1,221 1,228 1,444 1,654 1,689 1,723 1,834 1,881 1,885 1,886 1,892 1,896 1,897 1,992 1}
+{0 neither,169 1,522 1,689 1}
+{0 neither,168 1,522 1}
+{0 neither,168 1,522 1}
+{11 1,218 1,370 1,689 1,891 1,892 1,896 1}
+{13 1,197 1,517 1,536 1,680 1,723 1,765 1}
+{197 1,205 1,227 1,256 1,444 1,504 1,517 1,553 1,555 1,584 1,630 1,703 1,762 1,829 1,911 1,964 1,1006 1}
+{197 1,562 1,763 1,799 1,944 1}
+{1 1,58 1,228 1,300 1,371 1,861 1,883 1,892 1,896 1,911 1,944 1,972 1,978 1}
+{83 1,199 1,206 1,267 1,313 1,392 1,396 1,444 1,510 1,542 1,618 1,664 1,819 1,884 1,911 1,954 1,971 1}
+{0 neither,58 1,126 1,319 1,444 1,554 1,558 1,562 1}
+{0 neither,71 1,80 1,140 1,228 1,275 1,374 1,500 1,594 1,608 1,624 1,664 1,701 1,755 1,891 1,964 1,978 1}
+{0 neither,206 1,214 1,218 1,228 1,241 1,275 1,444 1,500 1,538 1,553 1,594 1,674 1,689 1,720 1,736 1,740 1,883 1,885 1,896 1,900 1,942 1,974 1}
+{0 plot,184 1,197 1,212 1,227 1,228 1,256 1,261 1,298 1,318 1,326 1,381 1,419 1,456 1,504 1,507 1,524 1,542 1,547 1,553 1,619 1,620 1,638 1,655 1,689 1,696 1,698 1,718 1,885 1,911 1,966 1,980 1,983 1,990 1,991 1}
+{184 1,256 1,314 1,504 1,521 1,635 1,691 1,694 1,703 1,893 1,911 1,969 1}
+{0 plot,11 1,269 1,293 1,504 1,551 1,731 1,854 1,883 1,885 1,959 1}
+{0 neither,822 1,854 1}
+{0 neither,11 1,319 1,555 1}
+{0 neither,152 1,975 1,1006 1}
+{0 neither,520 1,881 1}
+{0 neither,54 1,121 1,244 1,357 1,576 1,694 1,696 1,710 1,847 1,885 1}
+{0 neither,58 1,126 1,228 1,478 1,553 1,817 1,1004 1}
+{0 neither,24 1,58 1,103 1,126 1,145 1,228 1,444 1,689 1,705 1,781 1,808 1,885 1,900 1}
+{0 neither,170 1}
+{0 neither,71 1,140 1,170 1,218 1,228 1,256 1,274 1,297 1,343 1,361 1,400 1,444 1,515 1,536 1,553 1,607 1,694 1,882 1,883 1,885 1,901 1,911 1,978 1,994 1,1002 1,1006 1}
+{0 neither,226 1}
+{0 neither,674 1,845 1,885 1,911 1,1001 1}
+{0 neither,58 1,71 1,83 1,126 1,144 1,153 1,155 1,198 1,228 1,251 1,258 1,274 1,296 1,439 1,542 1,555 1,611 1,664 1,761 1,786 1,791 1,885 1,911 1,954 1,955 1,958 1}
+{0 neither,11 1,71 1,197 1,210 1,228 1,251 1,257 1,274 1,288 1,335 1,431 1,450 1,463 1,549 1,555 1,616 1,633 1,664 1,684 1,689 1,693 1,695 1,761 1,885 1,900 1,910 1,911 1,972 1}
+{0 neither,11 1,183 1}
+{0 neither,90 1,183 1}
+{0 plot,71 1,210 1,228 1,258 1,285 1,361 1,432 1,555 1,620 1,761 1,829 1,911 1,916 1}
+{0 neither,83 1,226 1,408 1,432 1,964 1}
+{0 neither,674 1,845 1,885 1,911 1,1001 1}
+{0 neither,58 1,71 1,83 1,126 1,144 1,153 1,155 1,198 1,228 1,251 1,258 1,274 1,296 1,439 1,542 1,555 1,611 1,664 1,761 1,786 1,791 1,885 1,911 1,954 1,955 1,958 1}
+{0 neither,11 1,71 1,197 1,210 1,228 1,251 1,257 1,274 1,288 1,335 1,431 1,450 1,463 1,549 1,555 1,616 1,633 1,664 1,684 1,689 1,693 1,695 1,761 1,885 1,900 1,910 1,911 1,972 1}
+{0 neither,11 1,183 1}
+{0 neither,90 1,183 1}
+{0 plot,71 1,210 1,228 1,258 1,285 1,361 1,432 1,555 1,620 1,761 1,829 1,911 1,916 1}
+{83 1,126 1,197 1,313 1,408 1,432 1,441 1,483 1,553 1,708 1,761 1,861 1,885 1,909 1,964 1}
+{64 1,66 1,102 1,105 1,139 1,197 1,228 1,257 1,267 1,279 1,298 1,400 1,450 1,483 1,507 1,542 1,565 1,706 1,831 1,849 1,850 1,885 1,911 1,936 1,990 1}
+{0 plot,71 1,170 1,208 1,228 1,274 1,394 1,405 1,412 1,492 1,496 1,542 1,613 1,689 1,767 1,854 1,883 1,900 1}
+{0 neither,81 1,249 1,562 1,829 1,954 1}
+{164 1,222 1,237 1,314 1,721 1}
+{64 1,71 1,228 1,398 1,514 1,614 1,643 1}
+{58 1,204 1,222 1,241 1,553 1,961 1}
+{0 plot,187 1,326 1,374 1,555 1,558 1,911 1}
+{0 plot,164 1,228 1,402 1,542 1,578 1,618 1,633 1,712 1,883 1,889 1,954 1}
+{0 plot,228 1,237 1,242 1,400 1,402 1,424 1,483 1,619 1,762 1,883 1,885 1,911 1}
+{0 plot,60 1,71 1,81 1,164 1,188 1,197 1,218 1,228 1,241 1,256 1,274 1,296 1,360 1,391 1,451 1,453 1,483 1,562 1,615 1,661 1,664 1,689 1,707 1,765 1,808 1,842 1,870 1,885 1,900 1,911 1,936 1,973 1,974 1,983 1}
+{0 neither,85 1,140 1,287 1,514 1,553 1,633 1,811 1,829 1,978 1,990 1}
+{0 plot,58 1,152 1,199 1,228 1,275 1,411 1,437 1,444 1,542 1,654 1,675 1,708 1,799 1,808 1,885 1,900 1,911 1,965 1}
+{0 neither}
+{0 plot,237 1,258 1,398 1,542 1,694 1,732 1,844 1,885 1,900 1}
+{0 neither,168 1,285 1,963 1}
+{0 plot,71 1,300 1,384 1,396 1,538 1,680 1,900 1}
+{0 plot,41 1,197 1,274 1,416 1,536 1,553 1,555 1,594 1,641 1,674 1,761 1,764 1,800 1,885 1,900 1,910 1,942 1,978 1,1012 1}
+{0 neither,71 1,200 1,555 1}
+{0 neither,58 1,79 1,83 1,126 1,228 1,436 1,693 1,808 1,846 1,885 1,1002 1}
+{0 neither,71 1,396 1,555 1,571 1,607 1,633 1,898 1,914 1,964 1,1010 1}
+{0 neither,71 1,270 1,576 1,673 1,791 1,881 1}
+{0 neither,71 1,441 1,542 1,659 1,774 1,775 1,885 1,954 1,966 1}
+{0 neither,103 1,228 1,269 1,275 1,450 1,664 1,764 1,824 1,829 1,885 1,954 1}
+{0 neither,71 1,80 1,205 1,228 1,465 1,492 1,518 1,542 1,548 1,615 1,659 1,676 1,764 1,795 1,885 1,902 1,954 1,1007 1}
+{0 neither,110 1,368 1,854 1,916 1}
+{0 neither,79 1,199 1,218 1,764 1,831 1}
+{0 neither,58 1,79 1,83 1,126 1,148 1,228 1,436 1,660 1,693 1,804 1,808 1,846 1,885 1,1002 1}
+{0 neither,71 1,396 1,555 1,571 1,607 1,633 1,898 1,914 1,964 1,1010 1}
+{0 neither,71 1,270 1,576 1,673 1,791 1,881 1}
+{0 neither,71 1,441 1,542 1,659 1,774 1,775 1,885 1,954 1,966 1}
+{0 neither,103 1,228 1,269 1,275 1,450 1,664 1,764 1,824 1,829 1,885 1,954 1}
+{0 neither,71 1,80 1,205 1,228 1,465 1,492 1,518 1,542 1,548 1,615 1,659 1,676 1,764 1,795 1,885 1,902 1,954 1,1007 1}
+{0 neither,110 1,368 1,854 1,916 1}
+{0 neither,79 1,199 1,218 1,764 1,831 1}
+{0 plot,71 1,78 1,83 1,148 1,197 1,202 1,274 1,325 1,444 1,466 1,510 1,542 1,551 1,633 1,654 1,660 1,664 1,674 1,689 1,804 1,808 1,883 1,885 1,889 1,900 1,902 1,955 1}
+{0 plot,58 1,71 1,79 1,126 1,228 1,275 1,394 1,447 1,610 1,613 1,620 1,689 1,696 1,764 1,778 1,885 1,900 1,911 1,1001 1}
+{0 neither,71 1,197 1,504 1,623 1,911 1}
+{0 neither,58 1,71 1,126 1,504 1,673 1,761 1}
+{0 neither,71 1,195 1,275 1,299 1,492 1,542 1,548 1,553 1,562 1,676 1,708 1,762 1,891 1,892 1,911 1,966 1,1003 1}
+{0 neither,71 1,199 1,295 1,542 1,764 1,885 1,913 1,954 1}
+{0 neither,58 1,64 1,166 1,228 1,415 1,514 1,553 1,664 1,698 1,705 1,816 1,883 1,885 1,967 1,978 1}
+{0 neither,71 1,185 1,197 1,218 1,403 1,434 1,437 1,477 1,504 1,546 1,623 1,708 1,710 1,742 1,814 1,885 1,911 1,964 1,978 1}
+{0 neither,58 1,71 1,126 1,504 1,673 1,761 1}
+{0 neither,71 1,195 1,275 1,299 1,492 1,542 1,548 1,553 1,562 1,676 1,708 1,762 1,891 1,892 1,911 1,966 1,1003 1}
+{0 neither,71 1,199 1,295 1,542 1,764 1,885 1,913 1,954 1}
+{0 neither,58 1,64 1,166 1,228 1,415 1,514 1,553 1,664 1,698 1,705 1,816 1,883 1,885 1,967 1,978 1}
+{0 neither,66 1,71 1,185 1,199 1,218 1,403 1,434 1,437 1,477 1,546 1,553 1,708 1,710 1,742 1,814 1,885 1,900 1,964 1,978 1}
+{0 neither,11 1,71 1,335 1,451 1,504 1,524 1,542 1,664 1,684 1,693 1,714 1,761 1,822 1,883 1,885 1,1001 1}
+{0 neither,466 1,847 1,900 1,911 1,960 1}
+{0 plot,71 1,126 1,197 1,226 1,228 1,237 1,256 1,301 1,380 1,390 1,401 1,445 1,504 1,542 1,553 1,555 1,570 1,592 1,596 1,655 1,658 1,664 1,689 1,696 1,705 1,708 1,742 1,761 1,808 1,810 1,831 1,883 1,885 1,896 1,921 1,928 1,936 1,973 1,975 1,979 1,1006 1}
+{0 neither,71 1,232 1,241 1,275 1,614 1,661 1,673 1,891 1,975 1}
+{0 plot,71 1,126 1,197 1,199 1,221 1,226 1,228 1,237 1,256 1,258 1,274 1,301 1,365 1,375 1,380 1,390 1,401 1,425 1,428 1,445 1,478 1,491 1,504 1,505 1,532 1,542 1,553 1,555 1,562 1,570 1,592 1,596 1,655 1,658 1,664 1,670 1,680 1,689 1,696 1,705 1,708 1,742 1,752 1,761 1,780 1,808 1,810 1,829 1,831 1,875 1,883 1,885 1,896 1,897 1,900 1,911 1,921 1,928 1,936 1,973 1,975 1,979 1,997 1,1006 1}
+{0 neither,71 1,232 1,241 1,275 1,614 1,661 1,673 1,891 1,975 1}
+{0 neither,71 1,197 1,199 1,221 1,258 1,274 1,365 1,375 1,425 1,428 1,478 1,491 1,504 1,505 1,532 1,551 1,553 1,555 1,562 1,655 1,670 1,680 1,687 1,689 1,701 1,752 1,761 1,780 1,829 1,875 1,885 1,897 1,900 1,911 1,987 1,997 1,1006 1}
+{0 neither,71 1,221 1,235 1,262 1,375 1,501 1,515 1,787 1,897 1,995 1}
+{0 neither,22 1,83 1,87 1,92 1,221 1,228 1,274 1,298 1,384 1,400 1,536 1,538 1,553 1,555 1,562 1,624 1,654 1,737 1,761 1,881 1,885 1,900 1}
+{0 neither,87 1,92 1,249 1,553 1}
+{0 neither,1 1,99 1,221 1,228 1,504 1,522 1,571 1,761 1,1006 1}
+{0 neither,71 1,77 1,225 1,227 1,297 1,308 1,337 1,367 1,384 1,477 1,558 1,592 1,680 1,689 1,740 1,814 1,829 1,900 1,911 1,1006 1,1009 1}
+{0 plot,447 1,538 1,807 1,844 1,885 1,911 1}
+{0 plot,5 1,37 1,58 1,59 1,71 1,78 1,126 1,139 1,140 1,141 1,153 1,155 1,158 1,197 1,200 1,210 1,218 1,228 1,235 1,237 1,241 1,256 1,275 1,296 1,314 1,337 1,363 1,370 1,379 1,387 1,398 1,412 1,444 1,453 1,456 1,478 1,504 1,514 1,553 1,555 1,594 1,620 1,631 1,650 1,654 1,655 1,656 1,680 1,684 1,689 1,691 1,696 1,698 1,711 1,722 1,745 1,761 1,764 1,780 1,782 1,801 1,820 1,868 1,883 1,885 1,900 1,909 1,911 1,913 1,941 1,961 1,966 1,978 1,995 1,1006 1}
+{0 neither,158 1,237 1,275 1,553 1,628 1,695 1,696 1,764 1,900 1,910 1,992 1}
+{0 plot,1 1,207 1,234 1,287 1,300 1,392 1,883 1}
+{0 plot,58 1,80 1,85 1,126 1,140 1,256 1,540 1,550 1,655 1,689 1,808 1,854 1,876 1,885 1}
+{0 plot,62 1,197 1,223 1,228 1,256 1,478 1,483 1,514 1,553 1,555 1,603 1,640 1,680 1,731 1,745 1}
+{0 plot,22 1,197 1,227 1,228 1,293 1,300 1,314 1,353 1,441 1,444 1,457 1,483 1,542 1,550 1,571 1,588 1,752 1,811 1,854 1,875 1,885 1,964 1,990 1,1006 1,1010 1}
+{0 neither,167 1,504 1,555 1,562 1,620 1,698 1,803 1,811 1,883 1,911 1}
+{0 plot,11 1,58 1,85 1,126 1,140 1,228 1,256 1,274 1,477 1,540 1,550 1,555 1,655 1,689 1,808 1,811 1,827 1,854 1,876 1,885 1,907 1,973 1}
+{0 plot,62 1,197 1,223 1,228 1,256 1,478 1,483 1,514 1,553 1,555 1,603 1,640 1,680 1,731 1,745 1}
+{0 plot,22 1,197 1,227 1,228 1,293 1,300 1,314 1,353 1,441 1,444 1,457 1,483 1,542 1,550 1,571 1,588 1,752 1,811 1,854 1,875 1,885 1,964 1,990 1,1006 1,1010 1}
+{0 neither,167 1,504 1,555 1,562 1,620 1,698 1,803 1,811 1,883 1,911 1}
+{0 plot,11 1,153 1,155 1,197 1,228 1,274 1,477 1,542 1,553 1,555 1,648 1,706 1,808 1,811 1,827 1,885 1,907 1,973 1,978 1,979 1}
+{0 plot,22 1,81 1,228 1,274 1,314 1,382 1,390 1,515 1,553 1,624 1,708 1,713 1,755 1,767 1,782 1,842 1,848 1,883 1,885 1,895 1,900 1,907 1,911 1,936 1,970 1}
+{58 1,126 1,274 1,296 1,345 1,389 1,468 1,517 1,542 1,575 1,593 1,664 1,694 1,808 1,885 1,900 1,936 1}
+{164 1,237 1,314 1,623 1,767 1,808 1,885 1,902 1,964 1}
+{168 1,256 1,269 1,296 1,504 1,555 1,594 1,640 1,654 1,655 1,680 1,681 1,689 1,808 1,881 1,885 1,890 1}
+{0 neither,82 1,562 1,620 1}
+{0 neither,228 1,820 1}
+{0 neither,71 1,104 1,148 1,215 1,236 1,542 1,554 1,687 1,780 1,885 1,900 1,999 1,1002 1}
+{0 neither,71 1,370 1,504 1,669 1,680 1,684 1,702 1,901 1}
+{0 neither,58 1,71 1,126 1,505 1,571 1,761 1,822 1,994 1}
+{0 neither,71 1,190 1,197 1,216 1,228 1,266 1,362 1,370 1,405 1,442 1,633 1,654 1,669 1,680 1,693 1,787 1,954 1,966 1,978 1,1002 1}
+{0 neither,58 1,71 1,79 1,104 1,126 1,148 1,199 1,215 1,228 1,236 1,256 1,296 1,375 1,498 1,542 1,554 1,602 1,633 1,684 1,687 1,689 1,703 1,708 1,724 1,780 1,782 1,885 1,897 1,900 1,911 1,925 1,964 1,978 1,999 1,1002 1,1006 1}
+{0 neither,71 1,370 1,504 1,669 1,680 1,684 1,702 1,901 1}
+{0 neither,58 1,71 1,126 1,505 1,571 1,761 1,822 1,994 1}
+{0 neither,71 1,190 1,197 1,216 1,228 1,266 1,362 1,370 1,405 1,442 1,633 1,654 1,669 1,680 1,693 1,787 1,954 1,966 1,978 1,1002 1}
+{0 neither,58 1,71 1,79 1,83 1,104 1,126 1,199 1,228 1,256 1,296 1,375 1,498 1,542 1,553 1,602 1,633 1,684 1,689 1,703 1,708 1,724 1,778 1,780 1,782 1,831 1,869 1,885 1,897 1,900 1,911 1,925 1,964 1,978 1,1006 1}
+{0 neither,1 1,58 1,71 1,126 1,197 1,228 1,270 1,296 1,337 1,362 1,375 1,433 1,494 1,542 1,543 1,577 1,594 1,720 1,742 1,767 1,780 1,801 1,900 1,911 1,978 1,995 1,1002 1}
+{0 neither,58 1,71 1,82 1,126 1,199 1,218 1,228 1,236 1,275 1,296 1,386 1,403 1,553 1,554 1,555 1,573 1,603 1,614 1,633 1,676 1,680 1,689 1,696 1,703 1,761 1,767 1,791 1,829 1,887 1,893 1,901 1,954 1,966 1,970 1,1000 1}
+{0 neither,71 1,222 1,683 1,761 1,885 1}
+{0 neither,71 1,199 1,228 1,405 1,555 1,761 1,943 1,955 1}
+{0 neither,71 1,365 1,392 1,887 1}
+{0 plot,71 1,118 1,124 1,218 1,228 1,233 1,242 1,361 1,392 1,480 1,534 1,549 1,562 1,689 1,883 1,885 1,887 1,888 1,911 1,935 1,955 1}
+{0 neither,27 1,51 1,71 1,156 1,164 1,173 1,197 1,228 1,275 1,403 1,433 1,444 1,504 1,532 1,542 1,543 1,577 1,643 1,663 1,689 1,698 1,761 1,778 1,883 1,885 1,888 1,900 1,911 1,936 1,971 1,1002 1}
+{0 neither,71 1,228 1,244 1,275 1,395 1,421 1,475 1,504 1,542 1,639 1,655 1,676 1,716 1,720 1,725 1,764 1,767 1,770 1,774 1,871 1,883 1,885 1,887 1,911 1,936 1,945 1}
+{0 neither,457 1,883 1,978 1}
+{0 neither,13 1,79 1,241 1,425 1,911 1,1010 1}
+{0 neither,58 1,79 1,126 1,365 1,400 1,466 1,498 1,654 1,720 1,755 1,764 1,883 1,911 1,1003 1}
+{0 neither,58 1,71 1,126 1,197 1,209 1,228 1,230 1,400 1,444 1,480 1,504 1,532 1,553 1,555 1,602 1,628 1,629 1,680 1,689 1,703 1,720 1,764 1,885 1,887 1,888 1,983 1}
+{0 neither,78 1,108 1,628 1,883 1}
+{0 neither,71 1,175 1,228 1,594 1,654 1,680 1,691 1,742 1,764 1,881 1,885 1,893 1,897 1}
+{0 neither,32 1,71 1,108 1,232 1,237 1,241 1,305 1,542 1,555 1,607 1,720 1,883 1}
+{0 neither}
+{0 neither,172 1}
+{0 neither}
+{0 neither}
+{0 neither,71 1,90 1,258 1,275 1,371 1,594 1,634 1,680 1,901 1}
+{0 neither,11 1,71 1,241 1,402 1,483 1,542 1,555 1,602 1,664 1,832 1,887 1,909 1}
+{0 neither,1 1,40 1,58 1,71 1,126 1,199 1,203 1,237 1,300 1,444 1,475 1,492 1,664 1,705 1,707 1,869 1,896 1,901 1,911 1,966 1,969 1,970 1,978 1,1006 1,1010 1}
+{0 plot,58 1,71 1,115 1,126 1,140 1,173 1,228 1,231 1,237 1,424 1,429 1,434 1,478 1,492 1,532 1,534 1,542 1,555 1,558 1,562 1,594 1,602 1,633 1,661 1,676 1,689 1,708 1,829 1,842 1,879 1,883 1,885 1,888 1,889 1,896 1,903 1,909 1,911 1,936 1,954 1,958 1,959 1,969 1,978 1,993 1,998 1,1000 1}
+{0 neither,21 1,70 1,71 1,171 1,174 1,298 1,555 1}
+{0 neither,31 1,71 1,274 1,366 1,594 1,883 1}
+{0 plot,22 1,58 1,126 1,197 1,228 1,241 1,274 1,315 1,331 1,371 1,372 1,555 1,558 1,789 1,885 1,919 1,940 1,961 1,997 1}
+{0 plot,29 1,58 1,71 1,78 1,79 1,123 1,126 1,155 1,156 1,164 1,197 1,199 1,222 1,227 1,228 1,256 1,267 1,274 1,441 1,444 1,477 1,536 1,553 1,558 1,595 1,661 1,664 1,680 1,681 1,682 1,763 1,791 1,822 1,864 1,883 1,885 1,911 1,978 1,998 1,1008 1}
+{0 neither,307 1,553 1,555 1,884 1,964 1}
+{0 neither,58 1,79 1,126 1,197 1,201 1,228 1,357 1,375 1,400 1,441 1,555 1,618 1,628 1,683 1,689 1,750 1,799 1,865 1,885 1,911 1,954 1,1005 1}
+{0 neither,84 1,91 1,140 1,164 1,228 1,315 1,553 1,656 1,720 1,883 1,885 1,895 1,911 1,919 1}
+{0 neither,47 1,314 1,409 1,514 1,668 1}
+{33 1,98 1}
+{252 1,444 1,539 1,687 1,885 1}
+{33 1}
+{33 1,76 1,117 1,500 1,669 1,680 1,697 1,883 1,901 1,911 1,970 1}
+{0 plot,108 1,553 1,555 1,943 1}
+{35 1}
+{188 1,197 1,372 1,466 1,536 1,626 1,689 1,693 1,855 1,885 1}
+{197 1,689 1,708 1}
+{71 1,140 1,197 1,321 1,444 1,883 1,974 1,983 1}
+{18 1,149 1}
+{11 1,31 1,58 1,71 1,126 1,235 1,400 1,504 1,791 1,911 1}
+{109 1,194 1,199 1,241 1,475 1,668 1,722 1,782 1,883 1}
+{0 neither,11 1,732 1,884 1,885 1}
+{58 1,126 1,197 1,244 1,308 1,313 1,441 1,523 1,553 1,680 1,765 1}
+{65 1,197 1,300 1,400 1,516 1,523 1,551 1,564 1,703 1,943 1,970 1}
+{65 1}
+{113 1}
+{61 1,500 1}
+{0 neither,789 1,885 1}
+{0 neither,61 1,197 1,500 1}
+{0 neither,32 1,218 1,959 1}
+{0 neither,117 1,218 1,370 1,375 1,594 1,897 1,911 1,959 1}
+{0 neither,244 1,421 1,542 1,545 1,691 1,720 1,829 1,883 1,885 1,892 1,893 1,978 1,995 1}
+{0 neither,58 1,126 1,197 1,553 1,728 1,911 1}
+{0 plot,7 1,35 1,58 1,64 1,98 1,126 1,139 1,164 1,197 1,203 1,206 1,218 1,228 1,235 1,237 1,274 1,314 1,393 1,400 1,444 1,450 1,520 1,553 1,555 1,571 1,624 1,654 1,689 1,705 1,720 1,881 1,883 1,885 1,964 1,1007 1}
+{0 neither,82 1,689 1,885 1,943 1}
+{0 neither,71 1,79 1,84 1,91 1,99 1,140 1,197 1,241 1,270 1,300 1,514 1,571 1,624 1,640 1,811 1,829 1,865 1,881 1,883 1,890 1,961 1}
+{0 neither,22 1,71 1,218 1,228 1,241 1,254 1,315 1,555 1,558 1,608 1,694 1,911 1,919 1,943 1}
+{0 plot,58 1,164 1,199 1,274 1,312 1,371 1,428 1,441 1,444 1,532 1,542 1,555 1,623 1,689 1,786 1,885 1,973 1,1006 1}
+{0 plot,82 1,228 1,370 1,558 1,635 1,688 1,786 1,883 1,911 1,943 1}
+{0 plot,27 1,58 1,71 1,156 1,167 1,197 1,209 1,218 1,228 1,271 1,293 1,312 1,371 1,402 1,418 1,542 1,555 1,562 1,614 1,624 1,633 1,689 1,761 1,773 1,823 1,883 1,885 1,909 1,911 1,936 1,951 1,973 1,997 1}
+{0 neither,228 1,322 1,524 1,752 1,850 1,911 1,962 1}
+{0 neither,81 1,271 1,401 1,441 1,492 1,689 1,804 1,883 1,885 1,929 1,954 1}
+{0 neither,11 1,141 1,162 1,228 1,241 1,244 1,283 1,312 1,371 1,377 1,444 1,507 1,508 1,542 1,609 1,617 1,633 1,850 1,866 1,885 1,889 1,929 1,949 1,964 1,973 1}
+{0 neither,27 1,82 1,197 1,203 1,228 1,258 1,274 1,555 1,773 1,829 1,911 1,936 1,939 1,973 1}
+{0 plot,58 1,59 1,71 1,112 1,140 1,167 1,197 1,203 1,222 1,227 1,258 1,296 1,312 1,383 1,428 1,444 1,542 1,553 1,555 1,633 1,646 1,689 1,708 1,715 1,816 1,864 1,883 1,885 1,897 1,900 1,911 1,939 1,943 1,958 1,963 1,970 1,1000 1}
+{0 neither,58 1,151 1,228 1,241 1,244 1,256 1,268 1,388 1,405 1,444 1,502 1,517 1,522 1,558 1,696 1,864 1,885 1,889 1,911 1,949 1,966 1,1010 1}
+{0 plot,1 1,14 1,71 1,212 1,220 1,244 1,296 1,386 1,444 1,492 1,532 1,555 1,646 1,689 1,776 1,782 1,883 1,885 1,897 1,911 1,954 1,962 1,966 1,978 1}
+{0 plot,71 1,82 1,84 1,91 1,140 1,151 1,197 1,203 1,218 1,220 1,222 1,228 1,256 1,258 1,268 1,274 1,295 1,296 1,326 1,371 1,375 1,377 1,441 1,473 1,478 1,522 1,542 1,551 1,555 1,558 1,559 1,571 1,577 1,580 1,635 1,646 1,654 1,680 1,689 1,708 1,720 1,765 1,808 1,829 1,883 1,885 1,897 1,911 1,924 1,932 1,939 1,943 1,966 1,969 1,1010 1}
+{0 plot,71 1,197 1,203 1,228 1,238 1,298 1,540 1,542 1,553 1,602 1,854 1,884 1,895 1,897 1,900 1}
+{0 neither,197 1,388 1,753 1,978 1}
+{0 neither,71 1,375 1,551 1,571 1,767 1,853 1,883 1,911 1,964 1}
+{0 neither,79 1,241 1,475 1,477 1,602 1,683 1,911 1,978 1}
+{0 neither,58 1,126 1,197 1,553 1,682 1}
+{0 neither,82 1,197 1,854 1}
+{0 plot,71 1,232 1,375 1,500 1,555 1,765 1,897 1}
+{0 neither,29 1,156 1,197 1,222 1,228 1,254 1,275 1,369 1,370 1,388 1,753 1,755 1,885 1,971 1,978 1}
+{0 neither,29 1,77 1,241 1,256 1,370 1,553 1,586 1,626 1,694 1,703 1,911 1,975 1}
+{0 neither,164 1,228 1,270 1,444 1,585 1,703 1,791 1,883 1,885 1,911 1,990 1}
+{0 neither,197 1,231 1,256 1,612 1,684 1,689 1,720 1,753 1,883 1,885 1,897 1,911 1,993 1}
+{0 plot,22 1,58 1,126 1,228 1,231 1,232 1,371 1,680 1,696 1,753 1,900 1}
+{0 plot,71 1,126 1,141 1,163 1,197 1,228 1,241 1,256 1,375 1,410 1,555 1,575 1,594 1,724 1,885 1,897 1,911 1,964 1,974 1,975 1,996 1}
+{0 plot,79 1,82 1,228 1,301 1,392 1,437 1,555 1,558 1,571 1,680 1,692 1,792 1,883 1,884 1,1006 1}
+{0 neither,71 1,375 1}
+{0 neither,58 1,71 1,79 1,126 1,222 1,228 1,237 1,252 1,256 1,300 1,319 1,444 1,478 1,545 1,553 1,628 1,680 1,683 1,792 1,867 1,883 1,885 1,892 1,893 1}
+{0 plot,22 1,71 1,228 1,258 1,365 1,375 1,441 1,529 1,553 1,555 1,594 1,602 1,614 1,665 1,758 1,761 1,843 1,885 1,906 1,966 1}
+{0 neither,71 1,215 1,407 1,532 1,555 1,607 1,761 1,799 1,900 1,911 1,954 1}
+{0 neither,196 1,228 1,259 1,319 1,371 1,555 1,571 1,911 1,977 1,982 1}
+{0 plot,5 1,58 1,71 1,126 1,197 1,228 1,306 1,307 1,349 1,407 1,509 1,542 1,555 1,664 1,689 1,690 1,694 1,752 1,764 1,885 1,936 1}
+{0 plot,58 1,71 1,126 1,197 1,215 1,252 1,305 1,350 1,361 1,375 1,407 1,444 1,466 1,509 1,532 1,553 1,555 1,562 1,607 1,664 1,673 1,681 1,689 1,761 1,799 1,888 1,889 1,900 1,901 1,911 1,913 1,954 1,972 1,978 1,998 1}
+{0 plot,196 1,228 1,259 1,319 1,371 1,555 1,571 1,911 1,977 1,982 1}
+{0 plot,5 1,58 1,71 1,126 1,197 1,228 1,306 1,307 1,349 1,407 1,509 1,542 1,555 1,664 1,689 1,690 1,694 1,752 1,764 1,885 1,936 1}
+{0 plot,58 1,71 1,126 1,197 1,232 1,252 1,305 1,350 1,361 1,375 1,401 1,444 1,466 1,509 1,553 1,562 1,664 1,673 1,681 1,689 1,690 1,888 1,889 1,901 1,913 1,972 1,978 1,998 1}
+{0 neither,71 1,228 1,531 1,587 1,689 1,699 1,708 1,885 1,911 1}
+{0 neither,152 1}
+{0 neither,228 1,274 1,353 1,564 1,587 1,761 1,885 1,1009 1}
+{0 neither,58 1,71 1,126 1,160 1,199 1,258 1,300 1,401 1,504 1,553 1,780 1,791 1,844 1,885 1,900 1,964 1,997 1}
+{0 neither,22 1,58 1,78 1,126 1,227 1,269 1,282 1,386 1,553 1,664 1,693 1,694 1,780 1,900 1,925 1,996 1,1001 1}
+{0 neither,34 1,61 1,122 1,180 1,228 1,246 1,342 1,524 1,930 1,978 1}
+{0 neither,59 1,197 1,359 1,507 1,715 1,954 1,963 1,966 1}
+{0 neither,168 1,566 1,963 1}
+{224 1,228 1,246 1,342 1,522 1,524 1,829 1,918 1,930 1}
+{0 neither,58 1,197 1,348 1,400 1,542 1}
+{0 neither,22 1,58 1,71 1,126 1,160 1,199 1,258 1,300 1,372 1,401 1,504 1,507 1,522 1,553 1,780 1,791 1,833 1,839 1,844 1,883 1,885 1,890 1,900 1,964 1,997 1}
+{0 neither,22 1,58 1,78 1,126 1,227 1,269 1,282 1,386 1,553 1,664 1,693 1,694 1,780 1,900 1,925 1,996 1,1001 1}
+{0 neither,34 1,61 1,122 1,180 1,228 1,246 1,342 1,524 1,930 1,978 1}
+{0 neither,59 1,197 1,359 1,507 1,715 1,954 1,963 1,966 1}
+{0 neither,168 1,566 1,963 1}
+{224 1,228 1,246 1,342 1,522 1,524 1,829 1,918 1,930 1}
+{0 neither,58 1,197 1,348 1,400 1,542 1}
+{0 neither,22 1,199 1,372 1,400 1,507 1,522 1,555 1,571 1,833 1,839 1,883 1,890 1}
+{0 neither,57 1,66 1,197 1,228 1,244 1,272 1,453 1,507 1,522 1,524 1,531 1,553 1,589 1,626 1,667 1,877 1,883 1,980 1}
+{0 neither,103 1,375 1,692 1,708 1}
+{0 neither,58 1,71 1,126 1,258 1,441 1,553 1,761 1,885 1,900 1,909 1}
+{0 neither,71 1,571 1}
+{0 neither,71 1,79 1,241 1,275 1,296 1,326 1,555 1,576 1,676 1,829 1,861 1,890 1,895 1,897 1,911 1,913 1,966 1}
+{0 neither,71 1,224 1,258 1,403 1,571 1,615 1,761 1,808 1,883 1,900 1}
+{0 neither,103 1,272 1,615 1,808 1,824 1,900 1}
+{0 neither,52 1,71 1,103 1,197 1,218 1,222 1,228 1,258 1,272 1,291 1,296 1,451 1,504 1,507 1,517 1,615 1,660 1,664 1,680 1,698 1,762 1,808 1,885 1,897 1,900 1,957 1}
+{0 neither,71 1,152 1,225 1,444 1,594 1,949 1,954 1,964 1}
+{0 neither,71 1,228 1,258 1,274 1,281 1,296 1,441 1,492 1,553 1,555 1,562 1,614 1,661 1,670 1,673 1,743 1,829 1,883 1,885 1,900 1,903 1,911 1,925 1,952 1,993 1}
+{0 neither,71 1,244 1,275 1,504 1,527 1,664 1,675 1,684 1,885 1,911 1,947 1}
+{0 neither,71 1,142 1}
+{0 plot,71 1,79 1,258 1,274 1,347 1,400 1,809 1,900 1,966 1}
+{0 neither,53 1,196 1,390 1,531 1,571 1,883 1,885 1,966 1}
+{0 neither,49 1,71 1,199 1,911 1,954 1}
+{0 neither,49 1}
+{0 neither,49 1,71 1,79 1,228 1,291 1,296 1,345 1,365 1,536 1,542 1,633 1,649 1,664 1,784 1,789 1,865 1,883 1,885 1,892 1,897 1,954 1,963 1,993 1}
+{0 neither,71 1,158 1}
+{0 neither,71 1,218 1,228 1,274 1,297 1,375 1,441 1,491 1,505 1,536 1,555 1,562 1,761 1,885 1,900 1,911 1,1006 1}
+{0 neither,388 1,594 1,633 1,911 1,936 1,951 1,1006 1}
+{19 1,44 1,71 1,98 1,170 1,189 1,218 1,274 1,314 1,542 1,615 1,885 1,900 1,1006 1}
+{61 1,139 1,224 1,228 1,555 1,618 1,633 1,829 1}
+{0 neither,71 1,139 1,234 1,337 1,502 1,532 1,634 1}
+{71 1,218 1,228 1,491 1,615 1,885 1}
+{228 1,578 1,618 1,633 1,661 1,829 1}
+{224 1,282 1,351 1,787 1,900 1,972 1}
+{71 1,451 1,491 1,492 1,594 1,891 1,976 1}
+{0 plot,58 1,64 1,139 1,228 1,271 1,452 1,483 1,829 1,885 1,954 1}
+{0 neither,64 1,71 1,224 1,555 1,764 1,903 1,954 1,971 1}
+{228 1,885 1}
+{71 1,522 1,595 1,661 1,829 1}
+{224 1,507 1,578 1,618 1,633 1}
+{0 plot,71 1,78 1,210 1,224 1,228 1,427 1,469 1,507 1,522 1,530 1,542 1,553 1,664 1,799 1,808 1,885 1,900 1,922 1}
+{0 neither,365 1,491 1,502 1,522 1,594 1,703 1,1006 1}
+{0 neither,228 1,427 1,469 1,536 1,554 1,829 1,1009 1}
+{0 neither,71 1,199 1,255 1,274 1,328 1,405 1,615 1,633 1,694 1,875 1,900 1}
+{0 neither,71 1,172 1,218 1,256 1,263 1,274 1,504 1,528 1,660 1,764 1,885 1,957 1}
+{0 neither,71 1,218 1,490 1,594 1,887 1,957 1}
+{0 neither,215 1,1002 1}
+{0 neither,71 1,197 1,762 1,883 1,909 1,955 1}
+{0 neither,22 1,71 1,199 1,296 1,370 1,375 1,390 1,767 1,775 1,849 1,854 1,885 1}
+{0 neither,71 1,337 1,555 1,976 1}
+{0 neither,49 1,71 1,197 1,215 1,228 1,358 1,433 1,694 1,879 1,885 1,920 1,954 1}
+{0 neither,71 1,225 1,498 1,829 1,954 1}
+{0 neither,199 1,491 1,964 1,1006 1}
+{0 neither,228 1,444 1,491 1,596 1,764 1,780 1,882 1,900 1,1006 1}
+{0 neither,71 1,226 1,227 1,491 1,504 1,530 1,1006 1}
+{0 neither,134 1}
+{0 neither,53 1,196 1,390 1,531 1,571 1,883 1,885 1,966 1}
+{0 neither,49 1,71 1,199 1,911 1,954 1}
+{0 neither,49 1}
+{0 neither,49 1,71 1,79 1,228 1,291 1,296 1,345 1,365 1,536 1,542 1,633 1,649 1,664 1,784 1,789 1,865 1,883 1,885 1,892 1,897 1,954 1,963 1,993 1}
+{0 neither,34 1,36 1,71 1,102 1,122 1,127 1,164 1,180 1,197 1,228 1,232 1,241 1,248 1,263 1,274 1,279 1,299 1,323 1,325 1,357 1,378 1,379 1,441 1,444 1,449 1,453 1,479 1,480 1,481 1,492 1,507 1,524 1,551 1,598 1,633 1,660 1,685 1,689 1,690 1,696 1,705 1,708 1,726 1,761 1,789 1,808 1,811 1,832 1,834 1,846 1,883 1,885 1,886 1,887 1,892 1,900 1,911 1,954 1,955 1,957 1,966 1,976 1,978 1,988 1,1007 1}
+{0 neither,61 1,162 1,180 1,197 1,306 1,321 1,357 1,524 1,527 1,537 1,553 1,555 1,562 1,694 1,709 1,764 1,855 1,885 1,911 1,914 1,927 1,967 1}
+{0 neither,36 1,58 1,61 1,77 1,126 1,127 1,164 1,180 1,197 1,199 1,209 1,222 1,228 1,244 1,262 1,298 1,304 1,309 1,361 1,368 1,378 1,418 1,444 1,449 1,486 1,492 1,498 1,504 1,507 1,522 1,524 1,537 1,542 1,562 1,573 1,592 1,603 1,626 1,666 1,676 1,689 1,690 1,694 1,696 1,709 1,720 1,768 1,831 1,837 1,855 1,883 1,885 1,911 1,954 1,988 1,993 1}
+{0 neither,35 1,58 1,128 1,197 1,228 1,250 1,589 1,694 1,885 1}
+{0 neither,47 1,58 1,126 1,228 1,232 1,256 1,318 1,554 1,562 1,663 1}
+{0 neither,46 1,71 1,115 1,228 1,251 1,267 1,274 1,325 1,357 1,370 1,436 1,444 1,450 1,471 1,507 1,522 1,542 1,553 1,571 1,594 1,633 1,634 1,664 1,671 1,690 1,696 1,761 1,882 1,883 1,885 1,892 1,900 1,911 1,972 1,975 1,984 1,993 1}
+{0 neither,71 1,147 1,228 1,571 1,684 1,954 1,974 1}
+{0 neither,4 1,54 1,71 1,121 1,143 1,158 1,161 1,225 1,228 1,329 1,453 1,477 1,514 1,515 1,542 1,587 1,689 1,710 1,780 1,791 1,829 1,869 1,911 1,975 1,987 1}
+{0 neither,58 1,61 1,71 1,83 1,126 1,172 1,186 1,187 1,199 1,218 1,221 1,224 1,228 1,244 1,262 1,263 1,275 1,282 1,300 1,339 1,501 1,542 1,571 1,605 1,650 1,710 1,720 1,761 1,767 1,787 1,791 1,792 1,798 1,808 1,883 1,885 1,886 1,900 1,911 1,936 1,943 1,952 1,954 1,963 1,972 1,1008 1}
+{0 neither,22 1,58 1,61 1,71 1,83 1,126 1,172 1,186 1,187 1,197 1,199 1,218 1,221 1,222 1,224 1,228 1,241 1,244 1,256 1,262 1,263 1,275 1,282 1,298 1,300 1,318 1,339 1,441 1,497 1,501 1,532 1,542 1,543 1,546 1,571 1,605 1,650 1,654 1,689 1,696 1,710 1,720 1,761 1,767 1,787 1,791 1,792 1,798 1,808 1,883 1,885 1,886 1,894 1,900 1,911 1,936 1,943 1,952 1,954 1,963 1,970 1,972 1,1008 1}
+{0 neither,22 1,71 1,197 1,222 1,241 1,256 1,275 1,298 1,318 1,441 1,497 1,532 1,542 1,543 1,546 1,654 1,689 1,696 1,808 1,885 1,894 1,911 1,954 1,963 1,970 1}
+{0 neither,58 1,71 1,82 1,126 1,153 1,155 1,197 1,228 1,275 1,376 1,400 1,458 1,532 1,654 1,684 1,689 1,761 1,881 1,885 1,903 1}
+{0 neither,22 1,58 1,71 1,126 1,164 1,191 1,192 1,197 1,218 1,228 1,258 1,275 1,436 1,440 1,542 1,553 1,575 1,577 1,618 1,676 1,689 1,761 1,847 1,881 1,885 1,911 1,1001 1}
+{0 neither,11 1,58 1,126 1,197 1,270 1,440 1,444 1,561 1,620 1,665 1,689 1,808 1,871 1,881 1,885 1,907 1,911 1,958 1,964 1,990 1}
+{0 plot,25 1,66 1,71 1,241 1,267 1,274 1,394 1,661 1,767 1,787 1,883 1,900 1,903 1,993 1}
+{0 neither,71 1,218 1,228 1,241 1,364 1,368 1,405 1,435 1,453 1,532 1,615 1,800 1,802 1,883 1,885 1,911 1,963 1}
+{0 neither,69 1,71 1,197 1,273 1,274 1,365 1,392 1,654 1,659 1,881 1,885 1,897 1}
+{0 neither,58 1,71 1,99 1,126 1,228 1,258 1,275 1,370 1,402 1,485 1,488 1,558 1,660 1,757 1,764 1,849 1,881 1,885 1,910 1,936 1,1001 1}
+{0 plot,83 1,152 1,197 1,203 1,235 1,274 1,444 1,536 1,558 1,568 1,633 1,654 1,659 1,689 1,694 1,883 1,885 1,911 1,914 1}
+{0 neither,1 1,60 1,256 1,409 1,444 1,478 1,633 1,689 1,794 1,885 1,900 1,993 1}
+{0 neither,60 1,80 1,203 1,228 1,256 1,371 1,528 1,555 1,633 1,659 1,708 1,849 1,885 1,911 1}
+{0 plot,22 1,71 1,218 1,228 1,274 1,368 1,404 1,441 1,453 1,498 1,504 1,532 1,536 1,542 1,555 1,562 1,659 1,761 1,885 1,888 1,957 1,993 1}
+{0 neither,79 1,197 1,228 1,244 1,270 1,274 1,365 1,400 1,423 1,474 1,542 1,555 1,559 1,618 1,659 1,767 1,831 1,861 1,883 1,885 1,900 1}
+{0 plot,58 1,71 1,126 1,153 1,155 1,191 1,192 1,197 1,209 1,221 1,228 1,251 1,296 1,337 1,416 1,472 1,494 1,504 1,555 1,569 1,594 1,633 1,660 1,664 1,673 1,674 1,689 1,700 1,764 1,883 1,885 1,903 1,911 1,973 1}
+{0 neither,9 1,58 1,79 1,126 1,197 1,218 1,267 1,275 1,298 1,420 1,436 1,444 1,554 1,660 1,665 1,680 1,689 1,695 1,703 1,746 1,761 1,767 1,808 1,885 1,900 1,911 1,957 1,969 1,1012 1}
+{0 neither,11 1,58 1,79 1,126 1,197 1,228 1,241 1,275 1,431 1,436 1,440 1,444 1,536 1,553 1,555 1,633 1,660 1,696 1,804 1,885 1,911 1,936 1}
+{0 neither,79 1,199 1,210 1,227 1,260 1,274 1,296 1,314 1,328 1,417 1,444 1,477 1,540 1,555 1,600 1,607 1,653 1,680 1,689 1,694 1,883 1,885 1,888 1,897 1,900 1,911 1,975 1}
+{0 plot,58 1,126 1,186 1,199 1,218 1,221 1,504 1,553 1,558 1,619 1,633 1,689 1,720 1,787 1,881 1,885 1,900 1,934 1}
+{0 neither,58 1,126 1,189 1,383 1,542 1,553 1,619 1,829 1,885 1,934 1}
+{0 neither,82 1,197 1,619 1,629 1,689 1,698 1,911 1,940 1}
+{0 neither,79 1,199 1,210 1,227 1,260 1,274 1,296 1,314 1,328 1,336 1,417 1,444 1,477 1,540 1,553 1,555 1,600 1,607 1,653 1,656 1,680 1,689 1,694 1,792 1,883 1,885 1,888 1,897 1,900 1,911 1,975 1}
+{0 plot,58 1,126 1,186 1,199 1,218 1,221 1,504 1,553 1,558 1,619 1,633 1,689 1,720 1,787 1,881 1,885 1,900 1,934 1}
+{0 neither,58 1,126 1,189 1,383 1,542 1,553 1,619 1,829 1,885 1,934 1}
+{0 neither,82 1,197 1,619 1,629 1,689 1,698 1,911 1,940 1}
+{0 neither,228 1,336 1,553 1,656 1,689 1,792 1,885 1,950 1,978 1,986 1}
+{0 neither,374 1,620 1,833 1,1012 1}
+{0 plot,58 1,71 1,77 1,126 1,165 1,228 1,280 1,296 1,345 1,375 1,444 1,532 1,542 1,553 1,555 1,567 1,594 1,619 1,633 1,634 1,654 1,661 1,689 1,698 1,720 1,789 1,809 1,828 1,829 1,832 1,883 1,885 1,896 1,897 1,900 1,911 1,963 1,989 1,993 1}
+{0 neither,189 1,453 1,553 1,620 1,765 1,829 1,885 1,990 1}
+{0 neither,186 1,553 1,886 1}
+{0 neither,77 1,182 1,330 1,453 1,542 1,553 1,594 1,619 1,662 1,710 1,832 1,871 1,885 1,964 1,989 1,990 1}
+{0 neither,186 1,232 1,244 1,298 1,313 1,349 1,453 1,553 1,567 1,705 1,792 1,885 1,909 1}
+{0 neither}
+{0 neither,197 1,232 1,237 1,275 1,314 1,375 1,504 1,542 1,612 1,689 1,883 1,885 1,889 1}
+{0 plot,71 1,79 1,170 1,197 1,199 1,227 1,228 1,232 1,267 1,275 1,329 1,444 1,446 1,553 1,594 1,618 1,633 1,673 1,688 1,689 1,694 1,720 1,764 1,806 1,865 1,885 1,911 1,970 1,975 1,978 1,993 1}
+{0 neither,80 1,402 1,444 1,555 1,619 1,719 1,909 1,940 1,1006 1}
+{0 neither,47 1,197 1,228 1,296 1,444 1,477 1,542 1,555 1,594 1,603 1,632 1,654 1,680 1,719 1,881 1,896 1,1006 1}
+{0 neither,69 1,230 1,251 1,446 1,471 1,504 1,542 1,654 1,696 1,703 1,869 1,885 1,911 1,1006 1}
+{0 plot,164 1,224 1,296 1,535 1,553 1,624 1,680 1,694 1,806 1,815 1,885 1,900 1}
+{0 neither,172 1,251 1,288 1,359 1,387 1,453 1,504 1,568 1,689 1,703 1,705 1,719 1,741 1,831 1,832 1,833 1,885 1,911 1,1006 1}
+{0 neither,77 1,197 1,553 1,741 1,832 1,889 1,911 1,951 1,1006 1}
+{0 neither,109 1,553 1}
+{0 plot,8 1,58 1,79 1,80 1,82 1,126 1,197 1,224 1,228 1,401 1,402 1,405 1,420 1,553 1,555 1,562 1,594 1,633 1,655 1,690 1,693 1,703 1,752 1,754 1,803 1,841 1,885 1,909 1,911 1,974 1,998 1}
+{0 neither,116 1,235 1,371 1,460 1,542 1,629 1,689 1,708 1,885 1,911 1}
+{0 neither,116 1,228 1,235 1,634 1,885 1}
+{58 1,71 1,197 1,224 1,240 1,241 1,296 1,313 1,492 1,562 1,615 1,621 1,773 1,885 1,900 1,909 1,936 1,978 1}
+{0 plot,26 1,71 1,83 1,99 1,170 1,197 1,218 1,228 1,258 1,296 1,347 1,444 1,507 1,524 1,529 1,542 1,555 1,558 1,633 1,688 1,689 1,700 1,715 1,721 1,739 1,761 1,776 1,799 1,829 1,880 1,885 1,911 1,954 1,962 1,966 1}
+{0 plot,58 1,126 1,137 1,527 1,553 1,594 1}
+{0 neither,28 1,71 1,87 1,258 1,553 1,555 1,598 1,694 1,911 1}
+{0 neither,57 1,524 1,553 1,592 1,664 1}
+{58 1,71 1,197 1,224 1,240 1,241 1,296 1,313 1,492 1,562 1,615 1,621 1,773 1,885 1,900 1,909 1,936 1,978 1}
+{0 plot,26 1,71 1,83 1,99 1,218 1,228 1,258 1,296 1,347 1,402 1,507 1,524 1,529 1,542 1,558 1,645 1,689 1,700 1,715 1,739 1,761 1,799 1,885 1,911 1,962 1,966 1}
+{0 plot,56 1,170 1,199 1,222 1,274 1,294 1,399 1,405 1,451 1,532 1,614 1,618 1,625 1,628 1,633 1,694 1,776 1,809 1,900 1}
+{0 plot,71 1,79 1,148 1,221 1,262 1,300 1,375 1,428 1,501 1,545 1,553 1,576 1,661 1,787 1,791 1,883 1,885 1,889 1,911 1}
+{0 plot,71 1,162 1,197 1,264 1,394 1,542 1,561 1,620 1,643 1,900 1,911 1,984 1}
+{0 plot,71 1,301 1,451 1,674 1,694 1,891 1,911 1,947 1,978 1}
+{0 plot,20 1,54 1,58 1,121 1,126 1,134 1,197 1,221 1,228 1,244 1,249 1,433 1,509 1,553 1,610 1,705 1,776 1,978 1}
+{0 neither,619 1,885 1}
+{0 neither,20 1,54 1,58 1,121 1,126 1,165 1,197 1,221 1,228 1,232 1,237 1,244 1,265 1,282 1,303 1,309 1,341 1,418 1,433 1,438 1,444 1,445 1,485 1,507 1,509 1,522 1,524 1,553 1,561 1,592 1,603 1,610 1,620 1,623 1,689 1,705 1,708 1,767 1,776 1,781 1,813 1,829 1,839 1,854 1,880 1,883 1,885 1,898 1,900 1,911 1,936 1,954 1,972 1,975 1,978 1,979 1}
+{0 neither,619 1,885 1}
+{0 plot,58 1,66 1,71 1,107 1,126 1,165 1,197 1,210 1,218 1,224 1,228 1,232 1,237 1,265 1,269 1,282 1,303 1,309 1,341 1,418 1,438 1,444 1,466 1,483 1,485 1,507 1,524 1,532 1,542 1,551 1,553 1,555 1,561 1,592 1,603 1,611 1,620 1,623 1,628 1,629 1,655 1,689 1,708 1,710 1,761 1,767 1,781 1,795 1,813 1,829 1,839 1,854 1,883 1,885 1,898 1,900 1,910 1,911 1,934 1,936 1,954 1,972 1,975 1,979 1,990 1}
+{0 plot,170 1,228 1,237 1,274 1,423 1,532 1,553 1,629 1,676 1,693 1,767 1,808 1,1006 1}
+{0 plot,81 1,85 1,140 1,226 1,532 1,551 1,553 1,619 1,661 1,767 1,854 1,900 1}
+{0 plot,71 1,114 1,263 1,366 1,448 1,603 1,628 1,664 1,703 1,776 1,799 1,829 1,880 1,896 1,900 1}
+{0 plot,71 1,165 1,224 1,256 1,402 1,569 1,725 1,803 1,833 1,909 1,911 1,936 1}
+{0 neither,58 1,96 1,150 1,197 1,256 1,500 1,507 1,522 1,542 1,553 1,689 1,864 1,874 1,876 1,885 1,911 1}
+{6 1,35 1,58 1,64 1,71 1,139 1,218 1,224 1,228 1,235 1,264 1,271 1,296 1,337 1,345 1,387 1,401 1,402 1,452 1,466 1,471 1,521 1,522 1,532 1,596 1,614 1,654 1,679 1,689 1,720 1,761 1,823 1,829 1,881 1,885 1,886 1,900 1,909 1,950 1,953 1,959 1}
+{0 plot,152 1,227 1,400 1,403 1,536 1,542 1,553 1,555 1,628 1,696 1,761 1,762 1,791 1,808 1,814 1,883 1,896 1,900 1,984 1,990 1,1006 1}
+{0 neither,2 1,16 1,48 1,55 1,97 1,131 1,134 1,157 1,159 1,160 1}
+{0 plot,1 1,2 1,3 1,4 1,15 1,17 1,48 1,55 1,59 1,72 1,73 1,74 1,75 1,142 1,157 1,158 1,160 1,178 1,193 1,298 1,566 1,715 1,963 1}
+{0 plot,2 1,16 1,35 1,48 1,55 1,58 1,71 1,97 1,122 1,131 1,134 1,152 1,157 1,159 1,160 1,179 1,180 1,197 1,228 1,284 1,462 1,508 1,524 1,555 1,585 1,657 1,689 1,787 1,824 1,834 1,885 1,886 1,911 1,978 1}
+{0 plot,1 1,2 1,3 1,4 1,15 1,17 1,48 1,55 1,59 1,72 1,73 1,74 1,75 1,142 1,157 1,158 1,160 1,178 1,193 1,298 1,566 1,715 1,963 1}
+{0 plot,34 1,35 1,58 1,71 1,122 1,152 1,179 1,180 1,197 1,228 1,284 1,462 1,508 1,524 1,555 1,585 1,657 1,689 1,787 1,824 1,834 1,885 1,886 1,911 1,978 1}
+{0 plot,170 1,197 1,258 1,488 1,522 1,533 1,634 1,829 1,892 1,911 1,936 1,954 1,963 1}
+{0 plot,61 1,197 1,228 1,348 1,492 1,542 1,604 1,885 1,911 1,931 1}
+{168 1,235 1,366 1,370 1,444 1,466 1,522 1,703 1}
+{168 1,228 1,366 1,400 1,496 1,507 1,522 1,524 1,715 1,767 1,875 1,892 1,911 1,954 1,963 1,964 1}
+{0 neither,357 1,696 1,935 1}
+{0 neither,66 1,144 1,218 1,228 1,468 1,507 1,522 1,524 1,542 1,590 1,689 1,694 1,846 1,885 1,891 1,911 1}
+{22 1,57 1,58 1,228 1,366 1,418 1,453 1,466 1,475 1,524 1,563 1,590 1,710 1,857 1,868 1,885 1,900 1,911 1,920 1,959 1,961 1,984 1}
+{0 neither,57 1,58 1,197 1,199 1,222 1,228 1,235 1,265 1,289 1,372 1,444 1,507 1,522 1,524 1,542 1,553 1,571 1,694 1,883 1,911 1}
+{0 neither,57 1,58 1,199 1,218 1,228 1,297 1,300 1,437 1,438 1,444 1,466 1,507 1,522 1,524 1,586 1,652 1,672 1,689 1,690 1,708 1,715 1,795 1,829 1,863 1,885 1,896 1,900 1,911 1}
+{0 plot,71 1,228 1,244 1,275 1,542 1,562 1,615 1,660 1,885 1,892 1,962 1,966 1}
+{0 plot,71 1,475 1,889 1,911 1,951 1}
+{0 neither,5 1,53 1,58 1,64 1,105 1,139 1,218 1,228 1,451 1,467 1,507 1,524 1,551 1,664 1,674 1,689 1,795 1,885 1,911 1,978 1}
+{165 1,197 1,237 1,531 1,542 1,612 1,689 1,720 1,868 1,886 1}
+{61 1,98 1,150 1,182 1,227 1,244 1,466 1,500 1,531 1,542 1,551 1,667 1,696 1,883 1,885 1,909 1,954 1}
+{0 neither}
+{0 plot,1 1,57 1,58 1,71 1,79 1,87 1,92 1,129 1,197 1,199 1,222 1,227 1,228 1,237 1,241 1,256 1,274 1,298 1,402 1,434 1,437 1,453 1,467 1,477 1,483 1,486 1,492 1,500 1,504 1,505 1,507 1,535 1,538 1,553 1,555 1,562 1,585 1,594 1,603 1,620 1,626 1,628 1,633 1,640 1,651 1,655 1,676 1,680 1,689 1,694 1,708 1,727 1,761 1,789 1,791 1,798 1,831 1,832 1,838 1,869 1,875 1,883 1,885 1,889 1,895 1,900 1,910 1,911 1,926 1,936 1,964 1,972 1,975 1,978 1,1006 1}
+{0 plot,111 1,218 1,228 1,237 1,244 1,256 1,274 1,300 1,333 1,434 1,504 1,542 1,562 1,571 1,608 1,628 1,654 1,655 1,676 1,689 1,694 1,703 1,708 1,713 1,727 1,740 1,833 1,883 1,885 1,887 1,889 1,911 1,975 1,1006 1}
+{0 plot,71 1,210 1,228 1,274 1,297 1,301 1,384 1,385 1,466 1,475 1,520 1,538 1,542 1,558 1,689 1,708 1,778 1,791 1,829 1,885 1,887 1,900 1,911 1,947 1,975 1,984 1}
+{0 neither,96 1,1004 1}
+{0 plot,85 1,87 1,92 1,140 1,228 1,444 1,524 1,808 1,885 1,911 1,984 1,996 1}
+{4 1,71 1,128 1,158 1}
+{0 plot,165 1,274 1,370 1,553 1,676 1,767 1,900 1,911 1,958 1}
+{0 plot,71 1,432 1,453 1,542 1,555 1,562 1,764 1,1002 1,1008 1}
+{0 neither,170 1,218 1,553 1}
+{0 plot,197 1,224 1,444 1,478 1,761 1}
+{0 neither,52 1,58 1,126 1,152 1,197 1,237 1,373 1,451 1,664 1,689 1,776 1}
+{0 neither,11 1,71 1,83 1,225 1,228 1,442 1,457 1,505 1,542 1,560 1,594 1,694 1,698 1,761 1,822 1,885 1,887 1,891 1,1002 1}
+{0 plot,71 1,228 1,394 1,425 1,441 1,555 1,654 1,696 1,761 1,777 1,881 1,885 1,900 1,910 1,929 1,1004 1}
+{0 neither,52 1,58 1,71 1,126 1,152 1,164 1,197 1,228 1,237 1,267 1,273 1,275 1,366 1,373 1,397 1,441 1,451 1,463 1,551 1,555 1,575 1,664 1,689 1,761 1,776 1,808 1,885 1,888 1,900 1,909 1,929 1,935 1,936 1,954 1,962 1,966 1}
+{0 neither,11 1,71 1,83 1,225 1,228 1,442 1,457 1,505 1,542 1,560 1,594 1,694 1,698 1,761 1,822 1,885 1,887 1,891 1,1002 1}
+{0 plot,71 1,228 1,394 1,425 1,441 1,555 1,654 1,696 1,761 1,777 1,881 1,885 1,900 1,910 1,929 1,1004 1}
+{0 plot,71 1,164 1,197 1,228 1,256 1,267 1,273 1,275 1,366 1,397 1,441 1,463 1,528 1,551 1,555 1,575 1,761 1,808 1,885 1,888 1,900 1,909 1,911 1,929 1,935 1,936 1,954 1,962 1,966 1}
+{0 neither,71 1,228 1,258 1,262 1,444 1,445 1,492 1,633 1,761 1,876 1,887 1,911 1,1002 1}
+{0 neither,71 1,197 1,333 1,677 1,903 1,954 1}
+{0 plot,22 1,71 1,79 1,197 1,240 1,275 1,375 1,392 1,562 1,571 1,594 1,665 1,678 1,723 1,767 1,891 1,900 1,909 1}
+{0 plot,11 1,71 1,274 1,394 1,664 1,689 1,767 1,776 1,900 1}
+{0 plot,8 1,71 1,82 1,83 1,197 1,203 1,228 1,237 1,244 1,275 1,314 1,457 1,483 1,500 1,532 1,555 1,558 1,612 1,628 1,684 1,689 1,704 1,761 1,808 1,883 1,885 1,889 1,911 1,954 1,973 1,991 1}
+{0 plot,71 1,85 1,113 1,136 1,140 1,197 1,228 1,275 1,304 1,365 1,447 1,458 1,555 1,571 1,610 1,612 1,689 1,777 1,778 1,780 1,816 1,829 1,840 1,854 1,885 1,911 1,931 1}
+{0 neither,16 1,71 1,158 1,159 1,251 1,261 1,275 1,441 1,482 1,542 1,594 1,761 1,846 1,891 1,892 1,899 1,911 1,963 1,966 1}
+{0 neither,71 1,197 1,228 1,230 1,441 1,444 1,463 1,493 1,696 1,703 1,761 1,768 1,885 1,888 1,929 1,936 1}
+{0 plot,71 1,480 1,490 1}
+{0 neither,39 1,375 1,775 1}
+{0 neither,11 1,54 1,71 1,79 1,120 1,121 1,131 1,152 1,176 1,194 1,197 1,199 1,228 1,229 1,240 1,255 1,257 1,258 1,332 1,403 1,477 1,480 1,562 1,594 1,633 1,673 1,677 1,680 1,761 1,764 1,767 1,874 1,885 1,887 1,888 1,895 1,911 1,954 1,973 1}
+{0 neither,71 1,258 1,366 1,633 1,654 1,720 1,761 1,885 1,887 1,911 1,912 1,951 1}
+{0 plot,77 1,185 1,228 1,257 1,344 1,387 1,403 1,436 1,463 1,551 1,562 1,594 1,624 1,664 1,806 1,825 1,883 1,885 1,973 1}
+{0 neither,11 1,71 1,218 1,228 1,332 1,451 1,603 1,633 1,664 1,825 1,829 1,929 1,978 1}
+{0 neither,79 1,197 1,218 1,221 1,233 1,273 1,281 1,490 1,499 1,558 1,564 1,603 1,664 1,684 1,694 1,767 1,822 1,825 1,826 1,829 1,887 1,889 1,892 1,911 1,963 1}
+{0 plot,9 1,71 1,78 1,119 1,218 1,275 1,393 1,466 1,553 1,555 1,563 1,571 1,630 1,654 1,764 1,885 1,954 1,970 1,974 1,1000 1}
+{0 plot,22 1,71 1,212 1,244 1,366 1,428 1,490 1,563 1,764 1,799 1,911 1,974 1}
+{0 plot,46 1,165 1,197 1,218 1,298 1,426 1,433 1,475 1,633 1,661 1,689 1,802 1,854 1,883 1,885 1,896 1,911 1,913 1,963 1,973 1}
+{0 plot,71 1,218 1,228 1,444 1,490 1,558 1,565 1,571 1,1006 1}
+{0 plot,22 1,197 1,271 1,496 1,542 1,612 1,676 1,689 1,755 1,849 1,896 1,978 1}
+{0 plot,228 1,256 1,495 1,542 1,557 1,562 1,675 1,694 1,703 1,713 1,885 1,888 1,895 1,906 1,911 1,929 1,993 1}
+{0 plot,41 1,698 1,885 1,954 1}
+{0 neither,594 1}
+{0 neither,607 1,713 1,878 1}
+{0 plot,11 1,69 1,141 1,209 1,389 1,542 1,555 1,755 1,883 1}
+{0 plot,71 1,213 1,228 1,241 1,274 1,350 1,441 1,514 1,661 1,708 1,737 1,742 1,750 1,829 1,883 1,900 1,911 1,932 1,954 1}
+{0 plot,71 1,79 1,197 1,199 1,213 1,228 1,244 1,274 1,350 1,425 1,433 1,441 1,466 1,504 1,627 1,650 1,664 1,689 1,708 1,748 1,755 1,829 1,883 1,885 1,911 1,926 1,987 1}
+{0 neither,71 1,152 1,532 1,553 1,555 1,571 1}
+{0 neither,164 1,996 1}
+{0 plot,185 1,218 1,444 1,555 1,655 1,716 1,782 1,885 1,954 1}
+{0 neither,22 1}
+{0 plot,364 1,628 1,829 1,978 1}
+{0 neither,115 1,484 1,664 1,689 1}
+{0 plot,9 1,197 1,210 1,274 1,558 1,565 1,695 1,811 1}
+{0 plot,71 1,152 1,249 1,256 1,414 1,490 1,858 1,885 1,911 1,996 1}
+{8 1,83 1,141 1,164 1,176 1,218 1,237 1,241 1,262 1,275 1,314 1,442 1,541 1,593 1,829 1,858 1,883 1,885 1,910 1,912 1,943 1,996 1}
+{58 1,126 1,410 1,523 1}
+{71 1,227 1,296 1,366 1,375 1,428 1,522 1,553 1,555 1,571 1,661 1,689 1,911 1,964 1}
+{99 1,224 1,258 1,403 1,522 1,553 1,555 1,710 1,954 1}
+{54 1,79 1,96 1,99 1,121 1,158 1,404 1,476 1,507 1,562 1,594 1,968 1}
+{11 1,227 1,244 1,274 1,366 1,504 1,507 1,542 1,584 1,594 1,661 1,680 1,689 1,900 1}
+{0 neither,39 1}
+{71 1,444 1,512 1,577 1,595 1,654 1,964 1}
+{13 1,71 1,221 1,314 1,478 1,637 1}
+{0 plot,8 1,197 1,346 1,558 1,854 1,943 1}
+{0 plot,141 1,228 1,553 1,654 1,689 1,885 1,911 1,943 1,970 1,991 1}
+{0 plot,152 1,333 1,740 1,884 1}
+{0 plot,11 1,71 1,197 1,203 1,256 1,262 1,300 1,313 1,399 1,444 1,459 1,478 1,500 1,542 1,553 1,558 1,594 1,612 1,689 1,708 1,799 1,808 1,811 1,864 1,875 1,883 1,911 1,936 1,954 1,964 1}
+{0 plot,71 1,152 1,218 1,247 1,274 1,358 1,490 1,553 1,562 1,628 1,664 1,689 1,694 1,708 1,801 1,807 1,883 1,886 1,891 1,904 1,911 1,1000 1}
+{0 neither,114 1,675 1,885 1,911 1}
+{0 neither,113 1,458 1,780 1,829 1,854 1}
+{0 neither,16 1,71 1,158 1,159 1,251 1,261 1,275 1,441 1,482 1,542 1,594 1,761 1,846 1,891 1,892 1,899 1,911 1,963 1,966 1}
+{0 neither,71 1,197 1,228 1,230 1,441 1,444 1,463 1,493 1,696 1,703 1,761 1,768 1,885 1,888 1,929 1,936 1}
+{0 plot,71 1,480 1,490 1}
+{0 neither,39 1,375 1,775 1}
+{0 neither,11 1,54 1,71 1,79 1,120 1,121 1,131 1,152 1,176 1,194 1,197 1,199 1,228 1,229 1,240 1,255 1,257 1,258 1,332 1,403 1,477 1,480 1,562 1,594 1,633 1,673 1,677 1,680 1,761 1,764 1,767 1,874 1,885 1,887 1,888 1,895 1,911 1,954 1,973 1}
+{0 neither,71 1,258 1,366 1,633 1,654 1,720 1,761 1,885 1,887 1,911 1,912 1,951 1}
+{0 neither,77 1,185 1,228 1,257 1,344 1,387 1,403 1,436 1,463 1,551 1,562 1,594 1,624 1,664 1,806 1,825 1,883 1,885 1,973 1}
+{0 neither,11 1,71 1,218 1,228 1,332 1,451 1,603 1,633 1,664 1,825 1,829 1,929 1,978 1}
+{0 neither,79 1,197 1,218 1,221 1,233 1,273 1,281 1,490 1,499 1,558 1,564 1,603 1,664 1,684 1,694 1,767 1,822 1,825 1,826 1,829 1,887 1,889 1,892 1,911 1,963 1}
+{0 plot,9 1,71 1,78 1,119 1,218 1,275 1,393 1,466 1,553 1,555 1,563 1,571 1,630 1,654 1,764 1,885 1,954 1,970 1,974 1,1000 1}
+{0 plot,22 1,71 1,212 1,244 1,366 1,428 1,490 1,563 1,764 1,799 1,911 1,974 1}
+{0 plot,46 1,165 1,197 1,218 1,298 1,426 1,433 1,475 1,633 1,661 1,689 1,802 1,854 1,883 1,885 1,896 1,911 1,913 1,963 1,973 1}
+{0 plot,71 1,218 1,228 1,444 1,490 1,558 1,565 1,571 1,1006 1}
+{0 plot,22 1,197 1,271 1,496 1,542 1,612 1,676 1,689 1,755 1,849 1,896 1,978 1}
+{0 plot,228 1,256 1,495 1,542 1,557 1,562 1,675 1,694 1,703 1,713 1,885 1,888 1,895 1,906 1,911 1,929 1,993 1}
+{0 plot,41 1,698 1,885 1,954 1}
+{0 neither,594 1}
+{0 neither,607 1,713 1,878 1}
+{0 plot,11 1,69 1,141 1,209 1,389 1,542 1,555 1,755 1,883 1}
+{0 plot,71 1,228 1,241 1,274 1,350 1,441 1,514 1,661 1,708 1,737 1,742 1,829 1,883 1,900 1,911 1,932 1,954 1}
+{0 plot,71 1,79 1,197 1,199 1,213 1,228 1,244 1,274 1,350 1,425 1,433 1,441 1,466 1,504 1,627 1,650 1,664 1,689 1,708 1,748 1,755 1,829 1,883 1,885 1,911 1,926 1,987 1}
+{0 neither,71 1,152 1,532 1,553 1,555 1,571 1}
+{0 neither,164 1,996 1}
+{0 plot,185 1,218 1,444 1,555 1,655 1,716 1,782 1,885 1,954 1}
+{0 neither,22 1}
+{0 plot,364 1,628 1,829 1,978 1}
+{0 neither,115 1,484 1,664 1,689 1}
+{0 plot,9 1,197 1,210 1,274 1,558 1,565 1,695 1,811 1}
+{0 plot,71 1,152 1,249 1,256 1,414 1,490 1,858 1,885 1,911 1,996 1}
+{8 1,83 1,141 1,164 1,176 1,218 1,237 1,241 1,262 1,275 1,314 1,442 1,541 1,593 1,829 1,858 1,883 1,885 1,910 1,912 1,943 1,996 1}
+{58 1,126 1,410 1,523 1}
+{71 1,227 1,296 1,366 1,375 1,428 1,522 1,553 1,555 1,571 1,661 1,689 1,911 1,964 1}
+{99 1,224 1,258 1,403 1,522 1,553 1,555 1,710 1,954 1}
+{54 1,79 1,96 1,99 1,121 1,158 1,404 1,476 1,507 1,562 1,594 1,968 1}
+{11 1,227 1,244 1,274 1,366 1,504 1,507 1,542 1,584 1,594 1,661 1,680 1,689 1,900 1}
+{0 neither,39 1}
+{13 1,71 1,444 1,512 1,577 1,595 1,654 1,694 1,964 1}
+{13 1,71 1,221 1,314 1,478 1,637 1}
+{0 plot,8 1,197 1,346 1,558 1,854 1,943 1}
+{0 plot,141 1,228 1,553 1,654 1,689 1,885 1,911 1,943 1,970 1,991 1}
+{0 plot,152 1,333 1,740 1,884 1}
+{0 plot,11 1,71 1,197 1,203 1,256 1,262 1,300 1,313 1,399 1,444 1,459 1,478 1,500 1,542 1,553 1,558 1,594 1,612 1,689 1,708 1,799 1,808 1,811 1,864 1,875 1,883 1,911 1,936 1,954 1,964 1}
+{0 plot,71 1,152 1,218 1,247 1,274 1,358 1,490 1,553 1,562 1,628 1,664 1,689 1,694 1,708 1,801 1,807 1,883 1,886 1,891 1,904 1,911 1,1000 1}
+{0 neither,114 1,675 1,885 1,911 1}
+{0 neither,840 1}
+{0 neither,71 1,138 1,165 1,199 1,228 1,262 1,263 1,270 1,274 1,500 1,542 1,553 1,680 1,681 1,694 1,703 1,742 1,787 1,791 1,808 1,885 1,900 1,970 1}
+{0 neither,71 1,197 1,286 1,305 1,471 1,542 1,605 1,689 1,730 1,783 1,849 1,885 1,931 1,943 1,975 1,1006 1}
+{0 neither,1 1,197 1,199 1,299 1,302 1,371 1,418 1,453 1,507 1,522 1,524 1,583 1,606 1,661 1,680 1,689 1,970 1,978 1,982 1,1007 1}
+{0 neither,61 1,197 1,222 1,227 1,244 1,475 1,500 1,507 1,795 1,797 1,903 1,911 1,970 1,979 1,980 1}
+{0 neither,61 1,71 1,138 1,165 1,199 1,228 1,262 1,263 1,270 1,274 1,451 1,500 1,542 1,553 1,624 1,680 1,681 1,694 1,703 1,742 1,787 1,791 1,808 1,831 1,885 1,900 1,970 1}
+{0 neither,71 1,197 1,286 1,305 1,471 1,542 1,605 1,689 1,730 1,783 1,849 1,885 1,931 1,943 1,975 1,1006 1}
+{0 neither,1 1,197 1,199 1,299 1,302 1,371 1,418 1,453 1,507 1,522 1,524 1,583 1,606 1,661 1,680 1,689 1,970 1,978 1,982 1,1007 1}
+{0 neither,61 1,197 1,222 1,227 1,244 1,475 1,500 1,507 1,795 1,797 1,903 1,911 1,970 1,979 1,980 1}
+{0 neither,61 1,197 1,199 1,228 1,274 1,319 1,515 1,524 1,553 1,583 1,624 1,676 1,715 1,831 1,900 1}
+{0 plot,170 1,197 1,222 1,274 1,292 1,319 1,444 1,453 1,467 1,553 1,555 1,612 1,622 1,633 1,689 1,733 1,764 1,911 1,970 1}
+{0 plot,31 1,58 1,126 1,228 1,241 1,259 1,275 1,425 1,451 1,476 1,487 1,520 1,524 1,553 1,555 1,630 1,654 1,680 1,808 1,829 1,854 1,885 1,897 1,900 1,908 1,958 1,973 1}
+{0 plot,58 1,170 1,197 1,228 1,274 1,436 1,444 1,466 1,542 1,553 1,689 1,767 1,799 1,806 1,885 1,911 1,959 1,966 1,982 1,983 1,990 1}
+{0 plot,164 1,219 1,222 1,227 1,241 1,244 1,253 1,275 1,371 1,402 1,424 1,542 1,555 1,559 1,659 1,682 1,694 1,697 1,705 1,833 1,885 1,900 1,961 1}
+{0 neither,71 1,222 1,387 1,670 1,708 1,732 1,767 1,833 1,911 1}
+{0 neither,81 1,85 1,140 1,197 1,233 1,401 1,553 1,555 1,680 1,798 1,954 1,964 1}
+{228 1,237 1,283 1,314 1,514 1,622 1,685 1,689 1,697 1}
+{71 1,147 1,197 1,228 1,241 1,283 1,326 1,371 1,415 1,453 1,506 1,514 1,592 1,765 1,831 1,834 1,870 1,872 1,887 1,970 1,995 1}
+{71 1,206 1,228 1,256 1,274 1,279 1,313 1,319 1,370 1,400 1,444 1,489 1,514 1,553 1,621 1,636 1,670 1,680 1,856 1,883 1,911 1,936 1,1007 1}
+{31 1,256 1,264 1,298 1,558 1,680 1}
+{45 1,51 1,58 1,71 1,197 1,228 1,256 1,263 1,318 1,352 1,361 1,453 1,478 1,502 1,535 1,552 1,557 1,633 1,664 1,689 1,827 1,885 1,911 1,941 1,954 1,1006 1,1009 1}
+{0 neither,71 1,94 1,144 1,197 1,275 1,296 1,312 1,594 1,689 1,703 1,762 1,888 1,954 1}
+{0 neither,25 1,45 1,51 1,58 1,71 1,76 1,164 1,197 1,228 1,256 1,263 1,274 1,318 1,352 1,361 1,453 1,454 1,478 1,502 1,535 1,542 1,552 1,557 1,611 1,633 1,664 1,689 1,761 1,827 1,885 1,900 1,911 1,941 1,954 1,966 1,1006 1,1009 1}
+{0 neither,71 1,94 1,144 1,197 1,275 1,296 1,312 1,594 1,689 1,703 1,762 1,888 1,954 1}
+{0 neither,25 1,58 1,71 1,76 1,126 1,164 1,197 1,228 1,274 1,277 1,352 1,454 1,542 1,548 1,611 1,633 1,664 1,689 1,761 1,885 1,900 1,954 1,966 1}
+{0 neither,71 1,175 1,228 1,244 1,258 1,397 1,416 1,444 1,447 1,492 1,507 1,542 1,569 1,586 1,595 1,633 1,639 1,664 1,689 1,701 1,720 1,738 1,808 1,833 1,885 1,900 1,907 1,911 1,954 1,966 1,1002 1}
+{0 neither,58 1,71 1,76 1,123 1,126 1,155 1,186 1,202 1,228 1,512 1,542 1,591 1,664 1,795 1,885 1,903 1}
+{36 1,76 1,81 1,101 1,127 1,167 1,197 1,218 1,228 1,387 1,416 1,441 1,444 1,449 1,633 1,661 1,678 1,681 1,685 1,689 1,694 1,710 1,712 1,722 1,746 1,761 1,791 1,882 1,883 1,885 1,892 1,900 1,911 1,943 1,954 1,963 1,1006 1}
+{0 neither,71 1,275 1,316 1,382 1,400 1,542 1,555 1,563 1,587 1,633 1,694 1,708 1,718 1,761 1,795 1,883 1,885 1,902 1,911 1,959 1,1001 1}
+{0 neither,24 1,71 1,145 1,228 1,527 1,542 1,555 1,664 1,689 1,885 1,907 1,931 1}
+{0 neither,45 1,51 1,71 1,118 1,124 1,164 1,197 1,256 1,379 1,400 1,453 1,514 1,527 1,586 1,591 1,664 1,689 1,829 1,885 1,894 1,901 1,911 1,994 1}
+{0 neither,58 1,71 1,126 1,164 1,197 1,202 1,225 1,228 1,237 1,244 1,262 1,325 1,337 1,367 1,388 1,444 1,464 1,504 1,511 1,532 1,542 1,543 1,555 1,569 1,579 1,607 1,614 1,622 1,661 1,664 1,676 1,680 1,689 1,710 1,716 1,761 1,849 1,885 1,887 1,911 1,951 1,966 1,972 1,987 1,993 1,1005 1}
+{0 neither,22 1,71 1,262 1,492 1,976 1}
+{0 neither,58 1,71 1,126 1,155 1,197 1,228 1,292 1,335 1,482 1,527 1,542 1,633 1,649 1,664 1,689 1,714 1,885 1,954 1,966 1}
+{0 neither,58 1,71 1,126 1,228 1,241 1,256 1,268 1,338 1,463 1,514 1,539 1,608 1,633 1,655 1,737 1,811 1,833 1,883 1,885 1,993 1}
+{0 neither,71 1,95 1,154 1,761 1,787 1}
+{0 neither,170 1,185 1,274 1,319 1,444 1,514 1,536 1,553 1,555 1,565 1,574 1,649 1,664 1,696 1,889 1,895 1}
+{0 neither,58 1,126 1,152 1,155 1,185 1,197 1,199 1,218 1,228 1,237 1,251 1,274 1,292 1,335 1,453 1,482 1,527 1,542 1,633 1,649 1,664 1,689 1,714 1,787 1,811 1,874 1,883 1,885 1,892 1,900 1,911 1,954 1,966 1}
+{0 neither,58 1,71 1,126 1,228 1,241 1,256 1,268 1,338 1,463 1,514 1,539 1,608 1,633 1,655 1,737 1,811 1,833 1,883 1,885 1,993 1}
+{0 neither,71 1,95 1,154 1,761 1,787 1}
+{0 neither,170 1,185 1,274 1,319 1,444 1,514 1,536 1,553 1,555 1,574 1,649 1,664 1,696 1,889 1,895 1}
+{0 neither,152 1,185 1,199 1,218 1,237 1,251 1,274 1,453 1,555 1,633 1,787 1,811 1,874 1,883 1,885 1,892 1,900 1,911 1,914 1,954 1}
+{0 neither,147 1,228 1,396 1,430 1,569 1,633 1,664 1,694 1,961 1}
+{0 neither,71 1,263 1,274 1,471 1,514 1,572 1,680 1,689 1,708 1,782 1,784 1,811 1,885 1,911 1,935 1,936 1,948 1,953 1}
+{0 neither,58 1,71 1,126 1,203 1,227 1,228 1,241 1,251 1,343 1,477 1,492 1,680 1,703 1,761 1,885 1,911 1,954 1,969 1}
