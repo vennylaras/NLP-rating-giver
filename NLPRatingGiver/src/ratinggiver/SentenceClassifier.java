@@ -6,19 +6,11 @@
 package ratinggiver;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Scanner;
-import weka.classifiers.Evaluation;
 import weka.classifiers.meta.FilteredClassifier;
-import weka.classifiers.trees.RandomTree;
 import weka.core.Instances;
-import weka.core.SerializationHelper;
 import weka.core.converters.ArffSaver;
 import weka.core.converters.ConverterUtils;
 import weka.filters.Filter;
-import weka.filters.unsupervised.instance.Resample;
-import weka.gui.beans.Classifier;
 import weka.filters.unsupervised.attribute.ClassAssigner;
 
 /**
