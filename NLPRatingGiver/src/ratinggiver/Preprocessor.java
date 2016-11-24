@@ -13,13 +13,12 @@ import java.util.ArrayList;
  * @author jessica
  */
 public class Preprocessor {
+    public static MaxentTagger tagger = new MaxentTagger("models/english-left3words-distsim.tagger");
     
     public static ArrayList<String> posTagger (String text) {
         // Initialize the tagger
-        MaxentTagger tagger = new MaxentTagger(
-                "models/english-left3words-distsim.tagger");
-        
         String tagged = tagger.tagString(text);
+        // System.out.println(tagged);
         
         // Tagger simplified into: "V" (verb), "N" (noun), "R"(adverb), "A"(adjective), "-"(none)
         // Biar sesuai sama POS di SentiWordNet
