@@ -19,9 +19,11 @@ import static ratinggiver.Preprocessor.posTagger;
 import weka.classifiers.Evaluation;
 import weka.classifiers.trees.SimpleCart;
 import weka.core.Attribute;
+import weka.core.AttributeStats;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader;
 import weka.filters.Filter;
+import weka.filters.supervised.instance.SpreadSubsample;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 
 /**
@@ -40,6 +42,11 @@ public class RatingGiver {
         ArffLoader.ArffReader arff = new ArffLoader.ArffReader(br);
         Instances trainset = arff.getData();
         trainset.setClassIndex(0);
+        System.out.println("trainset instances = "+trainset.numInstances());
+        int[] stats = trainset.attributeStats(trainset.classIndex()).nominalCounts;
+        for (int i = 0; i < trainset.numClasses(); i++) {
+            System.out.println(trainset.classAttribute().value(i) + " = " + stats[i]);
+        }
         
         br = new BufferedReader(
                          new FileReader("harry.potter.test.filtered.arff"));
@@ -53,15 +60,29 @@ public class RatingGiver {
             // System.out.println(trainset.attribute(i));
         }
         
+        // BALANCE DATASET
+        SpreadSubsample ff = new SpreadSubsample();
+        String opt = "-M 2";//any options you like, see documentation
+        String[] optArray = weka.core.Utils.splitOptions(opt);//right format for the options
+        ff.setOptions(optArray);
+        ff.setInputFormat(trainset);
+
+        Instances filteredTrainset = Filter.useFilter(trainset, ff);
+        System.out.println("filteredTrainset instances = "+filteredTrainset.numInstances());
+        stats = filteredTrainset.attributeStats(filteredTrainset.classIndex()).nominalCounts;
+        for (int i = 0; i < filteredTrainset.numClasses(); i++) {
+            System.out.println(filteredTrainset.classAttribute().value(i) + " = " + stats[i]);
+        }
+        
         SimpleCart tree = new SimpleCart();
-        tree.buildClassifier(trainset);
+        tree.buildClassifier(filteredTrainset);
         // System.out.println(tree.toString());
         
         // EVALUATE USING TRAINING SET
-        Evaluation eval = new Evaluation(trainset);
-        eval.evaluateModel(tree, trainset);
+        Evaluation eval = new Evaluation(filteredTrainset);
+        eval.evaluateModel(tree, filteredTrainset);
         System.out.println(eval.toSummaryString("\n\nFull Training\n============\n", false));
-        eval.crossValidateModel(tree, trainset, 10, new Random());
+        eval.crossValidateModel(tree, filteredTrainset, 10, new Random());
         System.out.println(eval.toSummaryString("\n\n10-Fold Cross Validation\n============\n", false));
         
         // ### CONTOH CARA PAKE calculateSentiment ###
