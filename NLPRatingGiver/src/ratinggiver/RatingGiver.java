@@ -17,7 +17,6 @@ import java.util.logging.Logger;
 import java.util.Random;
 import static ratinggiver.Preprocessor.posTagger;
 import weka.classifiers.Evaluation;
-import weka.classifiers.trees.SimpleCart;
 import weka.core.Attribute;
 import weka.core.AttributeStats;
 import weka.core.Instances;
@@ -73,22 +72,6 @@ public class RatingGiver {
         for (int i = 0; i < filteredTrainset.numClasses(); i++) {
             System.out.println(filteredTrainset.classAttribute().value(i) + " = " + stats[i]);
         }
-        
-        SimpleCart tree = new SimpleCart();
-        tree.buildClassifier(filteredTrainset);
-        // System.out.println(tree.toString());
-        
-        // EVALUATE USING TRAINING SET
-        Evaluation eval = new Evaluation(filteredTrainset);
-        eval.evaluateModel(tree, filteredTrainset);
-        System.out.println(eval.toSummaryString("\n\nFull Training\n============\n", false));
-        eval.crossValidateModel(tree, filteredTrainset, 10, new Random());
-        System.out.println(eval.toSummaryString("\n\n10-Fold Cross Validation\n============\n", false));
-        
-        // ### CONTOH CARA PAKE calculateSentiment ###
-        // String text = "I want to see Harry become a better person and be able to prove Draco and his stupid friends wrong about what they think";
-        // double score = calculateSentiment(text);
-        // System.out.println("score = "+score);
     }
     
     public static double calculateSentiment(String text) throws IOException {
