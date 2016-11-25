@@ -61,7 +61,8 @@ public class JSONLoader {
         JSONLoader loader = new JSONLoader(filename);
         loader.getReview();
         
-        loader.arffGenerator(outfile, loader.review);      
+        loader.arffGenerator(outfile, loader.review);
+        System.out.println("Generating " + outfile + " succeed!");
     }
     
     public void arffGenerator(String arffFile, ArrayList<Review> review) throws IOException{
@@ -83,7 +84,7 @@ public class JSONLoader {
             for (String s: sentences){
                 s = s.replaceAll("[^a-zA-Z\\s]", "").replaceAll("\\s+", " ");
                 if (s.matches(".*\\w.*")){
-                    System.out.println(s);
+                    //System.out.println(s);
                     bw.write("\""+ s + "\",?\n");
                 }
             }

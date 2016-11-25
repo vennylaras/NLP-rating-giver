@@ -16,7 +16,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.Random;
 import java.util.Scanner;
-import static ratinggiver.Preprocessor.posTagger;
 import weka.classifiers.Evaluation;
 import weka.core.Attribute;
 import weka.core.AttributeStats;
@@ -43,7 +42,21 @@ public class RatingGiver {
         SentenceClassifier sc = new SentenceClassifier();
         sc.loadModel("AspectClassifier.model");
         String classifiedfile = arfffile.replace(".arff",".classified.arff");
-        sc.classify(arfffile,classifiedfile);
+        Instances data = sc.classify(arfffile,classifiedfile);
+        
+        SentiWordNet sentiment = new SentiWordNet();
+        double[] score = sentiment.overallSentiment(data);
+        System.out.println("character score = " + score[0]);
+        System.out.println("plot score = " + score[1]);
+        System.out.println();
+        
+        double[] rating = sentiment.overallRating(score);
+        System.out.print("character rating = ");
+        System.out.printf("%.1f", rating[0]);
+        System.out.println();
+        System.out.print("plot rating = ");
+        System.out.printf("%.1f", rating[1]);
+        System.out.println();
         /*
         filterData("harry.potter.1.combine.arff","harry.potter.test.arff");
         

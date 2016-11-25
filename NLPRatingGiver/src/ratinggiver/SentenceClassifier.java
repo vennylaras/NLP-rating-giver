@@ -106,7 +106,7 @@ public class SentenceClassifier {
         return result;
     }
     
-    public void classify(String fileName, String fileDestination) throws Exception {
+    public Instances classify(String fileName, String fileDestination) throws Exception {
         ConverterUtils.DataSource source = new ConverterUtils.DataSource(fileName);
         result = source.getDataSet();
         result.setClassIndex(result.numAttributes() - 1);
@@ -125,9 +125,11 @@ public class SentenceClassifier {
         saver.writeBatch();
         
         System.out.println("Result saved in "+fileDestination+".");
+        
+        return result;
     }
     
-    public void classify(Instances _data, String fileDestination) throws Exception {
+    public Instances classify(Instances _data, String fileDestination) throws Exception {
         result = new Instances(_data);
         
         System.out.println("Classifying instances.");
@@ -144,6 +146,8 @@ public class SentenceClassifier {
         saver.writeBatch();
         
         System.out.println("Result saved in "+fileDestination+".");
+        
+        return result;
     }
     
     public static void main(String[] args) throws Exception{
