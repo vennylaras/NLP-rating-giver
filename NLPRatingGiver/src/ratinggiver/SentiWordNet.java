@@ -35,18 +35,8 @@ public class SentiWordNet {
         data.setClassIndex(1);
         
         SentiWordNet sentiWordNet = new SentiWordNet();
-        double[] score = sentiWordNet.overallSentiment(data);
-        System.out.println("character score = " + score[0]);
-        System.out.println("plot score = " + score[1]);
-        System.out.println();
-        
-        double[] rating = sentiWordNet.overallRating(score);
-        System.out.print("character rating = ");
-        System.out.printf("%.1f", rating[0]);
-        System.out.println();
-        System.out.print("plot rating = ");
-        System.out.printf("%.1f", rating[1]);
-        System.out.println();
+        System.out.println("max value = " + sentiWordNet.maxScore());
+        System.out.println("min value = " + sentiWordNet.minScore());
     }
     
     public SentiWordNet() throws FileNotFoundException, IOException {
@@ -154,7 +144,7 @@ public class SentiWordNet {
             if (s != 0) sentiWordCount++;
         }
         if (sentiWordCount == 0) return 0.0;
-        return sentimentScore/words.length;
+        return sentimentScore/sentiWordCount;
     }
     
     public double[] overallSentiment(Instances data) throws IOException {
@@ -166,9 +156,11 @@ public class SentiWordNet {
         int plotCount = 0;
         for (int i = 0; i < data.numInstances(); i++) {
             if (data.instance(i).stringValue(data.instance(i).classAttribute()).equals("character")) {
-                double s = calculateSentiment(data.instance(i).stringValue(0));
-                characterSum += s;
-                characterCount++;
+                if (!data.instance(i).stringValue(0).equals("character")) {
+                    double s = calculateSentiment(data.instance(i).stringValue(0));
+                    characterSum += s;
+                    characterCount++;
+                }
             } else if (data.instance(i).stringValue(data.instance(i).classAttribute()).equals("plot")){
                 double s = calculateSentiment(data.instance(i).stringValue(0));
                 plotSum += s;
@@ -184,8 +176,42 @@ public class SentiWordNet {
     public double[] overallRating(double[] score) {
         double[] rating = new double[score.length];
         for (int i = 0; i < score.length; i++) {
-            rating[i] = (score[i]+1)*10/2;
+            rating[i] = (score[i]+0.875)*5/1.75;
         }
         return rating;
+    }
+    
+    public double maxScore() {
+        double max = 0;
+        for (Map.Entry<String, Double> entry : dictionary_a.entrySet()) {
+            if (entry.getValue() > max) max = entry.getValue();
+        }
+        for (Map.Entry<String, Double> entry : dictionary_n.entrySet()) {
+            if (entry.getValue() > max) max = entry.getValue();
+        }
+        for (Map.Entry<String, Double> entry : dictionary_v.entrySet()) {
+            if (entry.getValue() > max) max = entry.getValue();
+        }
+        for (Map.Entry<String, Double> entry : dictionary_r.entrySet()) {
+            if (entry.getValue() > max) max = entry.getValue();
+        }
+        return max;
+    }
+    
+    public double minScore() {
+        double min = Integer.MAX_VALUE;
+        for (Map.Entry<String, Double> entry : dictionary_a.entrySet()) {
+            if (entry.getValue() < min) min = entry.getValue();
+        }
+        for (Map.Entry<String, Double> entry : dictionary_n.entrySet()) {
+            if (entry.getValue() < min) min = entry.getValue();
+        }
+        for (Map.Entry<String, Double> entry : dictionary_v.entrySet()) {
+            if (entry.getValue() < min) min = entry.getValue();
+        }
+        for (Map.Entry<String, Double> entry : dictionary_r.entrySet()) {
+            if (entry.getValue() < min) min = entry.getValue();
+        }
+        return min;
     }
 }
