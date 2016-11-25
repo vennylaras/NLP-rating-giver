@@ -122,9 +122,9 @@ public class SentiWordNet {
         Double score = 0.0;
         switch(pos) {
             case "A" : score = dictionary_a.get(word); break;
-            case "N" : score = dictionary_n.get(word); break;
-            case "V" : score = dictionary_v.get(word); break;
-            case "R" : score = dictionary_r.get(word); break;
+            case "N" : score = 0.0; break;
+            case "V" : score = 0.0; break;
+            case "R" : score = 0.0; break;
         }
         if (score == null) score = 0.0;
         return score;
@@ -186,7 +186,7 @@ public class SentiWordNet {
         for (Map.Entry<String, Double> entry : dictionary_a.entrySet()) {
             if (entry.getValue() > max) max = entry.getValue();
         }
-        for (Map.Entry<String, Double> entry : dictionary_n.entrySet()) {
+        /* for (Map.Entry<String, Double> entry : dictionary_n.entrySet()) {
             if (entry.getValue() > max) max = entry.getValue();
         }
         for (Map.Entry<String, Double> entry : dictionary_v.entrySet()) {
@@ -194,7 +194,7 @@ public class SentiWordNet {
         }
         for (Map.Entry<String, Double> entry : dictionary_r.entrySet()) {
             if (entry.getValue() > max) max = entry.getValue();
-        }
+        } */
         return max;
     }
     
@@ -203,7 +203,7 @@ public class SentiWordNet {
         for (Map.Entry<String, Double> entry : dictionary_a.entrySet()) {
             if (entry.getValue() < min) min = entry.getValue();
         }
-        for (Map.Entry<String, Double> entry : dictionary_n.entrySet()) {
+        /* for (Map.Entry<String, Double> entry : dictionary_n.entrySet()) {
             if (entry.getValue() < min) min = entry.getValue();
         }
         for (Map.Entry<String, Double> entry : dictionary_v.entrySet()) {
@@ -211,7 +211,7 @@ public class SentiWordNet {
         }
         for (Map.Entry<String, Double> entry : dictionary_r.entrySet()) {
             if (entry.getValue() < min) min = entry.getValue();
-        }
+        } */
         return min;
     }
 }
