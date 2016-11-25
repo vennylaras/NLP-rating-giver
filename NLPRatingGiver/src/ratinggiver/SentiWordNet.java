@@ -68,7 +68,7 @@ public class SentiWordNet {
             } else if (data[2].contains(".") && !data[3].contains(".")) {
                 score = Double.parseDouble(data[2]);
             } else if (!data[2].contains(".") && data[3].contains(".")) {
-                score = Double.parseDouble(data[3]);
+                score = -Double.parseDouble(data[3]);
             }
             
             String[] words = data[4].split(" ");
@@ -154,7 +154,7 @@ public class SentiWordNet {
             if (s != 0) sentiWordCount++;
         }
         if (sentiWordCount == 0) return 0.0;
-        return sentimentScore/sentiWordCount;
+        return sentimentScore/words.length;
     }
     
     public double[] overallSentiment(Instances data) throws IOException {
@@ -184,7 +184,7 @@ public class SentiWordNet {
     public double[] overallRating(double[] score) {
         double[] rating = new double[score.length];
         for (int i = 0; i < score.length; i++) {
-            rating[i] = (score[i]+1)*5/2;
+            rating[i] = (score[i]+1)*10/2;
         }
         return rating;
     }

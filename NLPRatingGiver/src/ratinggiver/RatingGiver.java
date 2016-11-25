@@ -51,11 +51,10 @@ public class RatingGiver {
         System.out.println();
         
         double[] rating = sentiment.overallRating(score);
-        System.out.print("character rating = ");
-        System.out.printf("%.1f", rating[0]);
-        System.out.println();
+        System.out.print("\ncharacter rating = ");
+        System.out.println(rating[0]);
         System.out.print("plot rating = ");
-        System.out.printf("%.1f", rating[1]);
+        System.out.println(rating[1]);
         System.out.println();
         /*
         filterData("harry.potter.1.combine.arff","harry.potter.test.arff");

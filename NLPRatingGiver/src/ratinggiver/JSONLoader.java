@@ -82,6 +82,7 @@ public class JSONLoader {
         for (Review r: review){
             ArrayList<String> sentences = r.getSentences();
             for (String s: sentences){
+                s = s.replaceAll("[U+].....", "");
                 s = s.replaceAll("[^a-zA-Z\\s]", "").replaceAll("\\s+", " ");
                 if (s.matches(".*\\w.*")){
                     //System.out.println(s);
@@ -90,6 +91,7 @@ public class JSONLoader {
             }
         }
         bw.close();
+        fw.close();
 
     }    
 }
