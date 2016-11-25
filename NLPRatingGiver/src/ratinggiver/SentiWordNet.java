@@ -11,6 +11,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader;
 
@@ -33,12 +34,13 @@ public class SentiWordNet {
         Instances data = arff.getData();
         data.setClassIndex(1);
         
-        double[] score = overallSentiment(data);
+        SentiWordNet sentiWordNet = new SentiWordNet();
+        double[] score = sentiWordNet.overallSentiment(data);
         System.out.println("character score = " + score[0]);
         System.out.println("plot score = " + score[1]);
         System.out.println();
         
-        double[] rating = overallRating(score);
+        double[] rating = sentiWordNet.overallRating(score);
         System.out.print("character rating = ");
         System.out.printf("%.1f", rating[0]);
         System.out.println();
@@ -48,8 +50,14 @@ public class SentiWordNet {
     }
     
     public SentiWordNet() throws FileNotFoundException, IOException {
+        System.out.print("Generating dictionary ... ");
         BufferedReader csv =  new BufferedReader(new FileReader("SentiWordNet_3.0.0_20130122.txt"));
         String line = "";           
+        
+        HashMap<String, HashMap<Integer, Double>> tempdict_a = new HashMap<>();
+        HashMap<String, HashMap<Integer, Double>> tempdict_v = new HashMap<>();
+        HashMap<String, HashMap<Integer, Double>> tempdict_n = new HashMap<>();
+        HashMap<String, HashMap<Integer, Double>> tempdict_r = new HashMap<>();
         
         while((line = csv.readLine()) != null) {
             String[] data = line.split("\t");
@@ -67,11 +75,55 @@ public class SentiWordNet {
             for(String word: words) {
                 String[] w = word.split("#");
                 switch(data[0]) {
-                    case "a" : dictionary_a.put(w[0], score); break;
-                    case "n" : dictionary_n.put(w[0], score); break;
-                    case "v" : dictionary_v.put(w[0], score); break;
-                    case "r" : dictionary_r.put(w[0], score); break;
+                    case "a" :
+                        if (!tempdict_a.containsKey(w[0])) tempdict_a.put(w[0], new HashMap<>());
+                        tempdict_a.get(w[0]).put(Integer.parseInt(w[1]), score);
+                        break;
+                    case "n" :
+                        if (!tempdict_n.containsKey(w[0])) tempdict_n.put(w[0], new HashMap<>());
+                        tempdict_n.get(w[0]).put(Integer.parseInt(w[1]), score);
+                        break;
+                    case "v" :
+                        if (!tempdict_v.containsKey(w[0])) tempdict_v.put(w[0], new HashMap<>());
+                        tempdict_v.get(w[0]).put(Integer.parseInt(w[1]), score);
+                        break;
+                    case "r" :
+                        if (!tempdict_r.containsKey(w[0])) tempdict_r.put(w[0], new HashMap<>());
+                        tempdict_r.get(w[0]).put(Integer.parseInt(w[1]), score);
+                        break;
                 }
+            }
+        }
+        
+        generateDictionary(tempdict_a, "a");
+        generateDictionary(tempdict_n, "n");
+        generateDictionary(tempdict_v, "v");
+        generateDictionary(tempdict_r, "r");
+        
+        System.out.println("done");
+    }
+    
+    private void generateDictionary(HashMap<String, HashMap<Integer, Double>> tempdict, String pos) {
+        for (Map.Entry<String, HashMap<Integer, Double>> entry : tempdict.entrySet()) {
+            String word = entry.getKey();
+            Map<Integer, Double> synSetScoreMap = entry.getValue();
+
+            // Calculate weighted average. Weigh the synsets according to their rank.
+            // Score= 1/2*first + 1/3*second + 1/4*third ..... etc.
+            // Sum = 1/1 + 1/2 + 1/3 ...
+            double score = 0.0;
+            double sum = 0.0;
+            for (Map.Entry<Integer, Double> setScore : synSetScoreMap.entrySet()) {
+                    score += setScore.getValue() / (double) setScore.getKey();
+                    sum += 1.0 / (double) setScore.getKey();
+            }
+            score /= sum;
+
+            switch(pos) {
+                case "a" : dictionary_a.put(word, score); break;
+                case "n" : dictionary_n.put(word, score); break;
+                case "v" : dictionary_v.put(word, score); break;
+                case "r" : dictionary_r.put(word, score); break;
             }
         }
     }
@@ -88,17 +140,16 @@ public class SentiWordNet {
         return score;
     }
     
-    public static double calculateSentiment(String text) throws IOException {
+    public double calculateSentiment(String text) throws IOException {
         double sentimentScore = 0.0;
         int sentiWordCount = 0;
         // POST Tag
         ArrayList<String> tag = preprocessor.posTagger(text);
         
         // calculate Score based on SentiWordNet
-        SentiWordNet sentiWordNet = new SentiWordNet();
         String[] words = text.trim().split(" ");
         for (int i = 0; i < words.length; i++) {
-            double s = sentiWordNet.getScore(words[i], tag.get(i));
+            double s = getScore(words[i], tag.get(i));
             sentimentScore += s;
             if (s != 0) sentiWordCount++;
         }
@@ -106,7 +157,8 @@ public class SentiWordNet {
         return sentimentScore/sentiWordCount;
     }
     
-    public static double[] overallSentiment(Instances data) throws IOException {
+    public double[] overallSentiment(Instances data) throws IOException {
+        System.out.print("Calculating sentiment score ... ");
         double[] score = new double[2];
         double characterSum = 0.0;
         double plotSum = 0.0;
@@ -125,11 +177,11 @@ public class SentiWordNet {
         }
         score[0] = characterSum/characterCount;
         score[1] = plotSum/plotCount;
-        
+        System.out.println("done");
         return score;
     }
     
-    public static double[] overallRating(double[] score) {
+    public double[] overallRating(double[] score) {
         double[] rating = new double[score.length];
         for (int i = 0; i < score.length; i++) {
             rating[i] = (score[i]+1)*5/2;
