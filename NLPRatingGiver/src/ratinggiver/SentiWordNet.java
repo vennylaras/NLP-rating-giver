@@ -130,6 +130,20 @@ public class SentiWordNet {
         return score;
     }
     
+    // Calculate sentence polarity
+    // 1=positive; 0=neutral; -1=negative
+    public double calculatePolarity(String sentence) throws IOException {
+        double sentiment = calculateSentiment(sentence);
+        if (sentiment < 0 ) {
+            return -1;
+        } else if (sentiment > 0) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+    
+    // Calculate sentence score
     public double calculateSentiment(String text) throws IOException {
         double sentimentScore = 0.0;
         int sentiWordCount = 0;
@@ -157,12 +171,12 @@ public class SentiWordNet {
         for (int i = 0; i < data.numInstances(); i++) {
             if (data.instance(i).stringValue(data.instance(i).classAttribute()).equals("character")) {
                 if (!data.instance(i).stringValue(0).equals("character")) {
-                    double s = calculateSentiment(data.instance(i).stringValue(0));
+                    double s = calculatePolarity(data.instance(i).stringValue(0));
                     characterSum += s;
                     characterCount++;
                 }
             } else if (data.instance(i).stringValue(data.instance(i).classAttribute()).equals("plot")){
-                double s = calculateSentiment(data.instance(i).stringValue(0));
+                double s = calculatePolarity(data.instance(i).stringValue(0));
                 plotSum += s;
                 plotCount++;
             }
@@ -176,7 +190,7 @@ public class SentiWordNet {
     public double[] overallRating(double[] score) {
         double[] rating = new double[score.length];
         for (int i = 0; i < score.length; i++) {
-            rating[i] = (score[i]+0.875)*5/1.75;
+            rating[i] = (score[i]+1)*5/2;
         }
         return rating;
     }

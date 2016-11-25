@@ -46,15 +46,14 @@ public class RatingGiver {
         
         SentiWordNet sentiment = new SentiWordNet();
         double[] score = sentiment.overallSentiment(data);
-        System.out.println("\ncharacter score = " + score[0]);
-        System.out.println("plot score = " + score[1]);
-        System.out.println();
+        // System.out.println("\ncharacter score = " + score[0]);
+        // System.out.println("plot score = " + score[1]);
         
         double[] rating = sentiment.overallRating(score);
-        System.out.print("character rating = ");
-        System.out.println(rating[0]);
-        System.out.print("plot rating = ");
-        System.out.println(rating[1]);
+        System.out.print("\ncharacter rating = ");
+        System.out.printf("%.2f", rating[0]);
+        System.out.print("\nplot rating = ");
+        System.out.printf("%.2f", rating[1]);
         System.out.println();
         /*
         filterData("harry.potter.1.combine.arff","harry.potter.test.arff");
