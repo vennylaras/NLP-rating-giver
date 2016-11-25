@@ -48,12 +48,12 @@ public class JSONLoader {
             JSONObject json = (JSONObject) obj;
             
             long rating = (long) json.get("rating");
-            System.out.println (rating);
+            //System.out.println (rating);
             
             String content = (String) json.get("text");
             
             review.add(new Review(rating, content));
-            System.out.println("content: "+ review.get(review.size()-1).getContent());
+            //System.out.println("content: "+ review.get(review.size()-1).getContent());
         }
     }
     
@@ -83,10 +83,12 @@ public class JSONLoader {
             for (String s: sentences){
                 s = s.replaceAll("[^a-zA-Z\\s]", "").replaceAll("\\s+", " ");
                 if (s.matches(".*\\w.*")){
+                    System.out.println(s);
                     bw.write("\""+ s + "\",?\n");
                 }
             }
         }
+        bw.close();
 
     }    
 }

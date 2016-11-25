@@ -39,7 +39,7 @@ public class Review {
         IndonesianSentenceDetector detector = new IndonesianSentenceDetector();
         sentences = detector.splitSentence(content);
         for (String s: sentences){
-            System.out.println("s: " + s);
+            //System.out.println("s: " + s);
         }
         
         /*

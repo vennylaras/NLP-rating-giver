@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.Random;
+import java.util.Scanner;
 import static ratinggiver.Preprocessor.posTagger;
 import weka.classifiers.Evaluation;
 import weka.core.Attribute;
@@ -31,9 +32,19 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
  */
 public class RatingGiver {
     public static void main(String[] args) throws IOException, Exception{
-        // JSONLoader loader = new JSONLoader("dataset/harry_potter_1.json");
-        // loader.getReview();
+        Scanner scanner = new Scanner(System.in);
         
+        System.out.print("Masukkan review: ");
+        String jsonfile = scanner.next();
+        String arfffile = jsonfile.replace(".json", ".arff").replaceAll("_", ".");
+        JSONLoader loader = new JSONLoader();
+        loader.convertJson(jsonfile, arfffile);
+        
+        SentenceClassifier sc = new SentenceClassifier();
+        sc.loadModel("AspectClassifier.model");
+        String classifiedfile = arfffile.replace(".arff",".classified.arff");
+        sc.classify(arfffile,classifiedfile);
+        /*
         filterData("harry.potter.1.combine.arff","harry.potter.test.arff");
         
         BufferedReader br = new BufferedReader(
@@ -71,26 +82,10 @@ public class RatingGiver {
         stats = filteredTrainset.attributeStats(filteredTrainset.classIndex()).nominalCounts;
         for (int i = 0; i < filteredTrainset.numClasses(); i++) {
             System.out.println(filteredTrainset.classAttribute().value(i) + " = " + stats[i]);
-        }
+        }*/
     }
     
-    public static double calculateSentiment(String text) throws IOException {
-        double sentimentScore = 0;
-        
-        // POST Tag
-        ArrayList<String> tag = posTagger(text);
-        
-        // calculate Score based on SentiWordNet
-        SentiWordNet sentiWordNet = new SentiWordNet();
-        String[] words = text.split(" ");
-        for (int i = 0; i < words.length; i++) {
-            double s = sentiWordNet.getScore(words[i], tag.get(i));
-            System.out.println(s);
-            sentimentScore += s;
-        }
-        return sentimentScore;
-    }
-    
+
     public static void filterData(String training, String test) throws FileNotFoundException{
         try {
             BufferedReader br = new BufferedReader(

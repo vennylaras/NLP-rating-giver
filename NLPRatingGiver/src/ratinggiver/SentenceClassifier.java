@@ -10,6 +10,7 @@ import weka.classifiers.meta.FilteredClassifier;
 import weka.core.Instances;
 import weka.core.converters.ArffSaver;
 import weka.core.converters.ConverterUtils;
+import weka.core.SerializationHelper;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.ClassAssigner;
 
@@ -77,7 +78,7 @@ public class SentenceClassifier {
     }
     
     public void loadModel(String fileName) throws Exception {
-        fClassifier = (FilteredClassifier) weka.core.SerializationHelper.read(fileName);
+        fClassifier = (FilteredClassifier) SerializationHelper.read(fileName);
         System.out.println("Loading model "+fileName+" success.");
     }
     
