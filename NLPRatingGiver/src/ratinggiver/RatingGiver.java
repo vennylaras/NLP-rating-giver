@@ -33,7 +33,7 @@ public class RatingGiver {
     public static void main(String[] args) throws IOException, Exception{
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Masukkan review: ");
+        System.out.print("Input review: ");
         String jsonfile = scanner.next();
         String arfffile = jsonfile.replace(".json", ".arff").replaceAll("_", ".");
         JSONLoader loader = new JSONLoader();
