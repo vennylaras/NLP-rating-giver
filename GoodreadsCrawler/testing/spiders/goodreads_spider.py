@@ -5,7 +5,7 @@ import scrapy
 class GoodreadsSpider(scrapy.Spider):
 	name = "goodreads"
 	start_urls = [
-		'file:///C:/xampp/htdocs/nlp-rating-giver/%234.txt',
+		'https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone',
 	]
 
 	def rate(self, x):
