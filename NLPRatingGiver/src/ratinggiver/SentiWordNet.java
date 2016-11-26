@@ -25,19 +25,7 @@ public class SentiWordNet {
     private HashMap<String, Double> dictionary_v = new HashMap<>();
     private HashMap<String, Double> dictionary_r = new HashMap<>();
     private static Preprocessor preprocessor = new Preprocessor();
-    
-    // MAIN FOR TESTING
-    public static void main (String args[]) throws IOException {
-        BufferedReader br = new BufferedReader(
-                         new FileReader("harry.potter.1.combine.arff"));
-        ArffLoader.ArffReader arff = new ArffLoader.ArffReader(br);
-        Instances data = arff.getData();
-        data.setClassIndex(1);
-        
-        SentiWordNet sentiWordNet = new SentiWordNet();
-        System.out.println("max value = " + sentiWordNet.maxScore());
-        System.out.println("min value = " + sentiWordNet.minScore());
-    }
+    private boolean adjectiveOnly = true;
     
     public SentiWordNet() throws FileNotFoundException, IOException {
         System.out.print("Generating dictionary ... ");
@@ -93,6 +81,11 @@ public class SentiWordNet {
         System.out.println("done");
     }
     
+    public SentiWordNet(boolean adj) throws IOException {
+        this();
+        this.adjectiveOnly = adj;
+    }
+    
     private void generateDictionary(HashMap<String, HashMap<Integer, Double>> tempdict, String pos) {
         for (Map.Entry<String, HashMap<Integer, Double>> entry : tempdict.entrySet()) {
             String word = entry.getKey();
@@ -120,27 +113,53 @@ public class SentiWordNet {
     
     public Double getScore(String word, String pos) {
         Double score = 0.0;
-        switch(pos) {
-            case "A" : score = dictionary_a.get(word); break;
-            case "N" : score = 0.0; break;
-            case "V" : score = 0.0; break;
-            case "R" : score = 0.0; break;
+        if (adjectiveOnly) {
+            switch(pos) {
+                case "A" : score = dictionary_a.get(word); break;
+                case "N" : score = 0.0; break;
+                case "V" : score = 0.0; break;
+                case "R" : score = 0.0; break;
+            }
+        } else {
+            switch(pos) {
+                case "A" : score = dictionary_a.get(word); break;
+                case "N" : score = dictionary_n.get(word); break;
+                case "V" : score = dictionary_v.get(word); break;
+                case "R" : score = dictionary_r.get(word); break;
+            }
         }
         if (score == null) score = 0.0;
         return score;
     }
     
     // Calculate sentence polarity
-    // 1=positive; 0=neutral; -1=negative
-    public double calculatePolarity(String sentence) throws IOException {
+    // count=3 || 1=positive, 0=neutral, -1=negative
+    // count=5 || 1=strongly positive, 0.5=weakly positive, 0=noutral, -0.5=weakly negative, -1=strongly negative
+    public double calculatePolarity(String sentence, int count) throws IOException {
         double sentiment = calculateSentiment(sentence);
-        if (sentiment < 0 ) {
-            return -1;
-        } else if (sentiment > 0) {
-            return 1;
-        } else {
-            return 0;
+        double polarity = 0;
+        if (count == 3) {
+            if (sentiment < 0 ) {
+                polarity = -1;
+            } else if (sentiment > 0) {
+                polarity = 1;
+            } else {
+                polarity = 0;
+            }
+        } else if (count == 5) {
+            if (sentiment <= -0.5 ) {
+                polarity = -1;
+            } else if (sentiment > -0.5 && sentiment < 0) {
+                polarity = -0.5;
+            } else if (sentiment ==0){
+                polarity = 0;
+            } else if (sentiment > 0 && sentiment < 0.5) {
+                polarity = 0.5;
+            } else {
+                polarity = 1;
+            }
         }
+        return polarity;
     }
     
     // Calculate sentence score
@@ -171,12 +190,12 @@ public class SentiWordNet {
         for (int i = 0; i < data.numInstances(); i++) {
             if (data.instance(i).stringValue(data.instance(i).classAttribute()).equals("character")) {
                 if (!data.instance(i).stringValue(0).equals("character")) {
-                    double s = calculatePolarity(data.instance(i).stringValue(0));
+                    double s = calculatePolarity(data.instance(i).stringValue(0), 3);
                     characterSum += s;
                     characterCount++;
                 }
             } else if (data.instance(i).stringValue(data.instance(i).classAttribute()).equals("plot")){
-                double s = calculatePolarity(data.instance(i).stringValue(0));
+                double s = calculatePolarity(data.instance(i).stringValue(0), 3);
                 plotSum += s;
                 plotCount++;
             }
@@ -200,7 +219,7 @@ public class SentiWordNet {
         for (Map.Entry<String, Double> entry : dictionary_a.entrySet()) {
             if (entry.getValue() > max) max = entry.getValue();
         }
-        /* for (Map.Entry<String, Double> entry : dictionary_n.entrySet()) {
+        for (Map.Entry<String, Double> entry : dictionary_n.entrySet()) {
             if (entry.getValue() > max) max = entry.getValue();
         }
         for (Map.Entry<String, Double> entry : dictionary_v.entrySet()) {
@@ -208,7 +227,7 @@ public class SentiWordNet {
         }
         for (Map.Entry<String, Double> entry : dictionary_r.entrySet()) {
             if (entry.getValue() > max) max = entry.getValue();
-        } */
+        }
         return max;
     }
     
@@ -217,7 +236,7 @@ public class SentiWordNet {
         for (Map.Entry<String, Double> entry : dictionary_a.entrySet()) {
             if (entry.getValue() < min) min = entry.getValue();
         }
-        /* for (Map.Entry<String, Double> entry : dictionary_n.entrySet()) {
+        for (Map.Entry<String, Double> entry : dictionary_n.entrySet()) {
             if (entry.getValue() < min) min = entry.getValue();
         }
         for (Map.Entry<String, Double> entry : dictionary_v.entrySet()) {
@@ -225,7 +244,20 @@ public class SentiWordNet {
         }
         for (Map.Entry<String, Double> entry : dictionary_r.entrySet()) {
             if (entry.getValue() < min) min = entry.getValue();
-        } */
+        }
         return min;
+    }
+    
+    // MAIN FOR TESTING
+    public static void main (String args[]) throws IOException {
+        BufferedReader br = new BufferedReader(
+                         new FileReader("harry.potter.1.combine.arff"));
+        ArffLoader.ArffReader arff = new ArffLoader.ArffReader(br);
+        Instances data = arff.getData();
+        data.setClassIndex(1);
+        
+        SentiWordNet sentiWordNet = new SentiWordNet();
+        System.out.println("max value = " + sentiWordNet.maxScore());
+        System.out.println("min value = " + sentiWordNet.minScore());
     }
 }

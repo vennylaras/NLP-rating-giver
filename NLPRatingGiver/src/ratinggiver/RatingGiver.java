@@ -55,45 +55,6 @@ public class RatingGiver {
         System.out.print("\nplot rating = ");
         System.out.printf("%.2f", rating[1]);
         System.out.println();
-        /*
-        filterData("harry.potter.1.combine.arff","harry.potter.test.arff");
-        
-        BufferedReader br = new BufferedReader(
-                         new FileReader("harry.potter.1.combine.filtered.arff"));
-        ArffLoader.ArffReader arff = new ArffLoader.ArffReader(br);
-        Instances trainset = arff.getData();
-        trainset.setClassIndex(0);
-        System.out.println("trainset instances = "+trainset.numInstances());
-        int[] stats = trainset.attributeStats(trainset.classIndex()).nominalCounts;
-        for (int i = 0; i < trainset.numClasses(); i++) {
-            System.out.println(trainset.classAttribute().value(i) + " = " + stats[i]);
-        }
-        
-        br = new BufferedReader(
-                         new FileReader("harry.potter.test.filtered.arff"));
-        arff = new ArffLoader.ArffReader(br);
-        Instances testset = arff.getData();
-        testset.setClassIndex(0);
-        
-        ArrayList<Attribute> attr = new ArrayList<>();
-        for (int i = 1; i < trainset.numAttributes(); i++){
-            attr.add(trainset.attribute(i));
-            // System.out.println(trainset.attribute(i));
-        }
-        
-        // BALANCE DATASET
-        SpreadSubsample ff = new SpreadSubsample();
-        String opt = "-M 2";//any options you like, see documentation
-        String[] optArray = weka.core.Utils.splitOptions(opt);//right format for the options
-        ff.setOptions(optArray);
-        ff.setInputFormat(trainset);
-
-        Instances filteredTrainset = Filter.useFilter(trainset, ff);
-        System.out.println("filteredTrainset instances = "+filteredTrainset.numInstances());
-        stats = filteredTrainset.attributeStats(filteredTrainset.classIndex()).nominalCounts;
-        for (int i = 0; i < filteredTrainset.numClasses(); i++) {
-            System.out.println(filteredTrainset.classAttribute().value(i) + " = " + stats[i]);
-        }*/
     }
     
 
