@@ -2,3 +2,5 @@
 /NLPRatingGiver/build/
 
 *.pyc
+
+/NLPRatingGiver/dataset/*.arff
